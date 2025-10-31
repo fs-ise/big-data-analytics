@@ -1,15 +1,12 @@
 services:
   quarto:
     image: ghcr.io/quarto-dev/quarto:latest
+    user: "${UID}:${GID}"
     working_dir: /project
+    environment:
+      - HOME=/project
     volumes:
       - ./:/project
-      - quarto-cache:/home/quarto/.cache
-    environment:
-      - HOME=/home/quarto
     ports:
       - "4200:4200"
     command: ["quarto","preview","--host","0.0.0.0","--port","4200"]
-
-volumes:
-  quarto-cache:
