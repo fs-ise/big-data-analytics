@@ -1,0 +1,375 @@
+---
+title: "Big Data & Analytics"
+author: "Prof. Dr. Gerit Wagner"
+format: 
+  revealjs:
+    slide-number: true
+    css: [assets/frankfurt.css, assets/reveal.css, assets/header.css]
+    include-before-body: assets/header.html
+    include-after-body: assets/header.js
+---
+
+* 1	Introduction to Analytics
+* 2	Descriptive Analytics
+  * 2\.1	Data Warehouse Systems
+  * 2\.2	Online Analytical Processing \(OLAP\)
+* 3	Big Data
+* 4	Predictive Analytics
+  * 4\.1	Subject of Predictive Analytics
+  * 4\.2	The Analytics Process
+  * 4\.3	Data Preparation
+  * 4\.4	Methods\, Algorithms and Applications
+  * 4\.4\.1	Classification
+  * 4\.4\.2	Regression
+
+---
+
+## Data Warehouse / OLAP / Descriptive Analytics
+
+Vaisman\, A\.; Zimányi\, E\. \(2016\): Data Warehouse Systems: Design and Implementation \(Data\-Centric Systems and Applications\)\, Springer\.
+
+Data Science / Predictive Analytics / Machine Learning:
+
+Alpaydin\, E\. \(2016\): Machine Learning: The New AI\, MIT Press Essential Knowledge\.
+
+Alpaydin\, E\. \(2016\): Introduction to Machine Learning\, Third Edition\, MIT Press\.
+
+Raschka\, Sebastian \(2015\): Python Machine Learning\, Packt Publishing
+
+<span style="color:#000000">Schmarzo</span>  <span style="color:#000000">\, B\. \(2016\):  Big Data MBA\, Wiley\.</span>
+
+<span style="color:#000000">Schutt</span>  <span style="color:#000000">\, R\.; O’Neil\, C\. \(2014\): Doing Data Science\, O’Reilly Media</span> \.
+
+
+---
+
+::: {.content-hidden when-format=pdf}
+
+TODO: something missing?
+
+:::
+
+---
+
+## Why is Modern Analytics so Successful?
+
+<span style="color:#ff0000">More Data for the Analysis</span>
+
+_More Computing Power_
+
+_New Methods and Algorithms_
+
+_New Analytics Processes_
+
+
+---
+
+
+More Data for the Analysis
+
+![](images/slides_0.png)
+
+Source: Bernard Marr
+
+![](images/slides_1.png)
+
+Source: Ruoming Jin
+
+
+---
+
+
+Worldwide Corporate Data Growth
+
+![](images/slides_2.png)
+
+Web\, Cloud\, Mobile\, Social\, Sensor Data
+
+Business Transaction Data
+
+
+---
+
+
+Why is Modern Analytics so Successful?
+
+_More Data for the Analysis_
+
+<span style="color:#ff0000">More Computing Power</span>
+
+_New Methods and Algorithms_
+
+_New Analytics Processes_
+
+
+---
+
+
+Growth of Computing Power
+
+![](images/slides_3.png)
+
+
+---
+
+
+Why is Modern Analytics so Successful?
+
+_More Data for the Analysis_
+
+_More Computing Power_
+
+<span style="color:#ff0000">New Methods and Algorithms</span>
+
+_New Analytics Processes_
+
+
+---
+
+
+Old vs\. New Methods
+
+![](images/slides_4.png)
+
+Traditional Regression
+
+![](images/slides_5.png)
+
+![](images/slides_6.png)
+
+Source: Lalit Sachan
+
+
+---
+
+
+Decrease of Error Rates
+
+![](images/slides_7.jpg)
+
+
+---
+
+
+Why is Modern Analytics so Successful?
+
+_More Data for the Analysis_
+
+_More Computing Power_
+
+_New Methods and Algorithms_
+
+<span style="color:#ff0000">New Analytics Processes</span>
+
+
+---
+
+
+Traditional vs\. Modern Analytics Process
+
+_Traditional Analytics _  _Process_  _:_
+
+![](images/slides_8.png)
+
+![](images/slides_10.png)
+
+![](images/slides_11.png)
+
+_Predictive_  _ Model_
+
+_Modern Analytics _  _Process_  _:_
+
+![](images/slides_12.png)
+
+![](images/slides_13.png)
+
+![](images/slides_14.png)
+
+![](images/slides_16.png)
+
+_Predictive_  _ Model_
+
+
+---
+
+
+From the Past to the Present
+
+1888 Correlation
+
+1937 Confidence Interval
+
+1654 Mathematical Theory of Probability
+
+1733 Normal Distribution
+
+1795 OLS Regression
+
+1989 Neural Networks\(ML\)
+
+1972 Pocket Calculator
+
+1981 Personal Computer
+
+Abacus\, Calculating\-Table\, Lists\, and Tables
+
+![](images/slides_17.jpg)
+
+![](images/slides_18.png)
+
+![](images/slides_19.png)
+
+1985 Data Bases
+
+
+---
+
+
+Evolution of Analytics
+
+![](images/slides_20.jpg)
+
+Source: http://juxt\.pro/blog/posts/machine\-learning\-with\-clojure\.html
+
+
+---
+
+
+Types of Analytics \(I\)
+
+![](images/slides_21.png)
+
+Predictive /PrescriptiveAnalytics
+
+DescriptiveAnalytics
+
+Source: Schmarzo\, p\. 88
+
+
+---
+
+
+Types of Analytics \(II\)
+
+Descriptive
+
+What happend in the past?
+
+Example: Report the profits of the last years
+
+Predictive
+
+Find patterns and relationships in data and use them for prediction\.
+
+Example: Find the functional relationship between price and demand
+
+Prescriptive
+
+Use the predictions to make decisions\.
+
+Example: Set the best price to optimize the profit\.
+
+
+---
+
+
+Types of Analytics \(III\)
+
+![](images/slides_22.png)
+
+Source: Schmarzo\, p\. 13
+
+
+---
+
+
+Descriptive Analytics Process
+
+![](images/slides_23.png)
+
+
+---
+
+
+Predictive Analytics Process
+
+![](images/slides_24.png)
+
+
+---
+
+
+Example Inventory Planning
+
+Impact of Disposition Decisions
+
+![](images/slides_25.png)
+
+Scenario 1: too little purchased
+
+\- Loss of turnover
+
+\- Increased procurement costs
+
+\- Customer annoyance
+
+\- Increased contact costs call center
+
+too much purchased
+
+too little purchased
+
+Scenario 2: too much purchased
+
+\- Increased storage costs
+
+\- Capital lockup
+
+\- Utilization losses
+
+Scenario 1            Actual demand            Scenario 2
+
+On the basis of more than 300 million data records per week\, Otto makes more than one billion forecasts per year on the sales development of individual articles for the next days and weeks\. Such forecasts allow Otto to reduce its own inventories by up to 30% on average\.
+
+Source: http://www\.bvl\.de/misc/filePush\.php?mimeType=application/pdf&fullPath=/files/441/442/777/1015/DLK12\_C3\-3\_Praesentation\_Stueben\.pdf
+
+
+---
+
+
+Classical Corporate Planning
+
+![](images/slides_26.png)
+
+::: {.notes}
+
+Die folgenden Ausführungen beziehen sich auf ein international operierendes US-amerikanisches Unternehmen der Konsumgüterindustrie. Das Ziel der Planung besteht darin, den Verantwortlichen im Unternehmen einen Rahmen zu geben, innerhalb dessen sie ihre Prozesse und Funktionen steuern können. Die Planung ist das Bindeglied zwischen den Zielen des Unternehmens und der Steuerung der einzelnen Prozesse im Tagesgeschäft. Im Folgenden werden die wesentlichen Schritte beschrieben.
+Im Plan eines Geschäftsbereichs werden die finanziellen Erwartungen und die Erwartungen bezüglich Marktanteilen (Top-Down) mit den Umsatzerwartungen des Vertriebs (Bottom-Up) kombiniert. Die finanziellen Erwartungen an einen Geschäftsbereich leiten sich aus den Erwartungen des Kapitalmarkts an das gesamte Unternehmen ab. Sie werden als NOPAT (Net Operating Profit After Tax) formuliert und durch die Geschäftsleitung den einzelnen Geschäftsbereichen zugeordnet. Aus diesen Größen erstellen Finanz- und Rechnungswesen und Marketing Vorgaben für einzelne Produktkategorien und Produktgruppen. In diesem Verhandlungsprozess vertritt das Finanz- und Rechnungswesen die Margensicht, das Category-Management die Marktanteils- und Volumensicht. Direkte Produktionskosten und Kosten der Funktionsbereiche werden dabei weitgehend als gegeben angenommen. Aus diesem Verhandlungsprozess resultieren sogenannte Commercials Goals (Deckungsbeiträge und Mengen) für Marken, große Kunden und Monate.
+Im Account-Management werden diese Commercial Goals mit den Absatzerwartungen abgeglichen. Dabei wird zunächst das sogenannte Base Business einschließlich der daraus resultierenden Deckungsbeiträge geplant. Dies basiert auf den Erfahrungswerten der Vergangenheit. Die Lücke zwischen diesen Werten und den Commercial Goals wird durch sogenannte Promotions (Aktionen) geschlossen. Promotions führen zu Mengensteigerungen, aber gleichzeitig zu Einbußen bei den Deckungsbeiträgen. Die Aufgabe des Account-Managements besteht also darin, durch Simulationen in der Preis-Absatz-Funktion einen Plan zu erstellen, der den Margen- und den Mengenerwartungen der Commercial Goals entspricht.
+Diese Plandaten werden nun grob mit den Ressourcen der Produktion abgeglichen. Zeitliche und mengenmäßige Kapazitätsanpassungen sowie Veränderungen des Lagerbestands zwischen den Planperioden sind die Simulationsparameter der Produktion.
+In einem Parallelprozess werden im Rechnungswesen gemeinsam mit den Fachbereichen die direkten Produktionskosten und die Funktionskosten geplant. Dieser Planungsprozess wird einmal jährlich durchgeführt sowie monatlich überwacht. Die Absatzpläne können monatlich geändert werden, die Commercial Goals lediglich quartalsweise. In gravierenden Ausnahmefällen werden die Pläne in einem jeweils individuellen Szenario geändert.
+
+:::
+
+
+---
+
+
+Example Driver\-based Planing \(I\)
+
+Planing/Decision
+
+
+---
+
+
+Example Driver\-based Planing \(II\)
+
+Sales forecasts based on market and social media data
+
+Automated pricing based on market and competitor analyses
+
+Early detection of price changes and adjustment of purchasing behavior
+
+Optimization of inventory management based on customers' current purchasing preferences
+

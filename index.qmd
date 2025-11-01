@@ -3,6 +3,7 @@ title: "Big Data & Analytics"
 format: html
 ---
 
-- [Part 1](slides.html)
-
-- [converted slides](slides_with_notes.html)
+- [lecture 1 - introduction to analytics](lecture_1_introduction_analytics.html)
+- [lecture 2 - descriptive analytics](lecture_2_descriptive_analytics.html)
+- [lecture 3 - big data](lecture_3_big_data.html)
+- [lecture 4 - prescriptive analytics](lecture_4_predictive_analytics.html)
