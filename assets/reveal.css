@@ -5,6 +5,9 @@
 *
 * Copyright (C) 2011-2023 Hakim El Hattab, https://hakim.se
 */
+.reveal .slide:not(.center) {
+   height: auto !important;
+}
 .reveal .r-stretch,
 .reveal .stretch {
   max-width: none;
@@ -1960,6 +1963,9 @@ html.print-pdf .reveal .slide-number-pdf {
   display: block;
   position: absolute;
   font-size: 14px
+}
+.reveal section h2:first-of-type {
+  display: none;
 }
 
 html.print-pdf .aria-status {

@@ -9,7 +9,7 @@
 
   /* Typography */
   /* --font-family: 'Noto Mono', 'Arial', 'Roboto', sans-serif; */
-  --font-family: 'Arial', sans-serif;
+  --font-family: "Arial", sans-serif;
   --font-size: 20px;
   --text1: #333;
   --text1-invert: #c9c9c9;
@@ -23,7 +23,7 @@
 
   /* Question and Answers */
   --question-open-background: hsl(74, 32%, 82%);
-  --question-closed-background: rgba(168, 168, 168, .8);
+  --question-closed-background: rgba(168, 168, 168, 0.8);
   --user-name-font-size: 12px;
   --user-name-font-weight: 400;
   --question-text-font-size: 18px;
@@ -56,11 +56,10 @@ body {
 
   @media (width < 650px) {
     * {
-      font-size: small
+      font-size: small;
     }
   }
 }
-
 
 /* Presentation Container  */
 #presentation-container {
@@ -113,8 +112,14 @@ h1.heading-top-left {
 .reveal .slides section > h2:first-child,
 .reveal .slides section > h3:first-child {
   position: absolute !important;
-  width: 1px; height: 1px; padding: 0; margin: -1px;
-  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* Keep the title slide's heading visible */
@@ -122,12 +127,17 @@ h1.heading-top-left {
 .reveal .slides section:first-of-type > h2:first-child,
 .reveal .slides section:first-of-type > h3:first-child {
   position: static !important;
-  width: auto; height: auto; margin: initial; overflow: visible; clip: auto; white-space: normal; border: 0;
+  width: auto;
+  height: auto;
+  margin: initial;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  border: 0;
 }
 
-
 /* Required adjustments for qna overlaying */
-.reveal>.overlay {
+.reveal > .overlay {
   position: fixed;
   /* relative to viewport */
   top: 0;
@@ -137,11 +147,308 @@ h1.heading-top-left {
   height: 100vh;
   /* full viewport height */
   z-index: 1000;
-  background: rgba(0, 0, 0, .9);
-  transition: all .3s ease;
+  background: rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease;
 }
 
+/* first slide css  */
 
+.firstIntro {
+  text-align: center;
+  display: flex !important;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.firstIntro p {
+  font-size: 2em;
+}
+.firstIntro h1 {
+  letter-spacing: 2px;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+/* second slide  */
+.agenda-list {
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.5;
+  list-style: none; /* optional: remove default bullets */
+  padding-left: 0;
+}
+
+.agenda-list > li {
+  margin-bottom: 0.4em;
+}
+
+.agenda-list ul li {
+  margin-bottom: 0.2em;
+}
+ul > li {
+  list-style: none;
+}
+
+/* third slide  */
+#references-list {
+  font-size: 1.5em;
+  line-height: 1.4;
+}
+
+#references-list p {
+  font-size: 1.2em;
+}
+
+#references-list h2 {
+  font-weight: 900;
+  margin-top: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+/* fourth slide  */
+
+#intro_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+#intro_head h1 {
+  font-size: 4em;
+  color: #ff0000;
+}
+
+/* fifth slide */
+.analytics-list {
+  list-style-type: decimal !important;
+  margin-left: 6em !important;
+  font-size: 1.8em;
+  line-height: 2em;
+  margin-top: 3em !important;
+}
+
+.analytics-list li {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.3em;
+}
+#analytics-2 {
+  display: flex;
+  gap: 20px;
+}
+#analytics-2 h2 {
+  font-size: 2em;
+  font-weight: 900;
+}
+#analytics-2 p {
+  font-size: 2em;
+}
+/* sixth slide  */
+.analysis-wrapper {
+  margin-top: -40px;
+}
+.img-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.img-row img {
+  max-width: 45%;
+  height: auto;
+  display: block;
+}
+
+.img-source {
+  font-size: 1.2em;
+  color: #333;
+  white-space: nowrap; /* prevents wrapping */
+}
+
+/* seventh slide  */
+.corporate-wrapper img {
+  height: 600px;
+  width: 100%;
+}
+.Intensities-wrapper img{
+  height: 400px;
+  width: 100%;
+}
+.GrowthComputing-wrapper img,
+.decrease-wrapper img,
+.past-present-wrapper img,
+.evolutiont-wrapper img,
+.Types-wrapper img,
+.Descriptive-wrapper img,
+.Predictive-wrapper img,
+.ClassicalCorporate-wrapper img,
+.driver-Planing-wrapper img,
+.pyramid-wrapper img ,.descriptive-wrapper img{
+  height: 600px;
+  width: 100%;
+}
+.Descriptive-wrapper,
+.Predictive-wrapper,
+.Types-wrapper,
+.ClassicalCorporate-wrapper,
+.driver-Planing-wrapper,
+.driver-Planing2-wrapper,
+.pyramid-wrapper,
+.descriptive-wrapper {
+  justify-content: center;
+  display: flex;
+}
+.InventoryPlanning-wrapper {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.InventoryPlanning-wrapper img {
+  height: 500px;
+  width: 90%;
+}
+.driver-Planing2-wrapper img {
+  height: 400px;
+  width: 90%;
+}
+.InventoryPlanning-wrapper .InventoryPlanning-info p {
+  font-size: 1.7em;
+  font-weight: 700;
+}
+/*  */
+.mehtod-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TOP IMAGE */
+.first-box {
+  display: flex;
+  margin-left: 300px;
+}
+
+.first-box img {
+  width: 40%;
+  display: block;
+  margin: 0 0 0 0;
+}
+
+.second-first-box img,
+.second-second-box img {
+  width: 55%;
+  display: block;
+}
+.second-first-box,
+.second-second-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-box p,
+.second-first-box p,
+.second-second-box p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.second-box {
+  display: flex;
+  margin: 0 20px;
+}
+
+.mehtod-wrapper + .source,
+.source {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+
+#process-wrapper .traditional img,
+#process-wrapper .modern img {
+  width: 75%;
+  height: 278px;
+  margin-left: 15em;
+}
+
+ol.colored-numbers {
+  counter-reset: item;
+  list-style: none;
+  padding-left: 0;
+}
+
+ol.colored-numbers li {
+  counter-increment: item;
+  margin-bottom: 8px;
+  font-size: 1.5em;
+}
+
+ol.colored-numbers li::before {
+  content: counter(item);
+  background: #1f497d;
+  color: white;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 28px;
+  text-align: center;
+}
+
+#navigation {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 5em;
+}
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.5em;
+  border:2px solid;
+  margin-top: 3em !important;
+}
+
+.custom-table {
+  border-collapse: collapse;
+  border:2px solid;
+  margin:0 0 0 auto !important;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 2px solid #000;
+  padding: 12px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+.custom-table th {
+  font-weight: bold;
+  background: #f5f5f5;
+}
+.comparison-table th,
+.comparison-table td {
+  border: 2px solid #000;
+  padding: 12px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.comparison-table th {
+  font-weight: bold;
+  background: #f5f5f5;
+  font-size: 1.2em;
+}
+
+.disc-list li{
+  list-style: disc;
+}
+
+/* end */
 .join-container {
   display: flex;
   flex-direction: column;
@@ -182,7 +489,6 @@ h1.heading-top-left {
   }
 }
 
-
 .reveal .slide-background {
   background-color: var(--background-color);
 }
@@ -202,14 +508,12 @@ h1.heading-top-left {
   justify-content: space-between;
 }
 
-.reveal .two-column>div {
+.reveal .two-column > div {
   width: 48%;
 }
 
-
 /* Code Blocks */
 .reveal {
-
   pre {
     max-width: 70vw;
   }
@@ -242,7 +546,6 @@ h1.heading-top-left {
   color: #666;
   text-align: center;
 }
-
 
 /* Polling  */
 .poll {
@@ -288,7 +591,6 @@ canvas[data-chart] {
   vertical-align: middle;
 }
 
-
 /* Header */
 header {
   display: flex;
@@ -302,7 +604,7 @@ header {
   & img {
     aspect-ratio: 10 / 3;
     object-fit: contain;
-    margin: 10px;
+    margin: 0 0 0 auto;
   }
 
   & h2 {
@@ -323,5 +625,4 @@ header {
       font-size: medium;
     }
   }
-
 }

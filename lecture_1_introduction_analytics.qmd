@@ -1,6 +1,5 @@
 ---
-title: "Big Data & Analytics"
-author: "Prof. Dr. Gerit Wagner"
+title: ""
 format: 
   revealjs:
     slide-number: true
@@ -9,225 +8,224 @@ format:
     include-after-body: assets/header.js
 ---
 
-* 1	Introduction to Analytics
-* 2	Descriptive Analytics
-  * 2\.1	Data Warehouse Systems
-  * 2\.2	Online Analytical Processing \(OLAP\)
-* 3	Big Data
-* 4	Predictive Analytics
-  * 4\.1	Subject of Predictive Analytics
-  * 4\.2	The Analytics Process
-  * 4\.3	Data Preparation
-  * 4\.4	Methods\, Algorithms and Applications
-  * 4\.4\.1	Classification
-  * 4\.4\.2	Regression
+<section class="firstIntro">
+  <p>Course</p>
+  <h1>Analytics and Big Data</h1>
+  <p>Prof. Dr. Peter Roßbach</p>
+  <p style="font-size:3em;">SS 2025</p>
+</section>
+---
+
+## Agenda
+
+<ul class="agenda-list">
+  <li>1 Introduction to Analytics</li>
+  <li>2 Descriptive Analytics
+    <ul>
+      <li>2.1 Data Warehouse Systems</li>
+      <li>2.2 Online Analytical Processing (OLAP)</li>
+    </ul>
+  </li>
+  <li>3 Big Data</li>
+  <li>4 Predictive Analytics
+    <ul>
+      <li>4.1 Subject of Predictive Analytics</li>
+      <li>4.2 The Analytics Process</li>
+      <li>4.3 Data Preparation</li>
+      <li>4.4 Methods, Algorithms and Applications
+        <ul>
+          <li>4.4.1 Classification</li>
+          <li>4.4.2 Regression</li>
+        </ul>
+  </li>
+</ul>
 
 ---
 
-## Data Warehouse / OLAP / Descriptive Analytics
+## Literature
 
-Vaisman\, A\.; Zimányi\, E\. \(2016\): Data Warehouse Systems: Design and Implementation \(Data\-Centric Systems and Applications\)\, Springer\.
+<div id="references-list">
+<h2>Data Warehouse / OLAP / Descriptive Analytics:</h2>
+<div>
+  <p>Vaisman, A.; Zimányi, E. (2016): <em>Data Warehouse Systems: Design and Implementation (Data-Centric Systems and Applications)</em>, Springer.</p>
+</div>
 
-Data Science / Predictive Analytics / Machine Learning:
-
-Alpaydin\, E\. \(2016\): Machine Learning: The New AI\, MIT Press Essential Knowledge\.
-
-Alpaydin\, E\. \(2016\): Introduction to Machine Learning\, Third Edition\, MIT Press\.
-
-Raschka\, Sebastian \(2015\): Python Machine Learning\, Packt Publishing
-
-<span style="color:#000000">Schmarzo</span>  <span style="color:#000000">\, B\. \(2016\):  Big Data MBA\, Wiley\.</span>
-
-<span style="color:#000000">Schutt</span>  <span style="color:#000000">\, R\.; O’Neil\, C\. \(2014\): Doing Data Science\, O’Reilly Media</span> \.
-
+<h2>Data Science / Predictive Analytics / Machine Learning:</h2>
+<div>
+  <p>Alpaydin, E. (2016): <em>Machine Learning: The New AI</em>, MIT Press Essential Knowledge.</p>
+  <p>Alpaydin, E. (2016): <em>Introduction to Machine Learning</em>, Third Edition, MIT Press.</p>
+  <p>Raschka, S. (2015): <em>Python Machine Learning</em>, Packt Pubpshing.</p>
+  <p>Schmarzo, B. (2016): <em>Big Data MBA</em>, Wiley.</p>
+  <p>Schutt, R.; O’Neil, C. (2014): <em>Doing Data Science</em>, O’Reilly Media.</p>
+</div>
+</div>
 
 ---
 
-::: {.content-hidden when-format=pdf}
+## Topic
 
-TODO: something missing?
-
-:::
+<div id="intro_head">
+<h1>1 Introduction</h1>
+</div>
 
 ---
 
 ## Why is Modern Analytics so Successful?
 
-<span style="color:#ff0000">More Data for the Analysis</span>
+<ol class="analytics-list">
+  <li style="color: #ff0000;">More Data for the Analysis</li>
+  <li>More Computing Power</li>
+  <li>New Methods and Algorithms</li>
+  <li>New Analytics Processes</li>
+</ol>
 
-_More Computing Power_
+---
 
-_New Methods and Algorithms_
 
-_New Analytics Processes_
+## More Data for the Analysis
+
+<div class="analysis-wrapper">
+<div class="img-row">
+  ![](images/slides_0.png)
+  <div class="img-source">Source: Bernard Marr</div>
+</div>
+<div class="img-row" style="align-items:flex-end;float:right;flex-flow: row-reverse;">
+   ![](images/slides_1.png)
+  <div class="img-source">Source: Ruoming Jin</div>
+</div>
+</div>
+
 
 
 ---
 
 
-More Data for the Analysis
+## Worldwide Corporate Data Growth
 
-![](images/slides_0.png)
-
-Source: Bernard Marr
-
-![](images/slides_1.png)
-
-Source: Ruoming Jin
-
+<div class="corporate-wrapper">
+  <img data-src="images/slides_2.png">
+</div>
 
 ---
 
 
-Worldwide Corporate Data Growth
+## Why is Modern Analytics so Successful?
 
-![](images/slides_2.png)
+<ol class="analytics-list">
+  <li>More Data for the Analysis</li>
+  <li style="color: #ff0000;">More Computing Power</li>
+  <li>New Methods and Algorithms</li>
+  <li>New Analytics Processes</li>
+</ol>
 
-Web\, Cloud\, Mobile\, Social\, Sensor Data
+---
 
-Business Transaction Data
+## Growth of Computing Power
 
+<div class="GrowthComputing-wrapper">
+  <img data-src="images/slides_3.png" alt="">
+</div>
 
 ---
 
 
-Why is Modern Analytics so Successful?
+## Why is Modern Analytics so Successful?
 
-_More Data for the Analysis_
-
-<span style="color:#ff0000">More Computing Power</span>
-
-_New Methods and Algorithms_
-
-_New Analytics Processes_
-
+<ol class="analytics-list">
+  <li>More Data for the Analysis</li>
+  <li>More Computing Power</li>
+  <li style="color: #ff0000;">New Methods and Algorithms</li>
+  <li>New Analytics Processes</li>
+</ol>
 
 ---
 
 
-Growth of Computing Power
+## Old vs. New Methods
 
-![](images/slides_3.png)
-
-
----
-
-
-Why is Modern Analytics so Successful?
-
-_More Data for the Analysis_
-
-_More Computing Power_
-
-<span style="color:#ff0000">New Methods and Algorithms</span>
-
-_New Analytics Processes_
-
-
----
-
-
-Old vs\. New Methods
-
-![](images/slides_4.png)
-
+<div class="mehtod-wrapper">
+<div class="first-box">
+<img data-src="images/slides_4.png" alt="">
+<p>
 Traditional Regression
+</p>
+</div>
 
-![](images/slides_5.png)
+<div class="second-box">
+<div class="second-first-box">
+<img data-src="images/slides_5.png" alt="">
+<p>
+Decision Tree
+</p>
+</div>
 
-![](images/slides_6.png)
+<div class="second-second-box">
+<img data-src="images/slides_6.png" alt="">
+<p>Neural Network
+</p>
+</div>
+</div>
+</div>
+<p style="text-align:center;">Source: Lalit Sachan</p>
 
-Source: Lalit Sachan
-
-
----
-
-
-Decrease of Error Rates
-
-![](images/slides_7.jpg)
-
-
----
-
-
-Why is Modern Analytics so Successful?
-
-_More Data for the Analysis_
-
-_More Computing Power_
-
-_New Methods and Algorithms_
-
-<span style="color:#ff0000">New Analytics Processes</span>
 
 
 ---
 
 
-Traditional vs\. Modern Analytics Process
+## Decrease of Error Rates
 
-_Traditional Analytics _  _Process_  _:_
+<div class="decrease-wrapper">
+  <img data-src="images/slides_7.jpg" alt="">
+</div>
+---
 
-![](images/slides_8.png)
 
-![](images/slides_10.png)
+## Why is Modern Analytics so Successful?
 
-![](images/slides_11.png)
+<ol class="analytics-list">
+  <li>More Data for the Analysis</li>
+  <li>More Computing Power</li>
+  <li>New Methods and Algorithms</li>
+  <li style="color: #ff0000;">New Analytics Processes</li>
+</ol>
 
-_Predictive_  _ Model_
+---
 
-_Modern Analytics _  _Process_  _:_
 
-![](images/slides_12.png)
+## Traditional vs\. Modern Analytics Process
 
-![](images/slides_13.png)
 
-![](images/slides_14.png)
+<div id="process-wrapper">
+<div class="traditional">
+<h2>Traditional Analytics Process:</h2>
+  <img data-src="images/slide-13.1.png" alt="">
+</div>
 
-![](images/slides_16.png)
-
-_Predictive_  _ Model_
+<div class="modern">
+<h2>Modern Analytics Process:</h2>
+  <img data-src="images/slide-13.2.png" alt="">
+</div>
+</div>
 
 
 ---
 
 
-From the Past to the Present
+## From the Past to the Present
 
-1888 Correlation
-
-1937 Confidence Interval
-
-1654 Mathematical Theory of Probability
-
-1733 Normal Distribution
-
-1795 OLS Regression
-
-1989 Neural Networks\(ML\)
-
-1972 Pocket Calculator
-
-1981 Personal Computer
-
-Abacus\, Calculating\-Table\, Lists\, and Tables
-
-![](images/slides_17.jpg)
-
-![](images/slides_18.png)
-
-![](images/slides_19.png)
-
-1985 Data Bases
-
+<div class="past-present-wrapper">
+  <img data-src="images/slide-14-new.png" alt="">
+</div>
 
 ---
 
 
-Evolution of Analytics
+## Evolution of Analicytics
 
-![](images/slides_20.jpg)
+<div class="evolutiont-wrapper">
+  <img data-src="images/slides_20.jpg" alt="">
+</div>
 
 Source: http://juxt\.pro/blog/posts/machine\-learning\-with\-clojure\.html
 
@@ -235,141 +233,121 @@ Source: http://juxt\.pro/blog/posts/machine\-learning\-with\-clojure\.html
 ---
 
 
-Types of Analytics \(I\)
+## Types of Analytics \(I\)
 
-![](images/slides_21.png)
-
-Predictive /PrescriptiveAnalytics
-
-DescriptiveAnalytics
+<div class="Types-wrapper">
+  <img data-src="images/slides_21.png" alt="">
+</div>
 
 Source: Schmarzo\, p\. 88
 
+---
+
+
+## Types of Analytics \(II\)
+
+<div id="analytics-2">
+<div>
+<h2>Descriptive</h2>
+<p>What happend in the past?</p>
+<p>Example: Report the profits of the last years</p>
+</div>
+
+<div>
+<h2>Predictive</h2>
+<p>Find patterns and relationships in data and use them for prediction\.</p>
+<p>Example: Find the functional relationship between price and demand</p>
+</div>
+
+<div>
+<h2>Prescriptive</h2>
+<p>Use the predictions to make decisions\.</p>
+<p>Example: Set the best price to optimize the profit\.</p>
+</div>
+
+</div>
+
 
 ---
 
 
-Types of Analytics \(II\)
+## Types of Analytics \(III\)
 
-Descriptive
-
-What happend in the past?
-
-Example: Report the profits of the last years
-
-Predictive
-
-Find patterns and relationships in data and use them for prediction\.
-
-Example: Find the functional relationship between price and demand
-
-Prescriptive
-
-Use the predictions to make decisions\.
-
-Example: Set the best price to optimize the profit\.
-
-
----
-
-
-Types of Analytics \(III\)
-
-![](images/slides_22.png)
-
+<div class="Types-wrapper">
+  <img data-src="images/slides_22.png" alt="">
 Source: Schmarzo\, p\. 13
+</div>
 
-
----
-
-
-Descriptive Analytics Process
-
-![](images/slides_23.png)
 
 
 ---
 
 
-Predictive Analytics Process
+## Descriptive Analytics Process
 
-![](images/slides_24.png)
+<div class="Descriptive-wrapper">
+  <img data-src="images/slides_23.png" alt="">
+</div>
 
 
 ---
 
 
-Example Inventory Planning
+## Predictive Analytics Process
 
-Impact of Disposition Decisions
+<div class="Predictive-wrapper">
+  <img data-src="images/slides_24.png" alt="">
+</div>
 
-![](images/slides_25.png)
 
-Scenario 1: too little purchased
+---
 
-\- Loss of turnover
 
-\- Increased procurement costs
+## Example Inventory Planning
 
-\- Customer annoyance
-
-\- Increased contact costs call center
-
-too much purchased
-
-too little purchased
-
-Scenario 2: too much purchased
-
-\- Increased storage costs
-
-\- Capital lockup
-
-\- Utilization losses
-
-Scenario 1            Actual demand            Scenario 2
-
-On the basis of more than 300 million data records per week\, Otto makes more than one billion forecasts per year on the sales development of individual articles for the next days and weeks\. Such forecasts allow Otto to reduce its own inventories by up to 30% on average\.
+<div class="InventoryPlanning-wrapper">
+  <img data-src="images/slides_25.png" alt="">
+  <div class="InventoryPlanning-info">
+<p>On the basis of more than 300 million data records per week\, Otto makes more than one billion forecasts per year on the sales development of individual articles for the next days and weeks\. Such forecasts allow Otto to reduce its own inventories by up to 30% on average\.</p>
 
 Source: http://www\.bvl\.de/misc/filePush\.php?mimeType=application/pdf&fullPath=/files/441/442/777/1015/DLK12\_C3\-3\_Praesentation\_Stueben\.pdf
+  </div>
+</div>
 
-
----
-
-
-Classical Corporate Planning
-
-![](images/slides_26.png)
-
-::: {.notes}
-
-Die folgenden Ausführungen beziehen sich auf ein international operierendes US-amerikanisches Unternehmen der Konsumgüterindustrie. Das Ziel der Planung besteht darin, den Verantwortlichen im Unternehmen einen Rahmen zu geben, innerhalb dessen sie ihre Prozesse und Funktionen steuern können. Die Planung ist das Bindeglied zwischen den Zielen des Unternehmens und der Steuerung der einzelnen Prozesse im Tagesgeschäft. Im Folgenden werden die wesentlichen Schritte beschrieben.
-Im Plan eines Geschäftsbereichs werden die finanziellen Erwartungen und die Erwartungen bezüglich Marktanteilen (Top-Down) mit den Umsatzerwartungen des Vertriebs (Bottom-Up) kombiniert. Die finanziellen Erwartungen an einen Geschäftsbereich leiten sich aus den Erwartungen des Kapitalmarkts an das gesamte Unternehmen ab. Sie werden als NOPAT (Net Operating Profit After Tax) formuliert und durch die Geschäftsleitung den einzelnen Geschäftsbereichen zugeordnet. Aus diesen Größen erstellen Finanz- und Rechnungswesen und Marketing Vorgaben für einzelne Produktkategorien und Produktgruppen. In diesem Verhandlungsprozess vertritt das Finanz- und Rechnungswesen die Margensicht, das Category-Management die Marktanteils- und Volumensicht. Direkte Produktionskosten und Kosten der Funktionsbereiche werden dabei weitgehend als gegeben angenommen. Aus diesem Verhandlungsprozess resultieren sogenannte Commercials Goals (Deckungsbeiträge und Mengen) für Marken, große Kunden und Monate.
-Im Account-Management werden diese Commercial Goals mit den Absatzerwartungen abgeglichen. Dabei wird zunächst das sogenannte Base Business einschließlich der daraus resultierenden Deckungsbeiträge geplant. Dies basiert auf den Erfahrungswerten der Vergangenheit. Die Lücke zwischen diesen Werten und den Commercial Goals wird durch sogenannte Promotions (Aktionen) geschlossen. Promotions führen zu Mengensteigerungen, aber gleichzeitig zu Einbußen bei den Deckungsbeiträgen. Die Aufgabe des Account-Managements besteht also darin, durch Simulationen in der Preis-Absatz-Funktion einen Plan zu erstellen, der den Margen- und den Mengenerwartungen der Commercial Goals entspricht.
-Diese Plandaten werden nun grob mit den Ressourcen der Produktion abgeglichen. Zeitliche und mengenmäßige Kapazitätsanpassungen sowie Veränderungen des Lagerbestands zwischen den Planperioden sind die Simulationsparameter der Produktion.
-In einem Parallelprozess werden im Rechnungswesen gemeinsam mit den Fachbereichen die direkten Produktionskosten und die Funktionskosten geplant. Dieser Planungsprozess wird einmal jährlich durchgeführt sowie monatlich überwacht. Die Absatzpläne können monatlich geändert werden, die Commercial Goals lediglich quartalsweise. In gravierenden Ausnahmefällen werden die Pläne in einem jeweils individuellen Szenario geändert.
-
-:::
 
 
 ---
 
 
-Example Driver\-based Planing \(I\)
+## Classical Corporate Planning
 
-Planing/Decision
+<div class="ClassicalCorporate-wrapper">
+  <img data-src="images/slides_26.png" alt="">
+</div>
 
 
 ---
 
 
-Example Driver\-based Planing \(II\)
+## Example Driver\-based Planing \(I\)
 
-Sales forecasts based on market and social media data
+<div class="driver-Planing-wrapper">
+  <img data-src="images/slides-27-new.png" alt="">
+</div>
 
-Automated pricing based on market and competitor analyses
 
-Early detection of price changes and adjustment of purchasing behavior
+---
 
-Optimization of inventory management based on customers' current purchasing preferences
 
+## Example Driver\-based Planing \(II\)
+
+<div class="driver-Planing2-wrapper">
+  <img data-src="images/slides-28-new.png" alt="">
+</div>
+
+<ol class="colored-numbers driver-Planing2-list">
+  <li>Sales forecasts based on market and social media data</li>
+  <li>Automated pricing based on market and competitor analyses</li>
+  <li>Early detection of price changes and adjustment of purchasing behavior</li>
+  <li>Optimization of inventory management based on customers' current purchasing preferences</li>
+</ol>

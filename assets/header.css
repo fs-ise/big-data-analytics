@@ -11,6 +11,28 @@
   z-index: 20;                                 /* LOWER than menus/overlays */
 }
 
+/* custom slide number  */
+#custom-slide-number {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: #003366; /* Frankfurt blue */
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 600;
+  z-index: 1000;
+  opacity: 0.9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+#slide-title-display{
+  font-size: 3em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  /* margin-top: 60px; */
+}
 /* make the logo larger (auto-scales with header height) */
 #fs-header img{
   height: calc(var(--fs-header-h) - 24px);     /* header height minus padding */
