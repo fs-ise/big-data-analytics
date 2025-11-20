@@ -2379,3 +2379,9 @@ html.print-pdf .aria-status {
   padding-top: 20px;
   padding-bottom: 20px
 }
+
+#analytics-2 .column {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+}

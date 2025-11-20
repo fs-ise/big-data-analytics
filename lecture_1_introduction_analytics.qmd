@@ -79,25 +79,25 @@ format:
   <li>New Analytics Processes</li>
 </ol>
 
----
-
-
 ## More Data for the Analysis
 
-<div class="analysis-wrapper">
-<div class="img-row">
-  ![](images/slides_0.png)
-  <div class="img-source">Source: Bernard Marr</div>
-</div>
-<div class="img-row" style="align-items:flex-end;float:right;flex-flow: row-reverse;">
-   ![](images/slides_1.png)
-  <div class="img-source">Source: Ruoming Jin</div>
-</div>
-</div>
+::: columns
+::: column
+![](images/slides_0.png)
+:::
+
+::: column
+![](images/slides_1.png)
+:::
+:::
 
 
 
----
+::: aside
+
+Source: Bernard Marr; Source: Ruoming Jin
+
+:::
 
 
 ## Worldwide Corporate Data Growth
@@ -246,26 +246,30 @@ Source: Schmarzo\, p\. 88
 
 ## Types of Analytics \(II\)
 
-<div id="analytics-2">
-<div>
-<h2>Descriptive</h2>
-<p>What happend in the past?</p>
-<p>Example: Report the profits of the last years</p>
-</div>
+::: {.columns #analytics-2}
 
-<div>
-<h2>Predictive</h2>
-<p>Find patterns and relationships in data and use them for prediction\.</p>
-<p>Example: Find the functional relationship between price and demand</p>
-</div>
+::: {.column}
+### Descriptive
+What happened in the past?  
 
-<div>
-<h2>Prescriptive</h2>
-<p>Use the predictions to make decisions\.</p>
-<p>Example: Set the best price to optimize the profit\.</p>
-</div>
+Example: Report the profits of the last years.
+:::
 
-</div>
+::: {.column}
+### Predictive
+Find patterns and relationships in data and use them for prediction.  
+
+Example: Find the functional relationship between price and demand.
+:::
+
+::: {.column}
+### Prescriptive
+Use the predictions to make decisions.  
+
+Example: Set the best price to optimize the profit.
+:::
+
+:::
 
 
 ---
