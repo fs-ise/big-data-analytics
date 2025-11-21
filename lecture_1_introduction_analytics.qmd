@@ -17,7 +17,7 @@ format:
 
 ## Agenda
 
-<ul class="agenda-list">
+<ul class="agenda-list" style="line-height:1.2em">
   <li>1 Introduction to Analytics</li>
   <li>2 Descriptive Analytics
     <ul>
@@ -44,12 +44,12 @@ format:
 ## Literature
 
 <div id="references-list">
-<h2>Data Warehouse / OLAP / Descriptive Analytics:</h2>
+<h3>Data Warehouse / OLAP / Descriptive Analytics:</h3>
 <div>
   <p>Vaisman, A.; Zimányi, E. (2016): <em>Data Warehouse Systems: Design and Implementation (Data-Centric Systems and Applications)</em>, Springer.</p>
 </div>
 
-<h2>Data Science / Predictive Analytics / Machine Learning:</h2>
+<h3>Data Science / Predictive Analytics / Machine Learning:</h3>
 <div>
   <p>Alpaydin, E. (2016): <em>Machine Learning: The New AI</em>, MIT Press Essential Knowledge.</p>
   <p>Alpaydin, E. (2016): <em>Introduction to Machine Learning</em>, Third Edition, MIT Press.</p>

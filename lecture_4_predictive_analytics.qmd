@@ -1,6 +1,5 @@
 ---
-title: "Big Data & Analytics"
-author: "Prof. Dr. Gerit Wagner"
+title: ""
 format: 
   revealjs:
     slide-number: true
@@ -9,84 +8,64 @@ format:
     include-after-body: assets/header.js
 ---
 
+## Navigation 
 
-<span style="color:#ff0000">4	Predictive Analytics</span>
+<div style="font-size: 2em; display:flex; flex-direction:column; font-weight:700; line-height:1.4;">
+  <p style="color:#ff0000; font-size:1.8em; margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-<span style="color:#ff0000">4\.1	Subject of Predictive Analytics</span>
+  <p style="color:#ff0000; margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-4\.4\.1	Classification
-
-4\.4\.2	Regression
-
+  <p style="margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 ---
 
+## First Application of Data Analytics
 
-First Application of Data Analytics
+<h2 style="text-align:center">Dr\. John Snow's Map of the 1854 London Cholera Outbreak</h2>
 
-Dr\. John Snow's Map of the 1854 London Cholera Outbreak
-
+<div class="descriptive-wrapper">
 ![](images/slides_104.png)
+</div>
 
-Source: http://www\.udel\.edu/johnmack/frec480/cholera
-
-
----
-
-
-Use Cases of Data Analytics \- Examples
-
-① Customer Support / Text Mining
-
-② Demand forecasting and vehicle routing
-
-③ Process Mining
-
-④ Sales Forecasts for Inventory Management
-
-⑤ Analysis of Sales Sequences for Cross\-/Up\-Selling / Voucher Management
-
-⑥ Attack Prevention
-
-⑦ Profile\-based Staffing
-
-⑧ Realtime Controlling based on Advanced  Analytics
-
-⑨ Fraud Management
-
-⑩ Asset Management / Credit Scoring
-
-⑪ Churn Management / Customer Segmentation
-
-⑫ Driver\-based Planning
-
-Enter\-prisePlanning
-
-MarketingFinanceAccountingControllingHuman RessourcesIT\-Management
-
-CustomerService
+<p style="text-align:center">Source: http://www\.udel\.edu/johnmack/frec480/cholera</p>
 
 
 ---
 
 
-Fundamental Skills of Data Analytics
+## Use Cases of Data Analytics \- Examples
 
+<div class="descriptive-wrapper">
+![](images/slides_98_new.png)
+</div>
+
+
+---
+
+
+## Fundamental Skills of Data Analytics
+<div class="descriptive-wrapper">
 ![](images/slides_105.png)
+</div>
 
 
 ---
 
 
-The Data Analytics Process
+## The Data Analytics Process
 
+<div class="descriptive-wrapper">
 ![](images/slides_106.png)
+</div>
 
 <span style="color:#000000">Source</span>  <span style="color:#000000">: http://www\.datasciencecentral\.com/profiles/blogs/data\-science\-simplified\-principles\-and\-process</span>
 
@@ -94,57 +73,43 @@ The Data Analytics Process
 ---
 
 
-Need for Knowledge about the Algorithms
+## Need for Knowledge about the Algorithms
 
-The distance between using Excel and VBA for modeling in credit scoring\, for example\, and using machine learning algorithms and R or Python to enhance the results\, is not that great\, compared to the distance between someone running a packaged algorithm they don’t really understand and someone who understands the mathematical and statistical operations within an algorithm and can optimize or adapt it as needed – and do so in the context of their deep industry experience\.
-
+<p style="font-weight:700; font-size:1.8em;">The distance between using Excel and VBA for modeling in credit scoring, for example, and using machine learning algorithms and R or Python to enhance the results, is not that great, compared to the distance between someone running a packaged algorithm they don’t really understand and someone who understands the mathematical and statistical operations within an algorithm and can optimize or adapt it as needed – and do so in the context of their deep industry experience.
+</p>
 Source: Dataiku \- Data Science for Banking and Insurance
 
 
 ---
 
 
-Statistics vs\. Machine Learning
+## Statistics vs\. Machine Learning
 
-<span style="color:#000000">Statistics </span>  <span style="color:#000000">is about finding valid conclusions about the underlying applied theory\, and on the interpretation of parameters in their models\. It insists on proper and rigorous methodology\, and is comfortable with making and noting assumptions\. It cares about how the data was collected and the resulting properties of the estimator or experiment \(e\.g\. p\-value\)\. The focus is on hypothesis testing\.</span>
+ <span style="font-size:1.7em"><strong>Statistics</strong> about finding valid conclusions about the underlying applied theory\, and on the interpretation of parameters in their models\. It insists on proper and rigorous methodology\, and is comfortable with making and noting assumptions\. It cares about how the data was collected and the resulting properties of the estimator or experiment \(e\.g\. p\-value\)\. The focus is on hypothesis testing\.</span>
 
-<span style="color:#000000">Machine Learning \(ML\) </span>  <span style="color:#000000">aims to derive practice\-relevant findings from existing data and to apply the trained models to data not previously seen \(prediction\)\. It tries to predict or classify with the most accuracy\.</span>  <span style="color:#000000"> </span>  <span style="color:#000000">It cares deeply about scalability and uses the predictions to make decisions\. Much of ML is motivated by problems that need to have answers\. ML is happy to treat the algorithm as a black box as long as it works\. </span>
+<span style="font-size:1.7em"><strong>Machine Learning \(ML\)</strong> aims to derive practice\-relevant findings from existing data and to apply the trained models to data not previously seen \(prediction\)\. It tries to predict or classify with the most accuracy\. It cares deeply about scalability and uses the predictions to make decisions\. Much of ML is motivated by problems that need to have answers\. ML is happy to treat the algorithm as a black box as long as it works\. </span>
 
 
 ---
 
 
-Statistical Regression vs\. Machine Learning Algorithms
+## Statistical Regression vs\. Machine Learning Algorithms
 
-Traditional Regression
-
+<div class="descriptive-wrapper">
 ![](images/slides_107.png)
-
-![](images/slides_108.png)
-
-![](images/slides_109.png)
-
-Predicted Values
-
-![](images/slides_110.png)
-
-![](images/slides_111.png)
-
-Support Vector Machine
-
+</div>
 
 ---
 
+## Explanation vs\. Prediction \(I\)
 
-Explanation vs\. Prediction \(I\)
+<span style="color:#000000; font-size:2em">Question 1:	I have a headache\. If I take an aspirin now\, will it go away?</span>
 
-<span style="color:#000000">Question 1:	I have a headache\. If I take an aspirin now\, will it go away?</span>
+<span style="color:#000000; font-size:2em; margin-top:0.5em">Question 2:	I had a headache\, but it passed\. Was it because I took an aspirin two hours ago? Had I not taken such an aspirin\, would I still have a headache?</span>
 
-<span style="color:#000000">Question 2:	I had a headache\, but it passed\. Was it because I took an aspirin two hours ago? Had I not taken such an aspirin\, would I still have a headache?</span>
+<div style="color:#000000; font-size:2em;margin-top:2em">The first case is a typical "predictive" question\. You are calculating the effect of a hypothetical intervention\.</div>
 
-<span style="color:#000000">The first case is a typical "predictive" question\. You are calculating the effect of a hypothetical intervention\.</span>
-
-<span style="color:#000000">The second case is a typical "explanatory" question\. You are calculating the effect of a counterfactual intervention\.</span>
+<div style="color:#000000; font-size:2em; margin-top:0.5em">The second case is a typical "explanatory" question\. You are calculating the effect of a counterfactual intervention\.</div>
 
 ::: {.notes}
 
@@ -158,33 +123,30 @@ counterfactual : den Tatsachen widersprechend
 ---
 
 
-Explanation vs\. Prediction \(II\)
+## Explanation vs\. Prediction \(II\)
 
-<span style="color:#000000">Explanation:</span>
+<div style="font-size: 1.4em; line-height:1.2; color:#000000;">
+  <h3 style="font-weight:800; margin-bottom:10px;">Explanation :</h3>
+  <ul class="disc-list" style="margin-left:70px;">
+    <li>Explanation is about understanding relationships and why certain things happen.</li>
+    <li>It requires an understanding of cause and effect.</li>
+    <li>Tests of causal hypotheses are fundamental.</li>
+    <li>Measures of significance are central.</li>
+    <li>A good explanatory model may also have predictive power.</li>
+  </ul>
 
-<span style="color:#000000">Explanation is about understanding relationships and why certain things happen and other things not\. </span>
+  <h3 style="font-weight:800; margin-top:30px; margin-bottom:10px;">Prediction :</h3>
+  <ul class="disc-list" style="margin-left:70px;">
+    <li>Prediction is about anticipating and forecasting what may happen in the future.</li>
+    <li>Correlations are important in this context (but correlation does not imply causation).</li>
+    <li>Therefore, predictive models may have no real explanatory power.</li>
+    <li>For robust prediction, knowledge of causality is preferable.</li>
+    <li>The main task is to find a model that optimally approximates reality and minimizes overfitting.</li>
+    <li>Accuracy is measured using out-of-sample data.</li>
+  </ul>
 
-<span style="color:#000000">What we need for this is an understanding of cause and effect\.</span>
+</div>
 
-<span style="color:#000000">Tests of causal hypothesis are fundamental\.</span>
-
-<span style="color:#000000">Measures of significance are central\.</span>
-
-<span style="color:#000000">A good explanatory model may have predictive power\.</span>
-
-<span style="color:#000000">Prediction:</span>
-
-<span style="color:#000000">Prediction is about anticipating and forecasting what may happen in the future\. </span>
-
-<span style="color:#000000">Correlations are important in this context\. Correlation does not imply causation\. </span>
-
-<span style="color:#000000">Therefore\, predictive models may have no real explanatory power\.</span>
-
-<span style="color:#000000">To achieve robust predictive models the knowledge of causality is preferable\.</span>
-
-<span style="color:#000000">Main Task is to find a model that optimally approximates reality and minimizes overfitting\.</span>
-
-<span style="color:#000000">Accuracy is measured using out\-of\-sample data\.</span>
 
 
 ---

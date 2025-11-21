@@ -288,6 +288,11 @@ ul > li {
   height: 600px;
   width: 100%;
 }
+.volumeImageWrapper img{
+  height: 350px;
+  width: 700px;
+}
+
 .Descriptive-wrapper,
 .Predictive-wrapper,
 .Types-wrapper,
