@@ -1,637 +1,133 @@
-:root {
-  /* General CSS Configuration */
-
-  /* Brand Colors */
-  --brand-color: hsl(227, 43%, 34%);
-  --brand-dark: hsl(226, 40%, 15%);
-  --background-color: #ffffff;
-  --brand-hover: #6179d1;
-
-  /* Typography */
-  /* --font-family: 'Noto Mono', 'Arial', 'Roboto', sans-serif; */
-  --font-family: "Arial", sans-serif;
-  --font-size: 20px;
-  --text1: #333;
-  --text1-invert: #c9c9c9;
-  --font-weight: 600;
-  --font-weight-hover: 600;
-
-  /* Headings */
-  --heading-text-color: #333;
-  --heading-font-weight: 700;
-  --heading-font-size: 2.3rem;
-
-  /* Question and Answers */
-  --question-open-background: hsl(74, 32%, 82%);
-  --question-closed-background: rgba(168, 168, 168, 0.8);
-  --user-name-font-size: 12px;
-  --user-name-font-weight: 400;
-  --question-text-font-size: 18px;
-
-  /* Pause overlay settings */
-  --pause-background: rgb(from var(--brand-color) r g b);
+/* --- header sizing + spacing --- */
+:root { 
+  --fs-header-h: 140px;              /* smaller now, just for logo/title block */
+  --brand-color: #002EFF;   /* Frankfurt blue from the logo */
+  --font-family: "Source Sans Pro", sans-serif;
+  --font-size: 26px;
 }
 
-html {
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0;
-  min-height: 95vh;
-  justify-content: flex-start;
-
-  /* Footer */
-  footer {
-    position: fixed;
-    bottom: 0;
-    justify-self: flex-start;
-    max-width: 100%;
-    max-height: 5vh;
-    padding-inline-start: 2ch;
-    margin-block-end: 10px;
-  }
-
-  @media (width < 650px) {
-    * {
-      font-size: small;
-    }
-  }
-}
-
-/* Presentation Container  */
-#presentation-container {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  margin: 0;
-}
-
-/* Reveal Container */
-#reveal-container {
-  min-width: 90vw;
-  min-height: 85vh;
-  position: static;
-}
-
-/* Slides Container */
-#slides-container {
-  transform: none;
-  text-align: left;
-  min-width: 80vw;
-  padding-inline: 2ch;
-
-  @media (width < 700px) {
-    font-size: small;
-  }
-}
-
-/* Base configuration */
-.reveal {
-  font-family: var(--font-family);
-  font-size: var(--font-size);
-  color: var(--text1);
-  background-color: var(--background-color);
-
-  & section {
-    width: 80vw;
-
-    & canvas {
-      margin-top: 200px;
-    }
-  }
-}
-
-h1.heading-top-left {
-  visibility: hidden;
-}
-
-.reveal .slides section > h1:first-child,
-.reveal .slides section > h2:first-child,
-.reveal .slides section > h3:first-child {
-  position: absolute !important;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-/* Keep the title slide's heading visible */
-.reveal .slides section:first-of-type > h1:first-child,
-.reveal .slides section:first-of-type > h2:first-child,
-.reveal .slides section:first-of-type > h3:first-child {
-  position: static !important;
-  width: auto;
-  height: auto;
-  margin: initial;
-  overflow: visible;
-  clip: auto;
-  white-space: normal;
-  border: 0;
-}
-
-/* Required adjustments for qna overlaying */
-.reveal > .overlay {
+/* Top-right floating header (title + logo) */
+#fs-header{
   position: fixed;
-  /* relative to viewport */
-  top: 0;
-  left: 0;
-  width: 100vw;
-  /* full viewport width */
-  height: 100vh;
-  /* full viewport height */
-  z-index: 1000;
-  background: rgba(0, 0, 0, 0.9);
-  transition: all 0.3s ease;
-}
-
-/* first slide css  */
-
-.firstIntro {
-  text-align: center;
-  display: flex !important;
-  flex-direction: column;
-  gap: 60px;
-}
-
-.firstIntro p {
-  font-size: 2em;
-}
-.firstIntro h1 {
-  letter-spacing: 2px;
-  font-size: 5em;
-  font-weight: bold;
-}
-
-/* second slide  */
-.agenda-list {
-  font-size: 1.6em;
-  font-weight: bold;
-  line-height: 1.5;
-  list-style: none; /* optional: remove default bullets */
-  padding-left: 0;
-}
-
-.agenda-list > li {
-  margin-bottom: 0.4em;
-}
-
-.agenda-list ul li {
-  margin-bottom: 0.2em;
-}
-ul > li {
-  list-style: none;
-}
-
-/* third slide  */
-#references-list {
-  font-size: 1.5em;
-  line-height: 1.4;
-}
-
-#references-list p {
-  font-size: 1.2em;
-}
-
-#references-list h2 {
-  font-weight: 900;
-  margin-top: 0.8em;
-  margin-bottom: 0.5em;
-}
-
-/* fourth slide  */
-
-#intro_head {
+  top: 10px;
+  right: 10px;
+  left: auto;                       /* don't stretch full width */
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 70%;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  padding: 8px 16px;
+  max-height: var(--fs-header-h);
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: saturate(120%) blur(4px);
+  border-radius: 8px;
+  z-index: 20;                      /* LOWER than menus/overlays */
 }
 
-#intro_head h1 {
-  font-size: 4em;
-  color: #ff0000;
+html,
+body,
+.reveal,
+.reveal .slides {
+  font-family: var(--font-family);
 }
 
-/* fifth slide */
-.analytics-list {
-  list-style-type: decimal !important;
-  margin-left: 6em !important;
-  font-size: 1.8em;
-  line-height: 2em;
-  margin-top: 3em !important;
-}
-
-.analytics-list li {
-  font-size: 1.4em;
-  font-weight: 700;
-  margin-bottom: 0.3em;
-}
-#analytics-2 {
-  display: flex;
-  gap: 20px;
-}
-#analytics-2 h2 {
-  font-size: 2em;
-  font-weight: 900;
-}
-#analytics-2 p {
-  font-size: 2em;
-}
-/* sixth slide  */
-.analysis-wrapper {
-  margin-top: -40px;
-}
-.img-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 2em;
-}
-
-.img-row img {
-  max-width: 45%;
-  height: auto;
-  display: block;
-}
-
-.img-source {
+/* slide title in the floating header */
+#slide-title-display{
   font-size: 1.2em;
-  color: #333;
-  white-space: nowrap; /* prevents wrapping */
-}
-
-/* seventh slide  */
-.corporate-wrapper img {
-  height: 600px;
-  width: 100%;
-}
-.Intensities-wrapper img{
-  height: 400px;
-  width: 100%;
-}
-.GrowthComputing-wrapper img,
-.decrease-wrapper img,
-.past-present-wrapper img,
-.evolutiont-wrapper img,
-.Types-wrapper img,
-.Descriptive-wrapper img,
-.Predictive-wrapper img,
-.ClassicalCorporate-wrapper img,
-.driver-Planing-wrapper img,
-.pyramid-wrapper img ,.descriptive-wrapper img{
-  height: 600px;
-  width: 100%;
-}
-.volumeImageWrapper img,.Multivariate-wrapper img{
-  height: 350px;
-  width: 700px;
-}
-
-.Descriptive-wrapper,
-.Predictive-wrapper,
-.Types-wrapper,
-.ClassicalCorporate-wrapper,
-.driver-Planing-wrapper,
-.driver-Planing2-wrapper,
-.pyramid-wrapper,
-.descriptive-wrapper {
-  justify-content: center;
-  display: flex;
-}
-.InventoryPlanning-wrapper {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-.InventoryPlanning-wrapper img {
-  height: 500px;
-  width: 90%;
-}
-.driver-Planing2-wrapper img {
-  height: 400px;
-  width: 90%;
-}
-.InventoryPlanning-wrapper .InventoryPlanning-info p {
-  font-size: 1.7em;
-  font-weight: 700;
-}
-/*  */
-.mehtod-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* TOP IMAGE */
-.first-box {
-  display: flex;
-  margin-left: 300px;
-}
-
-.first-box img {
-  width: 40%;
-  display: block;
-  margin: 0 0 0 0;
-}
-
-.second-first-box img,
-.second-second-box img {
-  width: 55%;
-  display: block;
-}
-.second-first-box,
-.second-second-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.first-box p,
-.second-first-box p,
-.second-second-box p {
-  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
   margin: 0;
 }
 
-.second-box {
-  display: flex;
-  margin: 0 20px;
+/* logo size (auto-scales with header height) */
+#fs-header img{
+  height: calc(var(--fs-header-h) - 24px);  /* header height minus padding */
 }
 
-.mehtod-wrapper + .source,
-.source {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 0.9em;
-  opacity: 0.75;
+/* custom slide number  */
+#custom-slide-number {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: #003366; /* Frankfurt blue */
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 600;
+  z-index: 1000;
+  opacity: 0.9;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
-#process-wrapper .traditional img,
-#process-wrapper .modern img {
-  width: 75%;
-  height: 278px;
-  margin-left: 15em;
+/* IMPORTANT: no extra margin-top — don't push slides down */
+.reveal .slides{
+  margin-top: 0 !important;
 }
 
-ol.colored-numbers {
-  counter-reset: item;
-  list-style: none;
-  padding-left: 0;
+.reveal .progress span {
+  height: 100%;        /* ensure the inner bar fills the new height */
 }
 
-ol.colored-numbers li {
-  counter-increment: item;
-  margin-bottom: 8px;
-  font-size: 1.5em;
+/* --- ensure menus/overlays are ABOVE the header --- */
+.reveal .slide-menu { z-index: 9999 !important; }
+.reveal .overlay,
+.reveal .drawer,
+.reveal .popup { z-index: 9999 !important; }
+
+.reveal .controls,
+
+.reveal .progress {
+  z-index: 200 !important;
+  height: 7px;
+  background-color: rgba(0, 0, 0, .2);
+  color: var(--brand-color);
 }
 
-ol.colored-numbers li::before {
-  content: counter(item);
-  background: #1f497d;
-  color: white;
-  font-weight: bold;
-  padding: 4px 10px;
-  border-radius: 5px;
-  margin-right: 10px;
-  display: inline-block;
-  width: 28px;
-  text-align: center;
+/* responsive tweak: shrink header on small screens */
+@media (max-width: 900px){
+  :root { --fs-header-h: 60px; }
+
+  #slide-title-display{
+    font-size: 1em;
+    letter-spacing: 0.5px;
+  }
 }
 
-#navigation {
-  display: flex !important;
-  justify-content: center;
-  margin-top: 5em;
-}
-.comparison-table {
+
+.reveal .slides section aside {
+  position: absolute;
+  bottom: 0.5em;    /* move closer or further from the bottom */
+  left: 0;
   width: 100%;
-  border-collapse: collapse;
-  font-size: 1.5em;
-  border:2px solid;
-  margin-top: 3em !important;
+  text-align: left;   /* or left/right, as you prefer */
+  font-size: 0.5em;     /* optional: make it a bit smaller */
 }
 
-.custom-table {
-  border-collapse: collapse;
-  border:2px solid;
-  margin:0 0 0 auto !important;
+.reveal h2 {
+  margin-bottom: 1em;  /* Increase to 1.5em or 2em if you want more space */
 }
 
-.custom-table th,
-.custom-table td {
-  border: 2px solid #000;
-  padding: 12px 10px;
-  text-align: center;
-  vertical-align: middle;
-}
-.custom-table th {
-  font-weight: bold;
-  background: #f5f5f5;
-}
-.comparison-table th,
-.comparison-table td {
-  border: 2px solid #000;
-  padding: 12px 10px;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.comparison-table th {
-  font-weight: bold;
-  background: #f5f5f5;
-  font-size: 1.2em;
-}
-
-.disc-list li{
-  list-style: disc;
-}
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-/* end */
-.join-container {
-  display: flex;
+.reveal .slides section.centered-slide {
+  display: flex !important;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 5vw;
-  row-gap: 2ch;
-
-  & button {
-    background-color: var(--brand-color);
-    color: var(--text1-invert);
-    padding: 1ch;
-    border: none;
-    font-weight: var(--font-weight);
-  }
-
-  & button:hover {
-    background-color: var(--brand-hover);
-    font-weight: var(--font-weight-hover);
-  }
-
-  #join-host {
-    display: flex;
-    flex-direction: column;
-    gap: 1ch;
-  }
-
-  #join-participant {
-    display: flex;
-    flex-direction: column;
-    gap: 1ch;
-  }
-
-  * input[type="text"],
-  input[type="password"] {
-    max-height: 2ch;
-    max-width: 25ch;
-    padding: 1ch;
-  }
-}
-
-.reveal .slide-background {
-  background-color: var(--background-color);
-}
-
-.reveal .results-container {
-  margin-top: 20px;
-}
-
-.reveal .results-container p {
-  margin: 5px 0;
-  font-size: 24px;
-}
-
-/* Two-column layout */
-.reveal .two-column {
-  display: flex;
-  justify-content: space-between;
-}
-
-.reveal .two-column > div {
-  width: 48%;
-}
-
-/* Code Blocks */
-.reveal {
-  pre {
-    max-width: 70vw;
-  }
-
-  & code {
-    background-color: var(--brand-dark);
-    padding: 2ch;
-    text-align: left;
-    border-radius: 5px;
-    font-family: monospace;
-  }
-
-  @media (width < 650px) {
-    & code {
-      font-size: small;
-    }
-  }
-}
-
-/* Quote slide */
-.reveal .quote {
-  font-style: italic;
-  border-left: 5px solid #d32f2f;
-  padding-left: 20px;
-}
-
-/* Figure caption */
-.reveal .caption {
-  font-size: 0.8em;
-  color: #666;
+  justify-content: flex-start; /* align to top */
+  align-items: center;         /* keep horizontally centered */
   text-align: center;
+  height: 100%;
+  padding-top: 20vh;           /* tweak: 5vh, 8vh, 12vh, ... */
 }
 
-/* Polling  */
-.poll {
-  margin: 20px 0;
+
+.reveal .smaller {
+  font-size: 0.8em;   /* 80% of normal */
 }
 
-.poll-option {
-  padding: 8px 16px;
-  margin: 5px;
-  color: var(--text1);
-  border: 1px solid var(--brand-color);
-  cursor: pointer;
+.reveal .much_smaller {
+  font-size: 0.6em;   /* 80% of normal */
 }
 
-.poll-option:hover {
-  background-color: var(--brand-hover);
+.reveal .slide-menu-button {
+  margin-bottom: 10px;
 }
 
-.poll-option:disabled {
-  background: #ccc;
-  cursor: not-allowed;
-}
-
-.poll-option.selected {
-  background: var(--brand-color);
-  color: var(--text1-invert);
-}
-
-.results,
-.voters {
-  font-size: small;
-  margin-top: 10px;
-}
-
-/* Charts */
-/* Had to override it for specificity */
-canvas[data-chart] {
-  margin: 0 auto !important;
-  min-width: 300px;
-  min-height: 300px;
-  max-width: 60vw;
-  max-height: 60vh;
-  vertical-align: middle;
-}
-
-/* Header */
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: end;
-  max-height: 200px;
-  border-block-end: 2px solid var(--brand-color);
-  padding: 1ch;
-
-  & img {
-    aspect-ratio: 10 / 3;
-    object-fit: contain;
-    margin: 0 0 0 auto;
-  }
-
-  & h2 {
-    margin: 0;
-    padding-inline-start: 1ch;
-    font-size: var(--heading-font-size);
-  }
-
-  @media (width < 750px) {
-    & img {
-      max-width: 300px;
-      max-width: 100px;
-      aspect-ratio: 10 / 3;
-      object-fit: contain;
-    }
-
-    & h2 {
-      font-size: medium;
-    }
-  }
-}

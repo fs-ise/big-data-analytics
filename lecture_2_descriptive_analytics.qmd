@@ -1,12 +1,7 @@
 ---
 title: ""
 format: 
-  revealjs:
-    slide-number: true
-    css: [assets/frankfurt.css, assets/reveal.css, assets/header.css]
-    include-before-body: assets/header.html
-    include-after-body: assets/header.js
-
+  revealjs
 ---
 
 ## Navigation 

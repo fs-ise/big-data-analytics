@@ -1,0 +1,29 @@
+---
+title: 'BDA Analytics (LECTURE)'
+format: revealjs
+---
+
+# BDA Analytics  (LECTURE)
+
+Hand-made toc
+
+\newpage
+
+## Lecture 1
+
+{{< include lecture_1_introduction_analytics.qmd >}}
+
+
+\newpage
+
+## Lecture 2
+
+{{< include lecture_2_descriptive_analytics.qmd >}}
+
+
+
+\newpage
+
+## Lecture 3
+
+{{< include lecture_3_big_data.qmd >}}

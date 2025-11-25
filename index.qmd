@@ -3,7 +3,107 @@ title: "Big Data & Analytics"
 format: html
 ---
 
+::: callout-note
+Some of the following will be moved to the [syllabus](syllabus.html).
+:::
+
+This module introduces students to the methods, technologies, and governance of modern data analytics across descriptive, predictive, and prescriptive approaches. It builds a comprehensive understanding of the data analytics process—from data structuring and preparation to exploratory data analysis, analytical modeling, and decision support.
+The module combines conceptual foundations and hands-on analytical practice using Python, pandas, and scikit-learn. It progresses from structured transactional data (data warehouses, OLAP, data mining) to big and unstructured data (text, social, streaming). Emphasis is placed on the fit between data types, analytical models, and decision purposes, as well as the ability to design, evaluate, and govern analytical systems in organizations.
+
+## Learning objectives
+
+**Knowledge** After completing the module, students will be able to:
+
+- Describe architectures for data warehousing and big data processing, with reference to the underlying data modeling concepts.
+- Differentiate between descriptive, predictive, and prescriptive analytics approaches.
+- Explain fundamental concepts of data analytics, and its role in data-driven organizations.
+
+**Skills** Students will be able to:
+
+- Select appropriate analytical methods for transactional or non-transactional data, and for descriptive, predictive, and prescriptive analysis tasks.
+- Apply analytical methods to real-world datasets, including structuring, transforming, and visualizing data. This also involves training models, evaluating performance, and interpreting analytical results for decision-making.
+- Implement analytical procedures in Python, using standard data science libraries (pandas, scikit-learn, matplotlib).
+
+**Competence** Upon successful completion, students will be able to:
+
+- Design analytics solutions aligned with business goals and governance principles.
+- Integrate analytical technologies into organizational decision-making processes
+- Assess the operational and strategic implications of data analytics in organizations.
+
+## Lectures and exercises
+
+::: callout-note
+
+**Lectures to be polished before "slicing"**
+
+- [lecture 0 - orga](lecture_0_orga.html)
+
 - [lecture 1 - introduction to analytics](lecture_1_introduction_analytics.html)
 - [lecture 2 - descriptive analytics](lecture_2_descriptive_analytics.html)
 - [lecture 3 - big data](lecture_3_big_data.html)
 - [lecture 4 - prescriptive analytics](lecture_4_predictive_analytics.html)
+
+:::
+
+### Part 1: Foundations
+
+- Session 1: Foundations of data analytics
+
+### Part 2: Analytics for structured data
+
+- Session 2: Structuring and preparing data
+- Session 3: Descriptive analysis I
+- Session 4: Descriptive analysis II
+- Session 5: Predictive analysis
+- Session 6: Prescriptive analysis
+
+### Part 3: Analytics for big data
+
+- Session 7: Structuring and preparing big and unstructured data
+- Session 8: Exploratory analysis
+- Session 9: Predictive analysis
+
+### Part 4 – Analytics in organizations
+
+- Session 10: Governance of data analytics
+- Session 11: Recap, exam preparation, Q&A
+
+::: callout-note
+
+We may prepare the [handout](all_lectures.pdf) generated based on all slides.
+
+:::
+
+## Group work
+
+-  To come
+
+## Teaching notes
+
+- To come (adding link to confidential exam repository)
+
+## License, code of conduct, contributing, ...
+
+## Recommended literature
+
+Part 1:
+
+- Sharda, R., Delen, D., & Turban, E. (2018). Business intelligence, analytics, and data science: a managerial perspective.
+- Martínez-Plumed, F., Contreras-Ochando, L., Ferri, C., Hernández-Orallo, J., Kull, M., Lachiche, N., Ramirez-Quintana, M. J. & Flach, P. (2019). CRISP-DM twenty years later: From data mining processes to data science trajectories. IEEE Transactions on Knowledge and Data Engineering, 33(8), 3048-3061. 
+- Chen, H., Chiang, R. H., & Storey, V. C. (2012). Business intelligence and analytics: From big data to big impact. MIS Quarterly 36(4), 1165-1188.
+
+Part 2:
+
+- Vaisman, A.; Zimányi, E. (2016): Data Warehouse Systems: Design and Implementation (Data-Centric Systems and Applications), Springer.
+- Schutt, R.; O’Neil, C. (2014): Doing Data Science, O’Reilly Media.
+- Raschka, Sebastian (2015): Python Machine Learning, Packt Publishing.
+
+Part 3:
+
+- Schmarzo, B. (2016): Big Data MBA, Wiley.
+- Bengfort, B., Bilbro, R., & Ojeda, T. (2018). Applied text analysis with python: Enabling language-aware data products with machine learning. O’Reilly Media, Inc. 
+
+Part 4:
+
+- Davenport, T. H. (2006). Competing on analytics. Harvard Business Review, 84(1), 98.
+- Vidgen, R., Shaw, S., & Grant, D. B. (2017). Management challenges in creating value from business analytics. European Journal of Operational Research, 261(2), 626-639.

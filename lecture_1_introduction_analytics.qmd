@@ -1,18 +1,8 @@
 ---
-title: ""
+title: 'Analytics and Big Data'
+author: 'Prof. Dr. Gerit Wagner'
 format: 
-  revealjs:
-    slide-number: true
-    css: [assets/frankfurt.css, assets/reveal.css, assets/header.css]
-    include-before-body: assets/header.html
-    include-after-body: assets/header.js
----
-
-<section class="firstIntro">
-  <p>Course</p>
-  <h1>Analytics and Big Data</h1>
-  <p>Prof. Dr. Gerit Wagner</p>
-</section>
+  revealjs
 ---
 
 ## Agenda
@@ -39,8 +29,6 @@ format:
   </li>
 </ul>
 
----
-
 ## Literature
 
 <div id="references-list">
@@ -59,15 +47,12 @@ format:
 </div>
 </div>
 
----
-
 ## Topic
 
 <div id="intro_head">
 <h1>1 Introduction</h1>
 </div>
 
----
 
 ## Why is Modern Analytics so Successful?
 
@@ -89,8 +74,6 @@ format:
 ![](images/slides_1.png)
 :::
 :::
-
-
 
 ::: aside
 
@@ -174,9 +157,111 @@ Decision Tree
 
 ## Decrease of Error Rates
 
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Data from winning entries (2010–2017)
+years = ["2010", "2011", "2012", "2013", "2014", "2016", "2017"]
+models = ["NEC-UIUC", "XRCE", "AlexNet/\nSupervision",
+          "ZFNet", "GoogLeNet", "T-S", "SEN"]
+error_rates = [28.2, 25.8, 16.34, 11.7, 6.7, 3.0, 2.25]
+
+human_error = 5.1
+
+fig, ax = plt.subplots(figsize=(8, 4))
+
+x = range(len(years))
+bars = ax.bar(x, error_rates)
+
+ax.axhline(human_error, linestyle="--")
+ax.text(len(years)-0.5, human_error + 0.3,
+        f"Human error rate ({human_error}%)",
+        ha="right", va="bottom")
+
+ax.set_xticks(x)
+ax.set_xticklabels(models, rotation=30, ha="right")
+ax.set_ylabel("Top-5 error rate (%)")
+ax.set_ylim(0, 30)
+ax.set_title("Error rates of winning ImageNet entries (2010–2017)")
+
+fig.tight_layout()
+plt.show()
+```
+
+::: {.notes}
+
 <div class="decrease-wrapper">
   <img data-src="images/slides_7.jpg" alt="">
 </div>
+
+:::
+
+---
+
+## ImageNet: Models vs Human Baseline
+
+
+```{python}
+#| echo: false
+import matplotlib.pyplot as plt
+
+# Data from winning entries (2010–2017)
+years = ["2010", "2011", "2012", "2013", "2014", "2016", "2017"]
+models = ["NEC-UIUC", "XRCE", "AlexNet/\nSupervision",
+          "ZFNet", "GoogLeNet", "T-S", "SEN"]
+error_rates = [28.2, 25.8, 16.34, 11.7, 6.7, 3.0, 2.25]
+human_error = 5.1
+
+fig, ax = plt.subplots(figsize=(8, 4))
+x = range(len(years))
+ax.bar(x, error_rates)
+
+ax.set_xticks(x)
+ax.set_xticklabels(models, rotation=30, ha="right")
+ax.set_ylabel("Top-5 error rate (%)")
+ax.set_ylim(0, 30)
+ax.set_title("Error rates of winning ImageNet entries")
+
+fig.tight_layout()
+plt.show()
+```
+
+::: {.fragment}
+
+```{python}
+#| echo: false
+import matplotlib.pyplot as plt
+
+# Same data
+years = ["2010", "2011", "2012", "2013", "2014", "2016", "2017"]
+models = ["NEC-UIUC", "XRCE", "AlexNet/\nSupervision",
+          "ZFNet", "GoogLeNet", "T-S", "SEN"]
+error_rates = [28.2, 25.8, 16.34, 11.7, 6.7, 3.0, 2.25]
+human_error = 5.1
+
+fig, ax = plt.subplots(figsize=(8, 4))
+x = range(len(years))
+ax.bar(x, error_rates)
+
+ax.axhline(human_error, linestyle="--")
+ax.text(len(years)-0.5, human_error + 0.3,
+        f"Human error rate ({human_error}%)",
+        ha="right", va="bottom")
+
+ax.set_xticks(x)
+ax.set_xticklabels(models, rotation=30, ha="right")
+ax.set_ylabel("Top-5 error rate (%)")
+ax.set_ylim(0, 30)
+ax.set_title("Error rates of winning ImageNet entries (w/ human baseline)")
+
+fig.tight_layout()
+plt.show()
+```
+
+:::
+
+
 ---
 
 
@@ -220,25 +305,35 @@ Decision Tree
 ---
 
 
-## Evolution of Analicytics
+## Evolution of Analytics
+
+
+![](images/slides_20.jpg){width="10%"}
+
+
+---
 
 <div class="evolutiont-wrapper">
   <img data-src="images/slides_20.jpg" alt="">
 </div>
 
+::: aside
+
 Source: http://juxt\.pro/blog/posts/machine\-learning\-with\-clojure\.html
 
-
----
+:::
 
 
 ## Types of Analytics \(I\)
+
 
 <div class="Types-wrapper">
   <img data-src="images/slides_21.png" alt="">
 </div>
 
+
 Source: Schmarzo\, p\. 88
+
 
 ---
 
@@ -276,21 +371,30 @@ Example: Set the best price to optimize the profit.
 
 ## Types of Analytics \(III\)
 
-<div class="Types-wrapper">
-  <img data-src="images/slides_22.png" alt="">
-Source: Schmarzo\, p\. 13
+<div class="much_smaller">
+
+| What happened? (descriptive / BI) | What will happen? (predictive analytics) | What should I do? (prescriptive analytics) |
+|----------------------------------|------------------------------------------|--------------------------------------------|
+| How many widgets did I sell last month? | How many widgets will I sell next month? | Order **5,000** units of Component Z to support widget sales for next month. |
+| What were sales by zip code for Christmas last year? | What will be sales by zip code over this Christmas season? | Hire **Y** new sales reps by these zip codes to handle projected Christmas sales. |
+| How many of Product X were returned last month? | How many of Product X will be returned next month? | Set aside **$125K** in financial reserve to cover Product X returns. |
+| What were company revenues and profits for the past quarter? | What are projected company revenues and profits for next quarter? | Sell the following product mix to achieve quarterly revenue and margin goals. |
+| How many employees did I hire last year? | How many employees will I need to hire next year? | Increase hiring pipeline by **35%** to achieve hiring goals. |
+
 </div>
 
+::: aside
 
+Source: Schmarzo, p. 13
+
+:::
 
 ---
 
 
 ## Descriptive Analytics Process
 
-<div class="Descriptive-wrapper">
-  <img data-src="images/slides_23.png" alt="">
-</div>
+![](images/slides_23.png){fig-align="center" width="10%"}
 
 
 ---

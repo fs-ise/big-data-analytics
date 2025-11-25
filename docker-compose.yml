@@ -1,6 +1,6 @@
 services:
   quarto:
-    image: ghcr.io/quarto-dev/quarto:latest
+    build: .
     user: "${UID}:${GID}"
     working_dir: /project
     environment:

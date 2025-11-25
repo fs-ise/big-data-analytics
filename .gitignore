@@ -1,6 +1,9 @@
 .quarto/
 .cache/
 _site/
+.ipython
+.local
+.texlive2021
 
 /.quarto/
 **/*.quarto_ipynb
