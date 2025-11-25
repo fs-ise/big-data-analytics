@@ -1,58 +1,20 @@
 ---
-title: 'Analytics and Big Data'
-author: 'Prof. Dr. Gerit Wagner'
-format: 
-  revealjs
+title: "Analytics and Big Data"
+author: "Prof. Dr. Gerit Wagner"
+format:
+  revealjs:
+    title-slide-attributes:
+      data-state: "hide-menubar"
+    center: false
+    section-divs: true
+    simplemenu:
+      barhtml:
+        header: ""
+        footer: "<div class='menubar'><ul class='menu'></ul><div class='slide-number'></div></div>"
+      scale: 0.67
+revealjs-plugins:
+  - simplemenu
 ---
-
-## Agenda
-
-<ul class="agenda-list" style="line-height:1.2em">
-  <li>1 Introduction to Analytics</li>
-  <li>2 Descriptive Analytics
-    <ul>
-      <li>2.1 Data Warehouse Systems</li>
-      <li>2.2 Online Analytical Processing (OLAP)</li>
-    </ul>
-  </li>
-  <li>3 Big Data</li>
-  <li>4 Predictive Analytics
-    <ul>
-      <li>4.1 Subject of Predictive Analytics</li>
-      <li>4.2 The Analytics Process</li>
-      <li>4.3 Data Preparation</li>
-      <li>4.4 Methods, Algorithms and Applications
-        <ul>
-          <li>4.4.1 Classification</li>
-          <li>4.4.2 Regression</li>
-        </ul>
-  </li>
-</ul>
-
-## Literature
-
-<div id="references-list">
-<h3>Data Warehouse / OLAP / Descriptive Analytics:</h3>
-<div>
-  <p>Vaisman, A.; Zimányi, E. (2016): <em>Data Warehouse Systems: Design and Implementation (Data-Centric Systems and Applications)</em>, Springer.</p>
-</div>
-
-<h3>Data Science / Predictive Analytics / Machine Learning:</h3>
-<div>
-  <p>Alpaydin, E. (2016): <em>Machine Learning: The New AI</em>, MIT Press Essential Knowledge.</p>
-  <p>Alpaydin, E. (2016): <em>Introduction to Machine Learning</em>, Third Edition, MIT Press.</p>
-  <p>Raschka, S. (2015): <em>Python Machine Learning</em>, Packt Pubpshing.</p>
-  <p>Schmarzo, B. (2016): <em>Big Data MBA</em>, Wiley.</p>
-  <p>Schutt, R.; O’Neil, C. (2014): <em>Doing Data Science</em>, O’Reilly Media.</p>
-</div>
-</div>
-
-## Topic
-
-<div id="intro_head">
-<h1>1 Introduction</h1>
-</div>
-
 
 ## Why is Modern Analytics so Successful?
 
@@ -63,15 +25,17 @@ format:
   <li>New Analytics Processes</li>
 </ol>
 
-## More Data for the Analysis
+# More Data for the Analysis {data-stack-name="Data"}
+
+## Internet of Things as a driver of data
 
 ::: columns
 ::: column
-![](images/slides_0.png)
+![](images/slides_0.png){width="80%"}
 :::
 
 ::: column
-![](images/slides_1.png)
+![](images/slides_1.png){width="60%"}
 :::
 :::
 
@@ -81,125 +45,51 @@ Source: Bernard Marr; Source: Ruoming Jin
 
 :::
 
+## Social media as a driver of data
+
 
 ## Worldwide Corporate Data Growth
 
-<div class="corporate-wrapper">
-  <img data-src="images/slides_2.png">
-</div>
-
----
+![](images/slides_2.png){fig-align="center" width="90%"}
 
 
-## Why is Modern Analytics so Successful?
-
-<ol class="analytics-list">
-  <li>More Data for the Analysis</li>
-  <li style="color: #ff0000;">More Computing Power</li>
-  <li>New Methods and Algorithms</li>
-  <li>New Analytics Processes</li>
-</ol>
-
----
+# Computing Power {data-stack-name="Computing Power"}
 
 ## Growth of Computing Power
 
-<div class="GrowthComputing-wrapper">
-  <img data-src="images/slides_3.png" alt="">
-</div>
+The rapid acceleration of computing power—driven by advances in hardware, cloud infrastructure, and parallel processing—has enabled modern analytics and machine learning to scale to massive datasets.
 
----
+![](images/slides_3.png){fig-align="center" width="50%"}
 
 
-## Why is Modern Analytics so Successful?
-
-<ol class="analytics-list">
-  <li>More Data for the Analysis</li>
-  <li>More Computing Power</li>
-  <li style="color: #ff0000;">New Methods and Algorithms</li>
-  <li>New Analytics Processes</li>
-</ol>
-
----
-
+# Algorithms {data-stack-name="Algorithms"}
 
 ## Old vs. New Methods
 
-<div class="mehtod-wrapper">
-<div class="first-box">
-<img data-src="images/slides_4.png" alt="">
-<p>
+::: columns
+::: column
+![](images/slides_4.png){width="70%"}
 Traditional Regression
-</p>
-</div>
-
-<div class="second-box">
-<div class="second-first-box">
-<img data-src="images/slides_5.png" alt="">
-<p>
-Decision Tree
-</p>
-</div>
-
-<div class="second-second-box">
-<img data-src="images/slides_6.png" alt="">
-<p>Neural Network
-</p>
-</div>
-</div>
-</div>
-<p style="text-align:center;">Source: Lalit Sachan</p>
-
-
-
----
-
-
-## Decrease of Error Rates
-
-
-```{python}
-import matplotlib.pyplot as plt
-
-# Data from winning entries (2010–2017)
-years = ["2010", "2011", "2012", "2013", "2014", "2016", "2017"]
-models = ["NEC-UIUC", "XRCE", "AlexNet/\nSupervision",
-          "ZFNet", "GoogLeNet", "T-S", "SEN"]
-error_rates = [28.2, 25.8, 16.34, 11.7, 6.7, 3.0, 2.25]
-
-human_error = 5.1
-
-fig, ax = plt.subplots(figsize=(8, 4))
-
-x = range(len(years))
-bars = ax.bar(x, error_rates)
-
-ax.axhline(human_error, linestyle="--")
-ax.text(len(years)-0.5, human_error + 0.3,
-        f"Human error rate ({human_error}%)",
-        ha="right", va="bottom")
-
-ax.set_xticks(x)
-ax.set_xticklabels(models, rotation=30, ha="right")
-ax.set_ylabel("Top-5 error rate (%)")
-ax.set_ylim(0, 30)
-ax.set_title("Error rates of winning ImageNet entries (2010–2017)")
-
-fig.tight_layout()
-plt.show()
-```
-
-::: {.notes}
-
-<div class="decrease-wrapper">
-  <img data-src="images/slides_7.jpg" alt="">
-</div>
-
 :::
 
----
+::: column
+![](images/slides_5.png){width="60%"}
+Decision Tree
 
-## ImageNet: Models vs Human Baseline
+![](images/slides_6.png){width="60%"}
+Neural Network
+:::
+:::
+
+::: aside
+Source: Lalit Sachan
+:::
+</p>
+
+
+## ImageNet
+
+ImageNet is a large-scale image recognition competition where models compete to classify millions of images across thousands of categories. Breakthrough models have historically demonstrated major advances in deep learning.: Models vs Human Baseline
 
 
 ```{python}
@@ -262,114 +152,71 @@ plt.show()
 :::
 
 
----
+# New Analytics Processes {data-stack-name="Analytics Processes"}
 
 
-## Why is Modern Analytics so Successful?
-
-<ol class="analytics-list">
-  <li>More Data for the Analysis</li>
-  <li>More Computing Power</li>
-  <li>New Methods and Algorithms</li>
-  <li style="color: #ff0000;">New Analytics Processes</li>
-</ol>
-
----
+## Traditional vs. Modern Analytics Process
 
 
-## Traditional vs\. Modern Analytics Process
+**Traditional Analytics Process:**
+
+![](images/slide-13.1.png){fig-align="center" width="40%"}
 
 
-<div id="process-wrapper">
-<div class="traditional">
-<h2>Traditional Analytics Process:</h2>
-  <img data-src="images/slide-13.1.png" alt="">
-</div>
+**Modern Analytics Process:**
 
-<div class="modern">
-<h2>Modern Analytics Process:</h2>
-  <img data-src="images/slide-13.2.png" alt="">
-</div>
-</div>
-
-
----
+![](images/slide-13.2.png){fig-align="center" width="40%"}
 
 
 ## From the Past to the Present
 
-<div class="past-present-wrapper">
-  <img data-src="images/slide-14-new.png" alt="">
-</div>
-
----
+![](images/slide-14-new.png){fig-align="center" width="60%"}
 
 
 ## Evolution of Analytics
 
 
-![](images/slides_20.jpg){width="10%"}
+![](images/slides_20.jpg){fig-align="center"  width="70%"} 
 
-
----
-
-<div class="evolutiont-wrapper">
-  <img data-src="images/slides_20.jpg" alt="">
-</div>
 
 ::: aside
-
-Source: http://juxt\.pro/blog/posts/machine\-learning\-with\-clojure\.html
-
+Source: http://juxt.pro/blog/posts/machine-learning-with-clojure.html
 :::
 
 
-## Types of Analytics \(I\)
+## Types of Analytics (I)
 
 
-<div class="Types-wrapper">
-  <img data-src="images/slides_21.png" alt="">
-</div>
+![](images/slides_21.png){fig-align="center" width="60%"}
 
 
-Source: Schmarzo\, p\. 88
-
-
----
-
-
-## Types of Analytics \(II\)
-
-::: {.columns #analytics-2}
-
-::: {.column}
-### Descriptive
-What happened in the past?  
-
-Example: Report the profits of the last years.
-:::
-
-::: {.column}
-### Predictive
-Find patterns and relationships in data and use them for prediction.  
-
-Example: Find the functional relationship between price and demand.
-:::
-
-::: {.column}
-### Prescriptive
-Use the predictions to make decisions.  
-
-Example: Set the best price to optimize the profit.
-:::
-
+::: aside
+Source: Schmarzo, p. 88
 :::
 
 
----
+
+## Types of Analytics (II)
 
 
-## Types of Analytics \(III\)
+**Descriptive**
+
+- What happened in the past?  
+- Example: Report the profits of the last years.
+
+**Predictive**
+
+- Find patterns and relationships in data and use them for prediction.  
+- Example: Find the functional relationship between price and demand.
+
+**Prescriptive**
+
+- Use the predictions to make decisions.  
+- Example: Set the best price to optimize the profit.
+
+
+
+## Types of Analytics (III)
 
 <div class="much_smaller">
 
@@ -389,68 +236,42 @@ Source: Schmarzo, p. 13
 
 :::
 
----
 
 
 ## Descriptive Analytics Process
 
-![](images/slides_23.png){fig-align="center" width="10%"}
+![](images/slides_23.png){fig-align="center" width="40%"} 
 
-
----
 
 
 ## Predictive Analytics Process
 
-<div class="Predictive-wrapper">
-  <img data-src="images/slides_24.png" alt="">
-</div>
-
-
----
+![](images/slides_24.png){fig-align="center" width="60%"} 
 
 
 ## Example Inventory Planning
 
-<div class="InventoryPlanning-wrapper">
-  <img data-src="images/slides_25.png" alt="">
-  <div class="InventoryPlanning-info">
-<p>On the basis of more than 300 million data records per week\, Otto makes more than one billion forecasts per year on the sales development of individual articles for the next days and weeks\. Such forecasts allow Otto to reduce its own inventories by up to 30% on average\.</p>
+![](images/slides_25.png){fig-align="center" width="60%"}
 
-Source: http://www\.bvl\.de/misc/filePush\.php?mimeType=application/pdf&fullPath=/files/441/442/777/1015/DLK12\_C3\-3\_Praesentation\_Stueben\.pdf
-  </div>
-</div>
+<p>On the basis of more than 300 million data records per week, Otto makes more than one billion forecasts per year on the sales development of individual articles for the next days and weeks. Such forecasts allow Otto to reduce its own inventories by up to 30% on average.</p>
 
 
-
----
+::: aside
+Source: http://www.bvl.de/misc/filePush.php?mimeType=application/pdf&fullPath=/files/441/442/777/1015/DLK12_C3-3_Praesentation_Stueben.pdf
+:::
 
 
 ## Classical Corporate Planning
 
-<div class="ClassicalCorporate-wrapper">
-  <img data-src="images/slides_26.png" alt="">
-</div>
+![](images/slides_26.png){fig-align="center" width="60%"}
 
+## Example Driver-based Planing (I)
 
----
+![](images/slides-27-new.png){fig-align="center" width="60%"}
 
+## Example Driver-based Planing (II)
 
-## Example Driver\-based Planing \(I\)
-
-<div class="driver-Planing-wrapper">
-  <img data-src="images/slides-27-new.png" alt="">
-</div>
-
-
----
-
-
-## Example Driver\-based Planing \(II\)
-
-<div class="driver-Planing2-wrapper">
-  <img data-src="images/slides-28-new.png" alt="">
-</div>
+![](images/slides-28-new.png){fig-align="center" width="40%"}
 
 <ol class="colored-numbers driver-Planing2-list">
   <li>Sales forecasts based on market and social media data</li>
@@ -458,3 +279,11 @@ Source: http://www\.bvl\.de/misc/filePush\.php?mimeType=application/pdf&fullPath
   <li>Early detection of price changes and adjustment of purchasing behavior</li>
   <li>Optimization of inventory management based on customers' current purchasing preferences</li>
 </ol>
+
+
+## Summary
+
+- Modern analytics is driven by data availability, computing power, and new methods.
+- Analytics evolves from descriptive to predictive and prescriptive insights.
+- Modern processes rely on automation, scalability, and data-driven decision making.
+

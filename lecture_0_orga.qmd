@@ -4,4 +4,34 @@ format:
   revealjs
 ---
 
-TODO
+
+## Agenda
+
+1. Introduction to Analytics
+2. Descriptive Analytics
+   - Data Warehouse Systems
+   - Online Analytical Processing (OLAP)
+3. Predictive Analytics
+   - Subject of Predictive Analytics
+   - The Analytics Process
+   - Data Preparation
+   - Methods, Algorithms and Applications
+4. Big Data
+
+## Literature 
+
+<div id="references-list">
+<h3>Data Warehouse / OLAP / Descriptive Analytics:</h3>
+<div>
+  <p>Vaisman, A.; Zimányi, E. (2016): <em>Data Warehouse Systems: Design and Implementation (Data-Centric Systems and Applications)</em>, Springer.</p>
+</div>
+
+<h3>Data Science / Predictive Analytics / Machine Learning:</h3>
+<div>
+  <p>Alpaydin, E. (2016): <em>Machine Learning: The New AI</em>, MIT Press Essential Knowledge.</p>
+  <p>Alpaydin, E. (2016): <em>Introduction to Machine Learning</em>, Third Edition, MIT Press.</p>
+  <p>Raschka, S. (2015): <em>Python Machine Learning</em>, Packt Pubpshing.</p>
+  <p>Schmarzo, B. (2016): <em>Big Data MBA</em>, Wiley.</p>
+  <p>Schutt, R.; O’Neil, C. (2014): <em>Doing Data Science</em>, O’Reilly Media.</p>
+</div>
+</div>

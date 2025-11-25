@@ -11,3 +11,4 @@ format:
     include-before-body: assets/header.html
     css: [assets/frankfurt.css]
     auto-stretch: false
+    slide-level: 2
