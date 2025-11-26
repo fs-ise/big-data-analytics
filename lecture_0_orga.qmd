@@ -20,6 +20,31 @@ format:
 
 ## Literature 
 
+Part 1:
+
+- Sharda, R., Delen, D., & Turban, E. (2018). Business intelligence, analytics, and data science: a managerial perspective.
+- Martínez-Plumed, F., Contreras-Ochando, L., Ferri, C., Hernández-Orallo, J., Kull, M., Lachiche, N., Ramirez-Quintana, M. J. & Flach, P. (2019). CRISP-DM twenty years later: From data mining processes to data science trajectories. IEEE Transactions on Knowledge and Data Engineering, 33(8), 3048-3061. 
+- Chen, H., Chiang, R. H., & Storey, V. C. (2012). Business intelligence and analytics: From big data to big impact. MIS Quarterly 36(4), 1165-1188.
+
+Part 2:
+
+- Vaisman, A.; Zimányi, E. (2016): Data Warehouse Systems: Design and Implementation (Data-Centric Systems and Applications), Springer.
+- Schutt, R.; O’Neil, C. (2014): Doing Data Science, O’Reilly Media.
+- Raschka, Sebastian (2015): Python Machine Learning, Packt Publishing.
+
+Part 3:
+
+- Schmarzo, B. (2016): Big Data MBA, Wiley.
+- Bengfort, B., Bilbro, R., & Ojeda, T. (2018). Applied text analysis with python: Enabling language-aware data products with machine learning. O’Reilly Media, Inc. 
+
+Part 4:
+
+- Davenport, T. H. (2006). Competing on analytics. Harvard Business Review, 84(1), 98.
+- Vidgen, R., Shaw, S., & Grant, D. B. (2017). Management challenges in creating value from business analytics. European Journal of Operational Research, 261(2), 626-639.
+
+<!--
+
+
 <div id="references-list">
 <h3>Data Warehouse / OLAP / Descriptive Analytics:</h3>
 <div>
@@ -35,3 +60,5 @@ format:
   <p>Schutt, R.; O’Neil, C. (2014): <em>Doing Data Science</em>, O’Reilly Media.</p>
 </div>
 </div>
+
+-->

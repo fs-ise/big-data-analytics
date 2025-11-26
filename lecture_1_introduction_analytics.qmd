@@ -18,12 +18,10 @@ revealjs-plugins:
 
 ## Why is Modern Analytics so Successful?
 
-<ol class="analytics-list">
-  <li style="color: #ff0000;">More Data for the Analysis</li>
-  <li>More Computing Power</li>
-  <li>New Methods and Algorithms</li>
-  <li>New Analytics Processes</li>
-</ol>
+1. More Data for the Analysis
+2. More Computing Power
+3. New Methods and Algorithms
+4. New Analytics Processes
 
 # More Data for the Analysis {data-stack-name="Data"}
 
@@ -240,8 +238,7 @@ Source: Schmarzo, p. 13
 
 ## Descriptive Analytics Process
 
-![](images/slides_23.png){fig-align="center" width="40%"} 
-
+![](images/slides_23.png){fig-align="center" width="45%"} 
 
 
 ## Predictive Analytics Process
@@ -273,13 +270,10 @@ Source: http://www.bvl.de/misc/filePush.php?mimeType=application/pdf&fullPath=/f
 
 ![](images/slides-28-new.png){fig-align="center" width="40%"}
 
-<ol class="colored-numbers driver-Planing2-list">
-  <li>Sales forecasts based on market and social media data</li>
-  <li>Automated pricing based on market and competitor analyses</li>
-  <li>Early detection of price changes and adjustment of purchasing behavior</li>
-  <li>Optimization of inventory management based on customers' current purchasing preferences</li>
-</ol>
-
+1. Sales forecasts based on market and social media data
+2. Automated pricing based on market and competitor analyses
+3. Early detection of price changes and adjustment of purchasing behavior
+4. Optimization of inventory management based on customers' current purchasing preferences
 
 ## Summary
 
