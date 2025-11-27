@@ -11,7 +11,7 @@ format:
 ## Navigation 
 
 <div style="font-size: 2em; display:flex; flex-direction:column; font-weight:700; line-height:1.4;">
-  <p style="color:#ff0000; font-size:1.8em; margin:0;">
+  <p style="color:#ff0000;margin:0;">
     4&nbsp; Predictive Analytics
   </p>
 
@@ -125,8 +125,8 @@ counterfactual : den Tatsachen widersprechend
 
 ## Explanation vs\. Prediction \(II\)
 
-<div style="font-size: 1.4em; line-height:1.2; color:#000000;">
-  <h3 style="font-weight:800; margin-bottom:10px;">Explanation :</h3>
+<div style="font-size: 1.4em;font-weight:600; line-height:1.2; color:#000000;">
+  <h3 style=" margin-bottom:10px;">Explanation :</h3>
   <ul class="disc-list" style="margin-left:70px;">
     <li>Explanation is about understanding relationships and why certain things happen.</li>
     <li>It requires an understanding of cause and effect.</li>
@@ -135,7 +135,7 @@ counterfactual : den Tatsachen widersprechend
     <li>A good explanatory model may also have predictive power.</li>
   </ul>
 
-  <h3 style="font-weight:800; margin-top:30px; margin-bottom:10px;">Prediction :</h3>
+  <h3 style=" margin-top:30px; margin-bottom:10px;">Prediction :</h3>
   <ul class="disc-list" style="margin-left:70px;">
     <li>Prediction is about anticipating and forecasting what may happen in the future.</li>
     <li>Correlations are important in this context (but correlation does not imply causation).</li>
@@ -151,85 +151,94 @@ counterfactual : den Tatsachen widersprechend
 
 ---
 
+## Correlation
 
+<div style="text-align:center;">
 ![](images/slides_112.png)
+</div>
 
-Source: Organic Trade Association\, 2011 Organic lndustry Survey\, U\.p\. Department of Education\, Ofﬁce of Special Education Programs\, Data Analysis System \(DANS\)
-
-<span style="color:#ff0000">Organic food sales and the rate of autism seem to have a very strong correlation‚ but no one is suggesting that one causes the other\!</span>
-
-
----
-
-
-Correlation vs\. Causality \(I\)
-
-Correlation: Two data series behave "similar"
-
-Causality: Principle of Cause and Effect
+<p style="font-size:1.3em;text-align:center">Source: Organic Trade Association\, 2011 Organic lndustry Survey\, U\.p\. Department of Education\, Ofﬁce of Special Education Programs\, Data Analysis System \(DANS\)
+</p>
+<p style="color:#ff0000;font-size:1.6em;text-align:center">Organic food sales and the rate of autism seem to have a very strong correlation‚ but no one is suggesting that one causes the other\!</p>
 
 
 ---
 
 
-Correlation vs\. Causality \(II\)
+## Correlation vs\. Causality \(I\)
 
+<div style="text-align:center;">
+![](images/slides_107_new.png)
+</div>
+
+<div style="font-size:1.7em;font-weight:600">
+<p>Correlation: Two data series behave "similar"</p>
+<p>Causality: Principle of Cause and Effect</p>
+</div>
+
+
+---
+
+
+## Correlation vs\. Causality \(II\)
+
+<div class="descriptive-wrapper">
 ![](images/slides_114.png)
+</div>
 
-Correlation and Causality
-
-![](images/slides_115.png)
-
-Correlation but no Causality
 
 
 ---
 
 
-Correlation vs\. Causality \(III\)
+## Correlation vs\. Causality \(III\)
 
-But:
+<div style="font-weight:600;font-size:4em;text-align:center">
 
-Sometimes it is better to know/predict something  even if we can not explain it instead of doing nothing\!
+<p>But:</p>
 
-::: {.notes}
-
-Religion argues in this way too
-
-:::
+<p>Sometimes it is better to know/predict something  even if we can not explain it instead of doing nothing!</p>
+</div>
 
 
 ---
 
 
-Statistical Estimation
+## Statistical Estimation
 
+<div class="descriptive-wrapper">
 ![](images/slides_116.png)
+</div>
 
 Source: http://www\.dxbydt\.com/the\-size\-of\-your\-sample
 
 
 ---
 
+## Navigation
 
-4	Predictive Analytics
+<div style="font-size: 2em; display:flex; flex-direction:column; font-weight:700; line-height:1.4;">
+  <p style="color:#ff0000; margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.1	Subject of Predictive Analytics
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-<span style="color:#c00000">4\.2	The Analytics Process</span>
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-4\.4\.1	Classification
-
-4\.4\.2	Regression
+  <p style="margin-left:80px;color:#ff0000;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
+## Definitions
 
+<div style="font-size:1.7em;font-weight:600">
 A  <span style="color:#ff0000">method</span>  is a composition of formalized principles that form the basis for a stringent calculation process\.
 
 An  <span style="color:#ff0000">algorithm</span>  is a procedure or set of steps or rules to accomplish a task\. It is usually the implementation of a method\. Algorithms are used to build models\.
@@ -240,103 +249,72 @@ In the given context\, a  <span style="color:#ff0000">model</span>  is the descr
 
 <span style="color:#ff0000">Overfitting</span>  is the term used to mean that you used a dataset to estimate the parameters of your model\, but your model isn’t that good at capturing reality beyond your sampled data\.
 
+</div>
 <span style="color:#000000">Source: </span>  <span style="color:#000000">Schutt</span>  <span style="color:#000000">/O’Neil \(2013\):  Doing Data Science\.</span>
 
 
 ---
 
 
-Traditional Analytics Process
+## Traditional Analytics Process
 
 ![](images/slides_117.png)
 
-![](images/slides_118.png)
-
-![](images/slides_120.png)
-
-_Predictive_  _ Model_
-
-
 ---
 
 
-Example Regression \- Fitting the model
+## Example Regression \- Fitting the model
 
+<div class="descriptive-wrapper">
 ![](images/slides_121.png)
-
-<span style="color:#ff0000">Proportion of variance explained by the model\.</span>
-
-![](images/slides_122.png)
-
-<span style="color:#ff0000"> Probability that the null hypothesis that </span>  <span style="color:#ff0000"> _all_ </span>  <span style="color:#ff0000"> of the regression coefficients are equal to zero\.</span>
-
-<span style="color:#ff0000">Probability that the null hypothesis 𝛽 = 0 is true\. The coefficients are highly likely to be nonzero and therefore significant\.</span>
-
+</div>
 
 ---
 
+## Example Regression \- Testing the model
 
-Example Regression \- Testing the model
-
+<div class="descriptive-wrapper">
 ![](images/slides_123.png)
+</div>
 
-<span style="color:#ff0000">Conclusion: Model is not robust due to overfitting\.</span>
+---
+
+
+## Data Errors and their Consequences
+
+<div class="descriptive-wrapper">
+![](images/slides_125_new.png)
+</div>
+
+---
+
+
+## Modern Analytics Process
+
+![](images/slides_126_new.png)
 
 
 ---
 
 
-Data Errors and their Consequences
+## Best Fit vs\. Best Generalization
 
-
----
-
-
-Modern Analytics Process
-
-![](images/slides_124.png)
-
-_Predictive_  _ Model_
-
-![](images/slides_126.png)
-
-![](images/slides_127.png)
-
-![](images/slides_128.png)
-
-
----
-
-
-Best Fit vs\. Best Generalization
-
-Training \(Model Estimation\)
-
-Test \(Model Application\)
-
+<div class="descriptive-wrapper">
 ![](images/slides_129.png)
-
-![](images/slides_130.png)
-
-<span style="color:#ff0000">Best </span>  <span style="color:#ff0000">Generalization</span>
+</div>
 
 
 ---
 
 
-Over\- and Underfitting
+## Over\- and Underfitting
 
+<div style="text-align:center;">
 ![](images/slides_131.png)
+</div>
 
-Underfitting
 
-\(model is too simple\, both training and test errors are large\)
-
-Overfitting
-
-\(model is too complex\, training error is small\, but test error is large\)
-
-<span style="color:#ff0000">Due to the problem of overfitting\, the main goal is to maximize the prediction quality and not to fit the data that is used for the model estimation as well as possible\. This is equivalent to minimizing the risk that the model will have weak predictive ability\.</span>
+<p style="color:#ff0000;font-size:1.6em;border:1px solid #ff0000;padding:10px !important">Due to the problem of overfitting\, the main goal is to maximize the prediction quality and not to fit the data that is used for the model estimation as well as possible\. This is equivalent to minimizing the risk that the model will have weak predictive ability\.</p>
 
 ::: {.notes}
 
@@ -349,11 +327,13 @@ Measurement Error: 0, 1, 1, 2, 3, 6, 8, 13, 20, 34, 55
 ---
 
 
-The Bias\-Variance Tradeoff
+## The Bias\-Variance Tradeoff
 
+<div style="display:flex;">
+<div style="font-size:1.5em;font-weight:600;width:60%">
 The prediction error is influenced by three components:
 
-Error = Bias \+ Variance \+ Noise
+<p style="text-align:center">Error = Bias \+ Variance \+ Noise</p>
 
 Bias is the inability of the used method to learn the relevant relations between the inputs and the outputs\. It reflects the method quality\, e\.g\. if a method only produces linear models\.
 
@@ -363,234 +343,174 @@ Typically\, there is a tradeoff between bias and variance\.
 
 Noise is everything that arises from random variations in the data\. It cannot be controlled\.
 
-Low Variance      High Variance
-
-High Bias             Low Bias
-
-
----
-
-
-Summarizing: Statistics vs\. Data Analytics
-
-<span style="color:#000000">Statistics</span>
-
-<span style="color:#000000">Goals: Explanation\, Forecasting</span>
-
-<span style="color:#000000">Methods: Statistical Methods</span>
-
-<span style="color:#000000">Process:             Data              Method      Model       generalizable? </span>
-
-<span style="color:#000000">Data Analytics</span>
-
-<span style="color:#000000">Goals: Forecasting\, Finding Structures</span>
-
-<span style="color:#000000">Methods: Statistical Methods\, Machine Learning\, Artificial Intelligence</span>
-
-<span style="color:#000000">Process:     Training Data         Method      Model         Test Data </span>
-
-<span style="color:#000000">\(Statist\. Tests\)</span>
-
+</div>
+<div style="width:40%" class="descriptive-wrapper">
+![](images/slides_132_new.png)
+</div>
+</div>
 
 ---
 
 
-Which Method should I choose?
+## Summarizing: Statistics vs\. Data Analytics
 
+<div class="descriptive-wrapper">
+![](images/slides_133_new.png)
+</div>
+
+---
+
+
+## Which Method should I choose?
+
+<div style="font-size:1.7em;font-weight:700">
 The choice of the method of data analysis depends on the one hand on the scope of application\, but on the other hand on the interrelationships of the data to be analyzed\.
 
 In the Big Data area\, data spaces are often highly\-dimensional\, making it difficult to visualize the interrelationships\.
 
 For this reason\, the choice of the method can often not be made ex ante\. In these cases\, different methods are competitively tried to select the most suitable one\.
+</div>
+
+
+---
+
+## Linear World
+
+<div class="descriptive-wrapper">
+![](images/slides_134_new.png)
+</div>
+
+
+---
+
+## Quadratic World
+ 
+<div class="descriptive-wrapper">
+![](images/slides_135_new.png)
+</div>
 
 
 ---
 
 
-Class 1   e\.g\. creditworthy
+## Nonlinear World \(Type 1\)
 
-Class 2  e\.g\.	not creditworthy
+<div class="descriptive-wrapper">
+![](images/slides_136_new.png)
+</div>
 
-Appropriate Methods:
+---
 
-Regression
 
-Linear Discriminant Analysis
+## Nonlinear World \(Type 2\)
+
+<div class="descriptive-wrapper">
+![](images/slides_137_new.png)
+</div>
 
 
 ---
 
 
-Appropriate Methods:
+## Nonlinear World \(Type 3\)
 
-Quadratic Discriminant Analysis
-
-Support Vector Machines
-
-Neural Networks
+<div class="descriptive-wrapper">
+![](images/slides_138_new.png)
+</div>
 
 
 ---
 
 
-Nonlinear World \(Type 1\)
+## Nonlinear World \(Type 4\)
 
-Appropriate Methods:
-
-Support Vector Machines
-
-Neural Networks
+<div class="descriptive-wrapper">
+![](images/slides_139_new.png)
+</div>
 
 
 ---
 
+## The Data Analytics Process \- Technical View
 
-Nonlinear World \(Type 2\)
-
-Appropriate Methods:
-
-Support Vector Machines
-
-Neural Networks
-
-
----
-
-
-Nonlinear World \(Type 3\)
-
-Appropriate Methods:
-
-Decision Trees
-
-Neural Networks
-
-
----
-
-
-Nonlinear World \(Type 4\)
-
-Appropriate Methods:
-
-k\-Nearest Neighbors
-
-Naive Bayes
-
-
----
-
-
-The Data Analytics Process \- Technical View
-
+<div class="descriptive-wrapper">
 ![](images/slides_133.png)
+</div>
 
 <span style="color:#000000">Source: http://blogs\.msdn\.microsoft\.com/martinkearn/2016/03/01/machine\-learning\-is\-for\-muggles\-too/</span>
 
 
 ---
 
+## Navigation
 
-4	Predictive Analytics
+<div style="font-size: 2em; display:flex; flex-direction:column; font-weight:700; line-height:1.4;">
+  <p style="color:#ff0000;margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.1	Subject of Predictive Analytics
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
-
-<span style="color:#c00000">4\.3	Data Preparation</span>
-
-4\.4	Methods\, Algorithms and Applications
-
-4\.4\.1	Classification
-
-4\.4\.2	Regression
+  <p style="margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin-left:80px;color:#ff0000;">4.3&nbsp; Data Preparation</p>
+  <p style="margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-Data Preparation and Enrichment
+## Data Preparation and Enrichment
 
-The data collection and preparation phase is the most labor\-intensive one\, consuming on average between 60\-80% of a data scientist’s time\. It’s critical therefore to select a tool that can automate or at least speed the workflows associated with data preparation\.
-
+<p style="font-weight:600;font-size:1.5em">The data collection and preparation phase is the most labor\-intensive one\, consuming on average between 60\-80% of a data scientist’s time\. It’s critical therefore to select a tool that can automate or at least speed the workflows associated with data preparation\.
+</p>
+<div style="text-align:center">
 ![](images/slides_134.png)
+</div>
 
-Source: 2016 Dataiku\, Inc\.
-
-
----
-
-
-<span style="color:#000000"> __Proof of correctness of the data __ </span>  <span style="color:#000000"></span>  <span style="color:#000000">	examine for irregular outliers \(e\.g\. Age=236\) </span>  <span style="color:#000000"></span>  <span style="color:#000000">	examine for</span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000">typographical errors</span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000">\(e\.g\. </span>  <span style="color:#000000">Frankfrut</span>  <span style="color:#000000">\)</span>  <span style="color:#000000"></span>  <span style="color:#000000">	examine for</span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000">different writing styles</span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000">\(e\.g\. behavior/</span>  <span style="color:#000000">behaviour</span>  <span style="color:#000000">\)</span>  <span style="color:#000000"></span>  <span style="color:#000000">	…</span>
-
-<span style="color:#000000"> __Handling missing values__ </span>
-
-<span style="color:#000000">all objects</span>  <span style="color:#000000"> having missing values \(</span>  <span style="color:#000000">rowwise\)</span>
-
-<span style="color:#000000">variables having</span>  <span style="color:#000000"> </span>  <span style="color:#000000">missing values</span>  <span style="color:#000000"> </span>  <span style="color:#000000">first\, then remaining objects</span>
-
-<span style="color:#000000">with </span>  <span style="color:#000000">the true values</span>
-
-<span style="color:#000000">with mean values</span>
-
-<span style="color:#000000">imputing by estimated values \(e\.g\.</span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> using </span>  <span style="color:#000000">k\-Nearest Neighbors\)</span>
+<p style="text-align:right"> 2016 Dataiku\, Inc\.</p>
 
 
 ---
 
+## Data Cleaning
 
-Missing Values Strategies
-
-Initial Situation
-
-| <span style="color:#000000"> __Variable 1__ </span> | <span style="color:#000000"> __Variable 2__ </span> | <span style="color:#000000"> __Variable 3__ </span> | <span style="color:#000000"> __Variable 4__ </span> | <span style="color:#000000"> __Variable 5__ </span> |
-| :-: | :-: | :-: | :-: | :-: |
-| <span style="color:#000000">8\.95</span> | <span style="color:#000000">0\.99</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">370\.53</span> | <span style="color:#000000">\-34\.97</span> |
-| <span style="color:#ff0000">NA</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">168\.02</span> | <span style="color:#000000">617\.46</span> | <span style="color:#000000">\-99\.49</span> |
-| <span style="color:#000000">18\.38</span> | <span style="color:#000000">0\.48</span> | <span style="color:#000000">58\.06</span> | <span style="color:#000000">1177\.66</span> | <span style="color:#000000">\-44\.21</span> |
-| <span style="color:#000000">16\.10</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">35\.39</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">77\.35</span> |
-| <span style="color:#000000">23\.14</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">230\.44</span> | <span style="color:#000000">408\.97</span> | <span style="color:#000000">\-71\.79</span> |
-| <span style="color:#000000">24\.77</span> | <span style="color:#000000">0\.92</span> | <span style="color:#000000">206\.83</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">46\.13</span> |
-| <span style="color:#000000">20\.72</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">228\.74</span> | <span style="color:#000000">659\.37</span> | <span style="color:#000000">\-67\.77</span> |
-| <span style="color:#000000">15\.52</span> | <span style="color:#000000">0\.04</span> | <span style="color:#000000">22\.46</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">36\.63</span> |
-
-| <span style="color:#000000"> __Variable 1__ </span> | <span style="color:#000000"> __Variable 2__ </span> | <span style="color:#000000"> __Variable 3__ </span> | <span style="color:#000000"> __Variable 4__ </span> | <span style="color:#000000"> __Variable 5__ </span> |
-| :-: | :-: | :-: | :-: | :-: |
-| <span style="color:#000000">8\.95</span> | <span style="color:#000000">0\.99</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">370\.53</span> | <span style="color:#000000">\-34\.97</span> |
-| <span style="color:#ff0000">NA</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">168\.02</span> | <span style="color:#000000">617\.46</span> | <span style="color:#000000">\-99\.49</span> |
-| <span style="color:#000000">18\.38</span> | <span style="color:#000000">0\.48</span> | <span style="color:#000000">58\.06</span> | <span style="color:#000000">1177\.66</span> | <span style="color:#000000">\-44\.21</span> |
-| <span style="color:#000000">16\.10</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">35\.39</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">77\.35</span> |
-| <span style="color:#000000">23\.14</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">230\.44</span> | <span style="color:#000000">408\.97</span> | <span style="color:#000000">\-71\.79</span> |
-| <span style="color:#000000">24\.77</span> | <span style="color:#000000">0\.92</span> | <span style="color:#000000">206\.83</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">46\.13</span> |
-| <span style="color:#000000">20\.72</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">228\.74</span> | <span style="color:#000000">659\.37</span> | <span style="color:#000000">\-67\.77</span> |
-| <span style="color:#000000">15\.52</span> | <span style="color:#000000">0\.04</span> | <span style="color:#000000">22\.46</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">36\.63</span> |
-
-| <span style="color:#000000"> __Variable 1__ </span> | <span style="color:#000000"> __Variable 3__ </span> | <span style="color:#000000"> __Variable 5__ </span> |
-| :-: | :-: | :-: |
-| <span style="color:#000000">8\.95</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">\-34\.97</span> |
-| <span style="color:#ff0000">NA</span> | <span style="color:#000000">168\.02</span> | <span style="color:#000000">\-99\.49</span> |
-| <span style="color:#000000">18\.38</span> | <span style="color:#000000">58\.06</span> | <span style="color:#000000">\-44\.21</span> |
-| <span style="color:#000000">16\.10</span> | <span style="color:#000000">35\.39</span> | <span style="color:#000000">77\.35</span> |
-| <span style="color:#000000">23\.14</span> | <span style="color:#000000">230\.44</span> | <span style="color:#000000">\-71\.79</span> |
-| <span style="color:#000000">24\.77</span> | <span style="color:#000000">206\.83</span> | <span style="color:#000000">46\.13</span> |
-| <span style="color:#000000">20\.72</span> | <span style="color:#000000">228\.74</span> | <span style="color:#000000">\-67\.77</span> |
-| <span style="color:#000000">15\.52</span> | <span style="color:#000000">22\.46</span> | <span style="color:#000000">36\.63</span> |
-
-| <span style="color:#000000"> __Variable 1__ </span> | <span style="color:#000000"> __Variable 2__ </span> | <span style="color:#000000"> __Variable 3__ </span> | <span style="color:#000000"> __Variable 4__ </span> | <span style="color:#000000"> __Variable 5__ </span> |
-| :-: | :-: | :-: | :-: | :-: |
-| <span style="color:#000000">8\.95</span> | <span style="color:#000000">0\.99</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">370\.53</span> | <span style="color:#000000">\-34\.97</span> |
-| <span style="color:#ff0000">NA</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">168\.02</span> | <span style="color:#000000">617\.46</span> | <span style="color:#000000">\-99\.49</span> |
-| <span style="color:#000000">18\.38</span> | <span style="color:#000000">0\.48</span> | <span style="color:#000000">58\.06</span> | <span style="color:#000000">1177\.66</span> | <span style="color:#000000">\-44\.21</span> |
-| <span style="color:#000000">16\.10</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">35\.39</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">77\.35</span> |
-| <span style="color:#000000">23\.14</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">230\.44</span> | <span style="color:#000000">408\.97</span> | <span style="color:#000000">\-71\.79</span> |
-| <span style="color:#000000">24\.77</span> | <span style="color:#000000">0\.92</span> | <span style="color:#000000">206\.83</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">46\.13</span> |
-| <span style="color:#000000">20\.72</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">228\.74</span> | <span style="color:#000000">659\.37</span> | <span style="color:#000000">\-67\.77</span> |
-| <span style="color:#000000">15\.52</span> | <span style="color:#000000">0\.04</span> | <span style="color:#000000">22\.46</span> | <span style="color:#ff0000">NA</span> | <span style="color:#000000">36\.63</span> |
-
+<div>
+<div>
+<h3 style="font-size:1.4em;font-weight-700;">1.\ Proof of correctness of the data</h3>
+<ul class="disc-list" style="font-size:1.4em">
+<li>
+examine for irregular outliers (e.g. Age=236) 
+</li>
+<li>examine for typographical errors (e.g. Frankfrut)</li>
+<li>examine for different writing styles (e.g. behavior/behaviour)</li>
+<li>---</li>
+</ul>
+</div>
+<div>
+<h3 style="font-size:1.4em;font-weight-700;">2.\ Handling missing values</h3>
+![](images/slides_140_new.png)
+</div>
+</div>
 
 ---
 
 
+## Missing Values Strategies
+
+<div class="descriptive-wrapper">
+![](images/slides_141_new.png)
+</div>
+
+---
+
+## Sampling
+
+<div style="font-weight:700;font-size:1.6em">
 A population can be defined as including all people or items with the characteristic one wishes to understand\.
 
 Sampling is about to find a representative subset of that population\.
@@ -599,16 +519,22 @@ Data represents the traces of the real\-world processes\, and exactly which trac
 
 There are two sources of randomness and uncertainty:
 
-the randomness and uncertainty underlying the process itself\, and
+<ol>
 
-the uncertainty associated with the underlying sampling method\.
+<li>the randomness and uncertainty underlying the process itself\, and
+</li>
+<li>the uncertainty associated with the underlying sampling method\.
+</li>
+</ol>
+</div>
 
 
 ---
 
 
-Sampling in Times of Big Data
+## Sampling in Times of Big Data
 
+<div style="font-size:1.7em; font-weight:700">
 Question:
 
 Is there any need for sampling in times of Big Data? Why not "N=ALL"?
@@ -619,214 +545,134 @@ Data is not objective\! Data does not speak for itself\. Data is just a quantita
 
 Examples:
 
+<ul class="disc-list">
+
+<li>
 When analyzing the probability of customers terminating the relationship\, a very small proportion of terminating customers \(e\.g\. 0\.2%\) on the whole may result in a bias\.
-
+</li>
+<li>
 When analyzing political attitudes via social media data\, there might be a bias if people with specific attitudes are posting more frequently\.
+</li>
+</ul>
 
+</div>
 
 ---
 
 
-Reasons for Sampling
+## Reasons for Sampling
 
+<ul class="disc-list" style="font-size:1.7em;font-weight:600">
+<li>
 The volume of data is too large to capture and process
-
+</li>
+<li>
 Design the analytics process using a subset of the data for performance reasons\. Later use the complete data set\.
-
+</li>
+<li>
 The data set doesn't perfectly represent the target population\.
-
+</li>
+<li>
 The data set is imbalanced\.
-
+</li>
+<li>
 Use sampling to partition into training and test data\.
-
+</li>
+<li>
 \.\.\.
+</li>
+</ul>
 
 
 ---
 
 
-Popular Methods of Sampling \(I\)
+## Popular Methods of Sampling \(I\)
 
-Systematic Sampling
-
-Simple Random Sampling
-
-Proportional Sampling
-
-![](images/slides_135.tiff)
-
-![](images/slides_136.tiff)
-
-![](images/slides_137.tiff)
-
-![](images/slides_138.tiff)
-
-![](images/slides_139.tiff)
-
-![](images/slides_140.tiff)
-
-![](images/slides_141.tiff)
-
-![](images/slides_142.tiff)
-
-![](images/slides_143.tiff)
-
-![](images/slides_144.tiff)
-
-![](images/slides_145.tiff)
-
-![](images/slides_146.tiff)
-
-![](images/slides_147.tiff)
-
-![](images/slides_148.tiff)
-
-![](images/slides_149.tiff)
-
-![](images/slides_150.tiff)
-
-![](images/slides_151.tiff)
-
-![](images/slides_152.tiff)
-
-![](images/slides_153.tiff)
-
-![](images/slides_154.tiff)
-
-![](images/slides_155.tiff)
-
-![](images/slides_156.tiff)
-
-Employees are divided into subgroups
-
-![](images/slides_157.tiff)
-
-![](images/slides_158.tiff)
-
-![](images/slides_159.tiff)
-
-![](images/slides_160.tiff)
-
-![](images/slides_161.tiff)
-
-![](images/slides_162.tiff)
-
-![](images/slides_163.tiff)
-
-![](images/slides_164.tiff)
-
-![](images/slides_165.tiff)
-
-![](images/slides_166.tiff)
-
-Equal selection at random of each group \(also known as Stratified Sampling\)
-
-For example: Choose every row with an even number
-
-100 employees chosen at random
-
+<div class="descriptive-wrapper">
+![](images/slides_135.png)
+</div>
 
 ---
 
 
-Popular Methods of Sampling \(II\)
+## Popular Methods of Sampling \(II\)
 
-![](images/slides_167.tiff)
+<div class="descriptive-wrapper">
+![](images/slides_167.png)
+</div>
 
-![](images/slides_168.tiff)
-
-![](images/slides_169.tiff)
-
-![](images/slides_170.tiff)
-
-![](images/slides_171.tiff)
-
-![](images/slides_172.tiff)
-
-![](images/slides_173.tiff)
-
-![](images/slides_174.tiff)
-
-![](images/slides_175.tiff)
-
-Randomly reduce the size of the majority group to the size of the minority group
-
-Randomly increase the size of the minority group to the size of the majority group\(by duplicating data objects or by creating synthetic data objects\)
+--- 
 
 
----
+## Systematic Sampling
 
-
-Systematic Sampling
-
+<div class="descriptive-wrapper">
 ![](images/slides_176.png)
-
-Choose every row with an even number
+</div>
 
 
 ---
 
+## Random Sampling
 
+<div class="descriptive-wrapper">
 ![](images/slides_177.png)
-
-Creates totally random samples
-
-Example: 40%
-
+</div>
 
 ---
 
 
-Proportional Sampling
+## Proportional Sampling
 
+<div class="descriptive-wrapper">
 ![](images/slides_178.png)
+</div>
 
-Creates proportional samples
-
-Example: 40%
 
 
 ---
 
+## Downsampling
 
+<div class="descriptive-wrapper">
 ![](images/slides_179.png)
-
-Creates balanced samples
+</div>
 
 
 ---
 
+## SMOTE
 
-<span style="color:#000000">SMOTE \(Synthetic Minority Oversampling Technique\) is an oversampling technique where the synthetic samples are generated for the minority class\. </span>
+<div style="display:flex">
+<div style="width:60%">
+<p style="color:#000000; font-size:1.6em;font-weight:700">SMOTE \(Synthetic Minority Oversampling Technique\) is an oversampling technique where the synthetic samples are generated for the minority class\. </p>
+<p style="color:#000000; font-size:1.6em;font-weight:700">At first the total number of oversampling observations N is set up\. Usually\, it is selected such that the resulting class distribution is 1:1\. Now\, the iteration starts by first selecting a minority class instance at random\. Next\, the k nearest neighbors for that instance are obtained\. For every neighbor calculate the difference as distance and multiply this difference by a random value between 0 and 1\.Adding the result to the chosen instance creates a new synthetic instance\. This is done until the number of needed instances is reached\. </p>
+</div>
 
-<span style="color:#000000">At first the total number of oversampling observations N is set up\. Usually\, it is selected such that the resulting class distribution is 1:1\. Now\, the iteration starts by first selecting a minority class instance at random\. Next\, the k nearest neighbors for that instance are obtained\. For every neighbor calculate the difference as distance and </span>  <span style="color:#000000">multiply this difference by a </span>  <span style="color:#000000">random value between 0 and 1\. </span>  <span style="color:#000000">Adding the result to the chosen </span>  <span style="color:#000000">instance creates a new synthetic </span>  <span style="color:#000000">instance\. This is done until the </span>  <span style="color:#000000">number of needed instances is </span>  <span style="color:#000000">reached\. </span>
-
+<div style="float:right;width:40%">
 ![](images/slides_180.png)
+</div>
+</div>
 
-Source: https://github\.com/minoue\-xx/Oversampling\-Imbalanced\-Data
 
+<p style="float:right">Source: https://github\.com/minoue\-xx/Oversampling\-Imbalanced\-Data</p>
 
 ---
 
 
-Feature Engineering
+## Feature Engineering
 
+<div style="font-size:1.4em;font-weight:700;margin-bottom:3em">
 <span style="color:#000000">Feature engineering is the process of using domain knowledge of the data to create features that make machine learning algorithms work\. If feature engineering is done correctly\, it increases the predictive power of machine learning algorithms by creating features from raw data that help facilitate the machine learning process\. </span>
 
 <span style="color:#000000">A feature \(variable\, attribute\) is depicted by a column in a dataset\. Considering a generic two\-dimensional dataset\, each observation is depicted by a row and each feature by a column\, which will have a specific value for an observation:</span>
-
+<div style="text-align:center">
+![](images/slides_144_new.png)
+</div>
 <span style="color:#000000">Features can be of two major types\. </span>  <span style="color:#ff0000">Raw features</span>  <span style="color:#000000"> are obtained directly from the dataset with no extra data manipulation or engineering\. </span>  <span style="color:#ff0000">Derived features</span>  <span style="color:#000000"> are usually obtained from feature engineering\, where we extract features from existing data attributes\. A simple example would be creating a new feature “Age” from an employee dataset containing "Birthdate"\.</span>
 
-Columns \(Features\)
-
-|  | <span style="color:#000000"> __Feature 1__ </span> | <span style="color:#000000"> __Feature 2__ </span> | <span style="color:#000000"> __Feature 3__ </span> |
-| :-: | :-: | :-: | :-: |
-| <span style="color:#000000">0</span> | <span style="color:#000000">18\.38</span> | <span style="color:#000000">58\.06</span> | <span style="color:#000000">\-44\.21</span> |
-| <span style="color:#000000">1</span> | <span style="color:#000000">16\.10</span> | <span style="color:#000000">35\.39</span> | <span style="color:#000000">77\.35</span> |
-| <span style="color:#000000">2</span> | <span style="color:#000000">23\.14</span> | <span style="color:#000000">230\.44</span> | <span style="color:#000000">\-71\.79</span> |
-| <span style="color:#000000">3</span> | <span style="color:#000000">24\.77</span> | <span style="color:#000000">206\.83</span> | <span style="color:#000000">46\.13</span> |
-
-Rows \(Observations\)
+</div>
 
 Sources:	Sarkar\, D\.: Understanding Feature Engineering\, towardsdatascience\.com and Shekhar\, A\.: What Is Feature Engineering for Machine Learning?\, medium\.com\.
 
@@ -834,224 +680,287 @@ Sources:	Sarkar\, D\.: Understanding Feature Engineering\, towardsdatascience\.c
 ---
 
 
-Variants of Feature Engineering
+## Variants of Feature Engineering
 
-<span style="color:#000000">Transformation</span>  <span style="color:#000000"></span>  <span style="color:#000000">	convert features \(e\.g\. birth date to age\)</span>  <span style="color:#000000"></span>  <span style="color:#000000">	build lag structures \(e\.g\. time\-lags\)</span>  <span style="color:#000000"></span>  <span style="color:#000000">	normalization / standardization / scaling</span>
+<div style="font-size:1.2em">
+  <h3>1.\ Transformation</h3>
+  <ul class="disc-list">
+    <li>convert features (e.g., birth date → age)</li>
+    <li>build lag structures (e.g., time-lags)</li>
+    <li>normalization / standardization / scaling</li>
+  </ul>
 
-<span style="color:#000000">Type Conversion </span>  <span style="color:#000000"></span>  <span style="color:#000000">	if numerical</span>  <span style="color:#000000"> </span>  <span style="color:#000000">type is needed</span>  <span style="color:#000000">\, transformation of </span>  <span style="color:#000000">categorical into numerical data </span>  <span style="color:#000000">	using dummy features </span>  <span style="color:#000000"></span>  <span style="color:#000000">	if categorical</span>  <span style="color:#000000"> </span>  <span style="color:#000000">type is needed or more informative\, discretize</span>  <span style="color:#000000"> </span>  <span style="color:#000000">numerical</span>  <span style="color:#000000">	features \(e\.g\. income to income classes like poor and rich\)</span>
+  <h3>2.\ Type Conversion</h3>
+  <ul class="disc-list">
+    <li>if numerical type is needed, transform categorical into numerical data using dummy features</li>
+    <li>if categorical type is needed or more informative, discretize numerical features (e.g., income → poor / rich classes)</li>
+  </ul>
 
-<span style="color:#000000">Feature Combination</span>  <span style="color:#000000"></span>  <span style="color:#000000">	create interaction features \(e\.g\. </span>  <span style="color:#000000">school\_score</span>  <span style="color:#000000"> = </span>  <span style="color:#000000">num\_schools</span>  <span style="color:#000000"> x </span>  <span style="color:#000000">median\_school</span>  <span style="color:#000000"> 	with </span>  <span style="color:#000000">num\_school</span>  <span style="color:#000000"> = number of schools within 5 miles of a property and</span>  <span style="color:#000000">	</span>  <span style="color:#000000">median\_school</span>  <span style="color:#000000"> = median quality score of those schools</span>  <span style="color:#000000"></span>  <span style="color:#000000">	combine categories \(e\.g\. because they have very few observations or they </span>  <span style="color:#000000">	would result in too many dummy features\)</span>
+  <h3>3.\ Feature Combination</h3>
+  <ul class="disc-list">
+    <li>create interaction features (e.g., school_score = num_schools × median_school  
+      with num_schools = number of schools within 5 miles of a property and  
+      median_school = median quality score of those schools)
+    </li>
+    <li>combine categories (e.g., when there are very few observations or too many dummy features)</li>
+  </ul>
 
-<span style="color:#000000">Feature Composition</span>  <span style="color:#000000"></span>  <span style="color:#000000">	build ratios \(e\.g\. returns from prices\)</span>  <span style="color:#000000"></span>  <span style="color:#000000">	Principal Component Analysis \(Dimensionality Reduction\)</span>
+  <h3>4.\ Feature Composition</h3>
+  <ul class="disc-list">
+    <li>build ratios (e.g., returns from prices)</li>
+    <li>Principal Component Analysis (Dimensionality Reduction)</li>
+  </ul>
+
+</div>
+
+
+---
+
+## Scaling
+
+<div style="font-size:1.4em;font-weight:700">
+<p style="color:#000000">Most datasets contain features highly varying in magnitudes\, units and range\.</p>
+<p>Most machine learning algorithms have problems with this because they use distance measures or calculate gradients\. The features with high magnitudes will weigh in a lot more in the distance calculations than features with low magnitudes and gradients may end up taking a long time or are not accurately calculable\.</p>
+<p style="color:#000000">To overcome this effect\, we scale the features to bring them to the same level of magnitudes\. The two most discussed scaling methods are Normalization and Standardization\. </p>
+
+<div>
+![](images/slides_146_new.png)
+</div>
+</div>
 
 
 ---
 
 
-<span style="color:#000000">Most datasets contain features highly varying in magnitudes\, units and range\. Most machine learning algorithms have problems with this because they use distance measures or calculate gradients\. The features with high magnitudes will weigh in a lot more in the distance calculations than features with low magnitudes and gradients may end up taking a long time or are not accurately calculable\.</span>
+## Type Conversion \(Encoding\)
 
-<span style="color:#000000">To overcome this effect\, we scale the features to bring them to the same level of magnitudes\. The two most discussed scaling methods are Normalization and Standardization\. </span>
-
-<span style="color:#000000">Normalization typically means to rescale </span>  <span style="color:#000000">the values into a range of \[0\,1\]: </span>
-
-<span style="color:#000000">Standardization typically means to rescale </span>  <span style="color:#000000">data to have a mean of 0 and a standard </span>  <span style="color:#000000">deviation of 1 \(Z scores\):</span>
-
-<span style="color:#000000">If necessary scaling can be inverted:</span>
-
-
----
-
-
-Type Conversion \(Encoding\)
-
+<div style="font-size:1.4em;font-weight:700">
 <span style="color:#000000">Many machine learning algorithms cannot work with categorical data directly\. To convert categorical data to numbers\, there exist two variants:</span>
 
 <span style="color:#ff0000">Label encoding</span>  <span style="color:#000000"> refers to transforming the word labels into numerical form so that the algorithms can understand how to operate on them\. Every categorical value is assigned to one numerical value\, e\.g\. young \-> 1\, </span>  <span style="color:#000000">middle\_age</span>  <span style="color:#000000"> \-> 2\, old \-> 3\. This only works in specific situations where you have somewhat continuous\-like data\, e\.g\. if the categorical feature is ordinal\.</span>
 
 <span style="color:#ff0000">One hot encoding</span>  <span style="color:#000000"> is a representation of a categorical variable as binary vectors\. Every categorical value is assigned to an artificial binary variable\. If the corresponding categorical value occurs in a data row the value of its binary replacement is equal to 1 else 0\, e\.g\. </span>
-
+<div style="text-align:center">
+![](images/slides_147_new.png)
+</div>
 <span style="color:#000000">It is usual when creating dummy variables to have one less variable than the number of categories present to avoid perfect collinearity \(dummy variable trap\)\.</span>
+</div>
 
 
 ---
 
 
-Example of Feature Engineering \(I\)
+## Example of Feature Engineering \(I\)
 
-<span style="color:#000000">Data sets often contain date/time features\. These features are rarely useful in their original form because they only contain ongoing values\. However\, they can be useful for extracting cyclical factors\, such as weekly or seasonal effects\. Suppose\, we are given a data "flight date time vs status"\. Then\, given the date\-time data\, we have to predict the status of the flight\.</span>
-
-<span style="color:#000000">But the status of the flight may depend on the hour of the day\, not on the date\-time\. To analyze this\, we will create the new feature "</span>  <span style="color:#000000">Hour\_Of\_Day</span>  <span style="color:#000000">"\. Using the "</span>  <span style="color:#000000">Hour\_Of\_Day</span>  <span style="color:#000000">" feature\, the machine will learn better as this feature is directly related to the status of the flight\.</span>
-
+<div style="font-size:1.4em;font-weight:700">
+<p style="color:#000000">Data sets often contain date/time features\. These features are rarely useful in their original form because they only contain ongoing values\. However\, they can be useful for extracting cyclical factors\, such as weekly or seasonal effects\. Suppose\, we are given a data "flight date time vs status"\. Then\, given the date\-time data\, we have to predict the status of the flight\.</p>
+<div style="text-align:center">
 ![](images/slides_183.png)
+</div>
+<p style="color:#000000">But the status of the flight may depend on the hour of the day\, not on the date\-time\. To analyze this\, we will create the new feature " Hour\_Of\_Day"\. Using the "Hour\_Of\_Day" feature\, the machine will learn better as this feature is directly related to the status of the flight\.</p>
 
-![](images/slides_184.png)
+</div>
 
-Source: Shekhar\, A\.: What Is Feature Engineering for Machine Learning?\, medium\.com\.
+<p style="float:right">Source: Shekhar\, A\.: What Is Feature Engineering for Machine Learning?\, medium\.com\.</p>
 
 
 ---
 
 
-Example of Feature Engineering \(II\)
+## Example of Feature Engineering \(II\)
 
+<div style="font-size:1.4em;font-weight:700">
 <span style="color:#000000">Suppose we are given the latitude\, longitude and other data with the objective to predict the target feature "</span>  <span style="color:#000000">Price\_Of\_House</span>  <span style="color:#000000">"\. Latitude and longitude are not of use in this context if they are alone\. So\, we will combine the latitude and the longitude to make one feature\. </span>
 
 <span style="color:#000000">In other cases\, it might be appropriate to transform latitude and longitude into categories which reflect regions\, for example</span>
-
+<div style="text-align:center">
 ![](images/slides_185.png)
+</div>
+</div>
 
 
 ---
 
 
-Example of Feature Engineering \(III\)
+## Example of Feature Engineering \(III\)
 
+<div style="font-size:1.2em;font-weight:700;">
 <span style="color:#000000">Suppose we are given a feature "</span>  <span style="color:#000000">Marital\_Status</span>  <span style="color:#000000">" and other data with the objective to classify customers into "Creditworthy" and "</span>  <span style="color:#000000">Not\_Creditworthy</span>  <span style="color:#000000">"\. In the data set the martial status has many different values\, for example </span>
 
-<span style="color:#000000">single living alone</span>
+<span style="color:#000000">&#x25CF; single living alone</span>
 
-<span style="color:#000000">single living with his parents</span>
+<span style="color:#000000">&#x25CF; single living with his parents</span>
 
-<span style="color:#000000">married living together</span>
+<span style="color:#000000">&#x25CF; married living together</span>
 
-<span style="color:#000000">married living separately</span>
+<span style="color:#000000">&#x25CF; married living separately</span>
 
-<span style="color:#000000">divorced</span>
+<span style="color:#000000">&#x25CF; divorced</span>
 
-<span style="color:#000000">divorced but living together</span>
+<span style="color:#000000">&#x25CF; divorced but living together</span>
 
-<span style="color:#000000">registered partnerships</span>
+<span style="color:#000000">&#x25CF; registered partnerships</span>
 
-<span style="color:#000000">living in marriage\-like community</span>
+<span style="color:#000000">&#x25CF; living in marriage\-like community</span>
 
-<span style="color:#000000">widowed</span>
+<span style="color:#000000">&#x25CF; widowed</span>
 
-<span style="color:#000000">\.\.\.</span>
+<span style="color:#000000">&#x25CF; \.\.\.</span>
 
 <span style="color:#000000">To avoid a transformation into too many and maybe dominating dummy features\, we can group the similar classes\, e\.g\. in single\, married\, widowed\.</span>
 
 <span style="color:#000000">If there exist some remaining sparse classes which cannot be assigned in a meaningful way they can be joined into a single "other" class\.</span>
+</div>
 
 
 ---
 
 
-Partitioning the Data
+## Partitioning the Data
 
 
 
-* The partitioning of the data in  <span style="color:#ff0000">Training and Test Data</span>  has the aim to proof if the analytical results can be generalized\. The analysis \(e\.g\. the development of a classifier\) is carried out on the basis of training data\. Subsequently\, the results are applied to the test data\. If the results are significantly worse than the training data\, the model is not generalizable\, which is called overfitting\.
-* The partitioning of the data in training and test data can be carried out in the following ways:
-  * By random/stratified/\.\.\. sampling \(problem with the repeatability\)
-  * according to a list
-  * according to rules \(e\.g\. the first/last 50 records or every twelfth\)
-
-
+<div style="font-size:1.5em;font-weight:600">
+<p>
+The partitioning of the data in <span style="color:#ff0000">Training and Test Data</span>  has the aim to proof if the analytical results can be generalized. The analysis (e.g. the development of a classifier) is carried out on the basis of training data. Subsequently, the results are applied to the test data. If the results are significantly worse than the training data, the model is not generalizable, which is called overfitting.
+</p>
+<div style="text-align:center">
 ![](images/slides_186.png)
+</div>
+<p>
+The partitioning of the data in training and test data can be carried out in the following ways: 
+<ul class="disc-list">
+<li>By random/stratified/... sampling (problem with the repeatability)
+</li>
+<li>according to a list
+</li>
+<li>according to rules (e.g. the first/last 50 records or every twelfth)
+</li>
+</ul>
+</p>
+</div>
 
 
 ---
 
 
-Applying Training and Test Data
+## Applying Training and Test Data
 
-<span style="color:#000000">Source: http://www\.cs\.kent\.edu/~jin/BigData/Lecture10\-ML\-Classification\.pptx</span>
+
+<div style="text-align:center">
+![](images/slides_152_new.png)
+</div>
+
+<p style="text-align:right">Source: http://www.cs.kent.edu/~jin/BigData/Lecture10-ML-Classification.pptx</p>
 
 
 ---
 
+## Partitioning
 
 ![](images/slides_187.png)
 
-Partitions into training and test data
-
-Example: <span style="color:#0070c0">Training = 60%</span>   <span style="color:#ffc000">Test = 40%</span>
-
 
 ---
 
 
-Exploratory Data Analysis
+## Exploratory Data Analysis
 
+<div style="font-size:1.5em;font-weight:600">
 In Exploratory Data Analysis \(EDA\)\, there is no hypothesis and there is no model\.
 
 People are not very good at looking at a column of numbers or a whole data table and then determining important characteristics of the data\. EDA techniques have been devised as an aid in this situation\.
 
 Reasons for EDA:
 
-gain intuition about the data
+&#x25CF; gain intuition about the data
 
-make comparisons between distributions
+&#x25CF; make comparisons between distributions
 
-sanity checking \(making sure the data is on the scale you expect\, in the format you thought it should be\)
+&#x25CF; sanity checking \(making sure the data is on the scale you expect\, in the format you thought it should be\)
 
-find out where data is missing or if there are outliers
+&#x25CF; find out where data is missing or if there are outliers
 
-summarize the data
+&#x25CF; summarize the data
 
 Exploratory data analysis is generally cross\-classed in two ways\. First\, each method is either non\-graphical or graphical\. And second\, each method is either univariate or multivariate\.
 
+</div>
 
 ---
 
 
-Univariate Non\-Graphical EDA
+## Univariate Non\-Graphical EDA
 
+<div style="font-size:1.5em;font-weight:600">
 Non\-graphical exploratory data analysis is the first step when beginning to analyze the data\. This preliminary data analysis step focuses on four points:
 
-measures of central tendency\, i\.e\. mean and median\. The median\, known as 50th percentile\, is more resistant to outliers\.
+&#x25CF; measures of central tendency\, i\.e\. mean and median\. The median\, known as 50th percentile\, is more resistant to outliers\.
 
-measures of spread\, i\.e\. variance\, standard deviation\, and interquartile range
+&#x25CF; measures of spread\, i\.e\. variance\, standard deviation\, and interquartile range
 
-the shape of the distribution
+&#x25CF; the shape of the distribution
 
-the existence of outliers
+&#x25CF; the existence of outliers
 
 The characteristics of interest for a categorical variable are simply the range of values and the frequency of occurrence for each value\.
 
+<div style="text-align:center">
 ![](images/slides_188.png)
+</div>
+</div>
 
 
 ---
 
 
-Tests on Outliers
+## Tests on Outliers
 
+<div style="font-size:1.5em;font-weight:600">
 Outlier are data objects\, which are clearly different from the others\.
 
 Usually\, the detection of outliers is an unsupervised process\, because they are not known before analyses\.
 
 In the case of  <span style="color:#ff0000">numerical attributes</span>  the Interquartil Range can be used\. Here\, an outlier is defined if the attribute lies outside the interval
+<div style="text-align:center">
+![](images/slides_187_new.png)
+</div>
+
+
 
 Usually\, k has a value between 1\.5 and 3\. The bigger k\, the more different  the values must be to be classified as outliers\.
 
 Can be visualized by a Box\-and\-Whisker Plot:
-
+<div style="text-align:right">
 ![](images/slides_189.png)
+</div>
+</div>
 
 
 ---
 
 
-Handling Outliers
+## Handling Outliers
 
-
-
+<div style="font-size:1.4em;font-weight:600">
 * Outlier have to be  <span style="color:#ff0000">eliminated</span>  if they
-  * would bias the analysis\, e\.g\. if 9 persons have an age between 20 and 30 and the 10th person is 80 years old\.
-  * are erogenous data\, e\.g\. as a result of input errors or a defect sensor\.
+  * 1.\ would bias the analysis\, e\.g\. if 9 persons have an age between 20 and 30 and the 10th person is 80 years old\.
+  * 2.\ are erogenous data\, e\.g\. as a result of input errors or a defect sensor\.
 * It is not always acceptable to drop an observation just because it is an outlier\.  They can be legitimate observations and are sometimes interesting ones\.  It’s important to investigate the nature of the outlier before deciding\.
 * In those cases where you shouldn’t drop the outlier\, one option is to try a transformation\.  <span style="color:#ff0000">Log transformations </span> pull in high numbers\.  This can reduce the impact of a single point if the outlier is an independent variable\.
+</div>
 
-
+<div style="text-align:center">
 ![](images/slides_190.png)
+</div>
 
 
 ---
 
 
-Univariate Graphical EDA
+## Univariate Graphical EDA
 
+<div style="font-size:1.4em;font-weight:600">
 Non\-graphical and graphical EDA methods complement each other\, they have the same focus\. While the non\-graphical methods are quantitative and objective\, they do not give a full picture of the data\. The distribution of a variable tells us what values the variable takes and how often each value occurs\.
 
 Types of displays:
@@ -1059,177 +968,136 @@ Types of displays:
 for numerical variables: Histograms\, Boxplots\, Quantile\-normal plots\, …
 
 for categorical variables: Pie charts\, Bar graphs\, …
+</div>
 
-![](images/slides_191.png)
-
-![](images/slides_192.png)
-
+<div style="display:flex;justify-content:center">
+<div style="height:600px;width:400px">
 ![](images/slides_193.png)
+</div>
+<div style="height:600px;width:400px">
+![](images/slides_191.png)
+</div>
+<div style="height:600px;width:400px">
+![](images/slides_192.png)
+</div>
+</div>
 
 
 ---
 
+## Multivariate Non\-Graphical EDA
 
-Multivariate Non\-Graphical EDA
-
+<div style="font-size:1.4em;font-weight:600">
 Multivariate non\-graphical EDA techniques generally show the relationship between two or more variables in the form of either cross\-tabulation for categorical variables or correlation statistics for numerical variables\.
-
+</div>
+<div style="display:flex;justify-content:center;margin-top:4em">
+<div class="Multivariate-wrapper" >
 ![](images/slides_194.png)
-
+</div>
+<div class="Multivariate-wrapper">
 ![](images/slides_195.png)
+</div>
+</div>
 
 
 ---
 
 
-Multivariate Graphical EDA
+## Multivariate Graphical EDA
 
+<div style="font-size:1.5em;font-weight:600">
 Multivariate graphical EDA techniques are scatterplots for numerical variables\, Barcharts for categorical variables\, or Boxplots for mixed types\.
 
+<div style="text-align:center">
 ![](images/slides_196.png)
+</div>
+</div>
 
-![](images/slides_197.png)
-
-![](images/slides_198.png)
 
 
 ---
 
+## Touring Diagram
 
+<div class="descriptive-wrapper">
 ![](images/slides_199.gif)
+</div>
+
+---
+
+## Navigation
+
+<div style="font-size: 2em; display:flex; flex-direction:column; font-weight:700; line-height:1.4;">
+  <p style="color:#ff0000;margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin-left:80px;color:#ff0000;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Categories in Machine Learning
 
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-<span style="color:#c00000">4\.4	Methods\, Algorithms and Applications</span>
-
-4\.4\.1	Classification
-
-4\.4\.2	Regression
+<div style="text-align:center">
+![](images/slides_200.png)
+</div>
 
 
 ---
 
+## Supervised Learning
 
-Categories in Machine Learning
-
-![](images/slides_200.jpg)
-
-![](images/slides_201.png)
-
-![](images/slides_202.png)
-
-
----
-
-
+<div style="text-align:center">
 ![](images/slides_203.png)
+</div>
 
-![](images/slides_204.png)
-
-Supervised Learning
-
-Classification:
-
-<span style="color:#ff3300">„To which segment does the new object belong to?"</span>
-
-![](images/slides_205.png)
-
-Regression:
-
-<span style="color:#ff3300">"What is the target </span>  <span style="color:#ff3300"> _value_ </span>  <span style="color:#ff3300"> of the object\."</span>
-
-![](images/slides_206.png)
 
 
 ---
 
+## Unsupervised Learning
 
+<div style="text-align:center">
 ![](images/slides_207.png)
-
-Unsupervised Learning
-
-![](images/slides_208.png)
-
-Segmentation \(Clustering\):
-
-<span style="color:#ff3300">"In how many and which segments can the data be partitioned?"</span>
-
-Association:
-
-<span style="color:#ff3300">"Detect the strength and the direction of relationships in my data\."</span>
+</div>
 
 
 ---
 
 
-Supervised and Unsupervised Learning
+## Supervised and Unsupervised Learning
 
-Supervised Learning:
 
-Goal: predict a  <span style="color:#ff0000">target</span>  or  <span style="color:#ff0000">outcome</span>  variable
-
-Training data where target value is known
-
-Score to test data where value is not known
-
-Unsupervised Learning:
-
-Goal: detect patterns
-
-Grouping of cases based on similarities in input values
-
-There is no target \(outcome\) variable
-
+<div style="text-align:center">
 ![](images/slides_209.png)
+</div>
 
+
+---
+
+## Use Cases Quiz
+
+<div style="text-align:center">
 ![](images/slides_210.png)
-
-
----
-
-
-Online Shop for Electronic products:
-
-Management of Customer Termination \(Churn Management\)
-
-Returns Management
-
-Identify similar Regions for Advertising
-
-Sales Forecasts for Supply and Inventory Management
-
-Automatically assign new Products into existing Product Categories
-
-Grouping of similar Customers
-
-Voucher Management
-
-Analysis of frequently sold Product Combinations
-
-Fraud Detection
-
-Structuring the Competitors
-
-Analysis of Sales Sequences
-
-\.\.\.
-
+</div>
 
 ---
 
 
-Reinforcement Learning
+## Reinforcement Learning
 
+<div style="font-size:1.5em;font-weight:600">
 The solution to many of the problems in our lives cannot be automated\. This is not because current computers are too slow\, but simply because it is too difficult for humans to determine what the program should do\.
 
 Supervised learning is a general method for training an approximator\. However\, supervised learning requires sample input\-output pairs from the domain to be learned\.
@@ -1239,28 +1107,41 @@ For example\, we might not know the best way to program a computer to recognize 
 Unfortunately\, there are many situations where we don’t know the correct answers that supervised learning requires\. For example\, in a self\-driving car\, the question would be the set of all sensor readings at a given time\, and the answer would be how the controls should react during the next millisecond\.
 
 For these cases there exist a different approach known as reinforcement learning\.
+</div>
 
 
 ---
 
 
-Reinforcement Learning
+## Reinforcement Learning
 
+<div class="volumeImageWrapper" style="text-align:center">
 ![](images/slides_211.jpg)
-
+</div>
+<div style="font-size:1.5em;font-weight:600">
 The agent learns how to achieve a given goal by trial\-and\-error interactions with its environment by maximizing a reward\.
+</div>
 
 
 ---
 
+## AlphaGo
 
+<div style="font-size:1.6em;font-weight:600">
 Go is one of the hardest games in the world for AI because of the huge number of different game scenarios and moves\. The number of potential legal board positions is greater than the number of atoms in the universe\.
 
+<div style="display:flex;">
+<div style="width:50%">
 The core of AlphaGo is a deep neural network\. It was initially trained to learn playing by using a database of around 30 million recorded historical moves\. After the training\, the system was cloned and it was trained further playing large numbers of games against other instances of itself\, using reinforcement learning to improve its play\. During this training AlphaGo learned new strategies which were never played by humans\.
 
 A newer version named AlphaGo Zero skips the step of being trained and learns to play simply by playing games against itself\, starting from completely random play\.
-
+</div>
+<div style="width:50%">
 ![](images/slides_212.png)
+</div>
+</div>
+
+</div>
 
 ::: {.notes}
 
@@ -1271,242 +1152,237 @@ Chess 2^64 legal positions, Go 2^120!!!
 
 ---
 
+## Libratus
 
+<div style="font-size:1.4em;font-weight:600">
 An artificial intelligence called Libratus has beaten four of the world’s best poker players in a grueling 20\-day tournament in January 2017\.
 
 Poker is more difficult because it’s a game with imperfect information\. With chess and Go\, each player can see the entire board\, but with poker\, players don’t get to see each other’s hands\. Furthermore\, the AI is required to bluff and correctly interpret misleading information in order to win\.
 
 “We didn’t tell Libratus how to play poker\. We gave it the rules of poker and said ‘learn on your own’\.” The AI started playing randomly but over the course of playing trillions of hands was able to refine its approach and arrive at a winning strategy\.
-
+<div class="volumeImageWrapper" style="float:right">
 ![](images/slides_214.jpg)
+</div>
+</div>
+
 
 
 ---
 
 
-Types of Artificial Intelligence
+## Types of Artificial Intelligence
 
+<div style="font-size:1.7em;font-weight:600">
 <span style="color:#ff0000">Discriminative AI</span>  is designed to differentiate and classify input\, but not to create new content\. Examples include image or speech recognition\, credit scoring or stock price prediction\.
 
 <span style="color:#ff0000">Generative AI</span>  is able to generate new content based on existing information and user specifications\. This includes texts\, images\, videos\, program code\, etc\. The generated content can often hardly be distinguished from human\-generated content\. As things stand at present\, however\, they are pure recombinations of learned knowledge\.
 
 Well\-known examples of generative AI are language models for generating text\, such as GPT\-3 or GPT\-4\, and the chatbot ChatGPT based on them\, or image generators such as Stable Diffusion and DALL\-E\.
+</div>
 
 
 ---
 
+## ChatGPT
 
+<div style="font-size:1.8em;font-weight:600">
 ChatGPT is a generative AI that produces human\-like text and communicates with humans\.
 
 The "GPT" in ChatGPT comes from the language model of the same name\, which was extended for ChatGPT with various components for communication and quality assurance\.
 
 GPT is based on a huge neural network that essentially represents the language model\. While the first GPT\-3 has 175 billion parameters\, the newer GPT\-4 already has 1 trillion parameters\. Compared to GPT\-3\, GPT\-4 is therefore more intelligent\, can deal with more extensive questions and conversations and makes fewer factual errors\.
+</div>
 
 
 ---
 
 
-ChatGPT \- Approach
+## ChatGPT \- Approach
 
+<div style="font-size:1.6em;font-weight:600">
 ChatGPT generates its response word by word via a sequence of probabilities\, with each new word depending on the previous ones\.
 
-![](images/slides_215.png)
-
+<div style="text-align:center">
 ![](images/slides_216.png)
+</div>
 
 The most probable word is not always selected; instead\, randomization takes place\. This means that different variants can be created for the same task\.
-
+<div style="text-align:center">
 ![](images/slides_217.png)
+</div>
+</div>
 
 
 ---
 
 
-ChatGPT \- Semantic Spaces \(I\)
+## ChatGPT \- Semantic Spaces \(I\)
 
+<div style="text-align:center">
 ![](images/slides_218.png)
+</div>
 
 
 ---
 
 
-ChatGPT \- Semantic Spaces \(II\)
+## ChatGPT \- Semantic Spaces \(II\)
 
+<div style="text-align:center">
+![](images/slides_176_new.png)
+</div>
 
 ---
 
 
-ChatGPT \- Evaluation Component
+## ChatGPT \- Evaluation Component
 
+<div style="text-align:center">
 ![](images/slides_220.png)
+</div>
+
+
+---
+
+## Navigation
+
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;color:#ff0000;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.1&nbsp; K-Nearest Neighbors</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.2&nbsp; Evaluating the Quality of Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.3&nbsp; Decision Tree Approaches</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.4&nbsp; Logistic Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.5&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.6&nbsp; Resampling</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.7&nbsp; Ensemble Learning</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Introductory Example
 
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	4\.4\.1	Classification</span>
-
-4\.4\.1\.1	K\-Nearest Neighbors
-
-4\.4\.1\.2	Evaluating the Quality of Classification
-
-4\.4\.1\.3	Decision Tree Approaches
-
-4\.4\.1\.4	Logistic Regression
-
-4\.4\.1\.5	Neural Networks
-
-4\.4\.1\.6	Resampling
-
-4\.4\.1\.7	Ensemble Learning
-
-4\.4\.2	Regression
-
-
----
-
-
-Introductory Example
-
+<div style="font-size:1.4em;font-weight:600">
 Credit\-Scoring is a typical example for a classification problem\. A bank wants to determine the creditworthiness of a customer\.
 
+<div style="float:left;width:60%">
 Assume you have the age\, income\, and a creditworthiness category of "yes" or "no" for a bunch of people and you want to use the age and income to predict the creditworthiness for a new person\.
 
 You can plot people as points on the plane and label people with an empty circle if they have low credit ratings\.
 
 What if a new guy comes in who is 49years old and who makes 53\,000 Euro? What is his likely credit rating label?
+</div>
 
+<div style="float:right;">
 ![](images/slides_221.png)
+</div>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.1	Subject of Predictive Analytics
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-<span style="color:#c00000">4\.4\.1\.1	K\-Nearest Neighbors</span>
-
-4\.4\.1\.2	Evaluating the Quality of Classification
-
-4\.4\.1\.3	Decision Tree Approaches
-
-4\.4\.1\.4	Logistic Regression
-
-4\.4\.1\.5	Neural Networks
-
-4\.4\.1\.6	Resampling
-
-4\.4\.1\.7	Ensemble Learning
-
-4\.4\.2	Regression
-
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.1.1&nbsp; K-Nearest Neighbors</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.2&nbsp; Evaluating the Quality of Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.3&nbsp; Decision Tree Approaches</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.4&nbsp; Logistic Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.5&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.6&nbsp; Resampling</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.7&nbsp; Ensemble Learning</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 ---
 
 
-k\-Nearest Neighbors
+## k\-Nearest Neighbors
 
 
-
+<div style="font-size:1.6em;font-weight:600">
 * k\-Nearest Neighbors \(k\-NN\) is an algorithm that can be used when you have a bunch of objects that have been classified or labeled in some way\, and other similar objects that have not gotten classified or labeled yet\, and you want a way to automatically label them\.
 * The intuition behind k\-NN is to consider the most similar other items defined in terms of their attributes\, look at their labels\, and give the unassigned item the majority vote\. If there’s a tie\, you randomly select among the labels that have tied for first\.
 * <span style="color:#1a1a1a">Procedure of k\-NN:</span>
-  * <span style="color:#1a1a1a">Determine parameter k \(= number of nearest neighbors\)</span>
-  * <span style="color:#1a1a1a">Calculate the distances between the new object and all known labeled  objects\.</span>
-  * <span style="color:#1a1a1a">Choose the k objects from all known labeled objects having the smallest distance to the new object as nearest neighbors\.</span>
-  * <span style="color:#1a1a1a">Count the frequencies of the classes of the nearest neighbors\.</span>
-  * <span style="color:#1a1a1a">Assign the new object to the most frequent class\.</span>
+  * <span style="color:#1a1a1a">1. Determine parameter k \(= number of nearest neighbors\)</span>
+  * <span style="color:#1a1a1a">2. Calculate the distances between the new object and all known labeled  objects\.</span>
+  * <span style="color:#1a1a1a">3. Choose the k objects from all known labeled objects having the smallest distance to the new object as nearest neighbors\.</span>
+  * <span style="color:#1a1a1a">4. Count the frequencies of the classes of the nearest neighbors\.</span>
+  * <span style="color:#1a1a1a">5. Assign the new object to the most frequent class\.</span>
+</div>
 
 ---
 
+## Measuring Similarity
 
-<span style="color:#000000">Measuring Similarity</span>
-
-<span style="color:#000000">The purpose of a measure of similarity is to compare two vectors of data\, and compute a single number which evaluates their similarity\. </span>
-
-<span style="color:#000000">Usually the similarity s\(</span>  <span style="color:#000000">x\,y</span>  <span style="color:#000000">\) of two objects x and y is measured using the inverse of some distance measure d\(</span>  <span style="color:#000000">x\,y</span>  <span style="color:#000000">\):</span>
-
-<span style="color:#000000">Euclidean distance is most often used for numerical data vectors:</span>
-
-<span style="color:#000000">with n as size of the vectors\.</span>
-
-<span style="color:#000000">Note: </span>  <span style="color:#000000">The </span>  <span style="color:#000000">variables must be scaled to avoid unwanted weighting resulting from different level of measurement\. </span>
-
+<div style="text-align:center">
+![](images/slides_182_new.png)
+</div>
 
 ---
 
+## Unnormalized vs. Normalized
 
-<span style="color:#000000">Unnormalized</span>  <span style="color:#000000"> vs\. Normalized</span>
-
-
----
-
-
-Data:
-
-New Customer:
-
-| <span style="color:#000000">Customer</span> | <span style="color:#000000">Age</span> | <span style="color:#000000">Monthly</span> | <span style="color:#000000">Monthly</span> | <span style="color:#000000">Creditworthy</span> |
-| :-: | :-: | :-: | :-: | :-: |
-|  |  | <span style="color:#000000">Income</span> | <span style="color:#000000">Costs</span> |  |
-| A | 24 | 1800 | 1400 | yes |
-| B | 26 | 1700 | 1300 | no |
-| C | 30 | 2800 | 2200 | yes |
-| D | 33 | 4200 | 3800 | yes |
-| E | 35 | 2300 | 1800 | no |
-| F | 39 | 3000 | 2800 | no |
-| G | 41 | 2400 | 1600 | yes |
-| H | 47 | 5000 | 2500 | yes |
-| I | 53 | 4700 | 3200 | no |
-| J | 59 | 2100 | 1700 | yes |
-
+<div style="text-align:center">
+![](images/slides_183_new.png)
+</div>
 
 ---
 
+## Example (I)
 
-1\.	k = 5 is chosen
+<div style="text-align:center">
+![](images/slides_184_new.png)
+</div>
 
-2\.	Calculate the distances \(Normalization and then Euclidian Distance\)
+---
 
+## Example (II)
+
+<div style="text-align:center">
+![](images/slides_185_new.png)
+</div>
+
+---
+
+## Example (III)
+
+<div style="font-size:1.4em;font-weight:600">
+3\.	Choose the k  <span style="color:#1a1a1a">nearest neighbors</span>
+<div style="font-size:1em !important;font-weight:400!important; border:1px solid; margin:30px">
 | <span style="color:#000000">Customer</span> | <span style="color:#000000">Age</span> | <span style="color:#000000">Monthly</span>  <span style="color:#000000">Income</span> | <span style="color:#000000">Monthly</span>  <span style="color:#000000">Costs</span> | <span style="color:#000000">Creditworthy</span> | <span style="color:#000000">Distance</span> |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | <span style="color:#000000">A</span> | <span style="color:#000000">0\.0000</span> | <span style="color:#000000">0\.0303</span> | <span style="color:#000000">0\.0400</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.4347</span> |
-| <span style="color:#000000">B</span> | <span style="color:#000000">0\.0571</span> | <span style="color:#000000">0\.0000</span> | <span style="color:#000000">0\.0000</span> | <span style="color:#000000">no</span> | <span style="color:#000000">0\.4490</span> |
 | <span style="color:#000000">C</span> | <span style="color:#000000">0\.1714</span> | <span style="color:#000000">0\.3333</span> | <span style="color:#000000">0\.3600</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.1726</span> |
-| <span style="color:#000000">D</span> | <span style="color:#000000">0\.2571</span> | <span style="color:#000000">0\.7576</span> | <span style="color:#000000">1\.0000</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.8922</span> |
 | <span style="color:#000000">E</span> | <span style="color:#000000">0\.3143</span> | <span style="color:#000000">0\.1818</span> | <span style="color:#000000">0\.2000</span> | <span style="color:#000000">no</span> | <span style="color:#000000">0\.2010</span> |
 | <span style="color:#000000">F</span> | <span style="color:#000000">0\.4286</span> | <span style="color:#000000">0\.3939</span> | <span style="color:#000000">0\.6000</span> | <span style="color:#000000">no</span> | <span style="color:#000000">0\.4482</span> |
 | <span style="color:#000000">G</span> | <span style="color:#000000">0\.4857</span> | <span style="color:#000000">0\.2121</span> | <span style="color:#000000">0\.1200</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.3090</span> |
-| <span style="color:#000000">H</span> | <span style="color:#000000">0\.6571</span> | <span style="color:#000000">1\.0000</span> | <span style="color:#000000">0\.4800</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.8167</span> |
-| <span style="color:#000000">I</span> | <span style="color:#000000">0\.8286</span> | <span style="color:#000000">0\.9091</span> | <span style="color:#000000">0\.7600</span> | <span style="color:#000000">no</span> | <span style="color:#000000">0\.9855</span> |
-| <span style="color:#000000">J</span> | <span style="color:#000000">1\.0000</span> | <span style="color:#000000">0\.1212</span> | <span style="color:#000000">0\.1600</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.8096</span> |
 | <span style="color:#000000">X</span> | <span style="color:#000000">0\.2286</span> | <span style="color:#000000">0\.3636</span> | <span style="color:#000000">0\.2000</span> | <span style="color:#000000">?</span> | <span style="color:#000000"> </span> |
-
-
----
-
-
-3\.	Choose the k  <span style="color:#1a1a1a">nearest neighbors</span>
+</div>
 
 4\.	Count the numbers of class members
 
@@ -1515,54 +1391,43 @@ New Customer:
 5\.	Assign object to most frequent class
 
 <span style="color:#ff3300">Customer is creditworthy\!</span>
+</div>
 
-| <span style="color:#000000">Customer</span> | <span style="color:#000000">Age</span> | <span style="color:#000000">Monthly</span>  <span style="color:#000000">Income</span> | <span style="color:#000000">Monthly</span>  <span style="color:#000000">Costs</span> | <span style="color:#000000">Creditworthy</span> | <span style="color:#000000">Distance</span> |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| <span style="color:#000000">A</span> | <span style="color:#000000">0\.0000</span> | <span style="color:#000000">0\.0303</span> | <span style="color:#000000">0\.0400</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.4347</span> |
-| <span style="color:#000000">C</span> | <span style="color:#000000">0\.1714</span> | <span style="color:#000000">0\.3333</span> | <span style="color:#000000">0\.3600</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.1726</span> |
-| <span style="color:#000000">E</span> | <span style="color:#000000">0\.3143</span> | <span style="color:#000000">0\.1818</span> | <span style="color:#000000">0\.2000</span> | <span style="color:#000000">no</span> | <span style="color:#000000">0\.2010</span> |
-| <span style="color:#000000">F</span> | <span style="color:#000000">0\.4286</span> | <span style="color:#000000">0\.3939</span> | <span style="color:#000000">0\.6000</span> | <span style="color:#000000">no</span> | <span style="color:#000000">0\.4482</span> |
-| <span style="color:#000000">G</span> | <span style="color:#000000">0\.4857</span> | <span style="color:#000000">0\.2121</span> | <span style="color:#000000">0\.1200</span> | <span style="color:#000000">yes</span> | <span style="color:#000000">0\.3090</span> |
-| <span style="color:#000000">X</span> | <span style="color:#000000">0\.2286</span> | <span style="color:#000000">0\.3636</span> | <span style="color:#000000">0\.2000</span> | <span style="color:#000000">?</span> | <span style="color:#000000"> </span> |
+
+
+---
+
+## Creation and Use of Models
+
+<div style="text-align:center">
+![](images/slides_188_new.png)
+</div>
+
+---
+
+
+## Calculating Accuracies
+
+<div style="text-align:center">
+![](images/slides_189_new.png)
+</div>
 
 
 ---
 
 
-Creation and Use of Models
+## Determining Parameter k
 
-validate suitability for use
+<div style="font-size:1.7em;font-weight:600;float:left;">
+1\.	Split the original labeled dataset into training and test data\.
 
-use as neighbors database
+2\.	Pick an evaluation metric\. Misclassification rate or accuracy are good ones\.
 
-k\-Nearest Neighbors
+3\.	Run k\-NN a few times\, changing k and checking the evaluation measure\.
 
-apply to new instances
-
-New Customers/Transactions/ \.\.\.
-
-
----
-
-
-Calculating Accuracies
-
-Training Set	Test Set
-
-The training set is used to calculate the classifier model\.
-
-The accuracy of the training set indicates the goodness of fit of the model\.
-
-The test set is used to evaluate the classifier model\.
-
-The accuracy of the test set indicates the robust\-ness/predictability of the model\.
-
-
----
-
-
-Determining Parameter k
-
+4\.	Optimize k by picking the one with the best evaluation measure\.
+</div>
+<div style="float:right">
 | <span style="color:#1a1a1a">k</span> | <span style="color:#1a1a1a">Accuracy</span>  <span style="color:#1a1a1a"> </span> |
 | :-: | :-: |
 | <span style="color:#1a1a1a">1</span> | <span style="color:#1a1a1a">0\.720</span> |
@@ -1575,226 +1440,208 @@ Determining Parameter k
 | <span style="color:#1a1a1a">8</span> | <span style="color:#1a1a1a">0\.750</span> |
 | <span style="color:#1a1a1a">9</span> | <span style="color:#1a1a1a">0\.765</span> |
 | <span style="color:#1a1a1a">10</span> | <span style="color:#1a1a1a">0\.760</span> |
+</div>
 
-1\.	Split the original labeled dataset into training and test data\.
 
-2\.	Pick an evaluation metric\. Misclassification rate or accuracy are good ones\.
 
-3\.	Run k\-NN a few times\, changing k and checking the evaluation measure\.
 
-4\.	Optimize k by picking the one with the best evaluation measure\.
+---
+
+## Navigation 
+
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.1&nbsp; K-Nearest Neighbors</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.1.2&nbsp; Evaluating the Quality of Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.3&nbsp; Decision Tree Approaches</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.4&nbsp; Logistic Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.5&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.6&nbsp; Resampling</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.7&nbsp; Ensemble Learning</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Evaluating the quality of Classification \(I\)
 
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.1\.1	K\-Nearest Neighbors
-
-<span style="color:#c00000">4\.4\.1\.2	</span>  <span style="color:#c00000">Evaluating the Quality of Classification</span>
-
-4\.4\.1\.3	Decision Tree Approaches
-
-4\.4\.1\.4	Logistic Regression
-
-4\.4\.1\.5	Neural Networks
-
-4\.4\.1\.6	Resampling
-
-4\.4\.1\.7	Ensemble Learning
-
-4\.4\.2	Regression
-
-
----
-
-
-Evaluating the quality of Classification \(I\)
-
+<div style="font-size:1.6em;font-weight:600">
 True positives \(TP\)\, true negatives \(TN\)\, false positives \(FP\)\, and false negatives \(FN\)\, are the four different possible outcomes of a single prediction for a two\-class case\. A false positive is when the outcome is incorrectly classified as "yes"\, when it is in fact "no"\. A false negative is when the outcome is incorrectly classified as negative\, when it is in fact positive\. True positives and true negatives are obviously correct classifications\.
+</div>
 
-Confusion Matrix:
-
+<div style="text-align:center">
 ![](images/slides_223.png)
+</div>
 
 
 ---
 
 
-Evaluating the quality of Classification \(II\)
+## Evaluating the quality of Classification \(II\)
 
+<div style="font-size:1.6em;font-weight:600">
 Test metrics are used to assess how accurately the model predicts the known values:
-
+<div style="text-align:center">
+![](images/slides_192_new.png)
+</div>
 Most classification algorithms pursue to minimize the misclassification rate\. They implicitly assume that all misclassification errors cost equally\. In many real\-world applications\, this assumption is not true\. Cost\-sensitive learning takes costs\, such as the misclassification cost\, into consideration\. Using costs\, the error rate can be calculated via:
+<div style="text-align:center">
+![](images/slides_1922_new.png)
+</div>
+</div>
 
 
 ---
 
 
-Evaluating the quality of Classification \(III\)
+## Evaluating the quality of Classification \(III\)
 
+<div style="font-size:1.3em;font-weight:600">
 Misclassification rate and accuracy can be misleading\, for example in the case of imbalanced samples\. Extreme case:
 
-yes    no
-
-yes  1000    3
-
-no        45    2
+<div style="text-align:center">
+![](images/slides_193_new.png)
+</div>
 
 For problems like\, this additional measures are required to evaluate a classifier\.
 
 <span style="color:#ff0000">Sensitivity</span>  \(true positive rate\, recall\) measures the proportion of positives that are correctly identified as such\.  <span style="color:#ff0000">Specificity</span>  \(true negative rate\) measures the proportion of negatives that are correctly identified as such\.
+<div style="text-align:center">
+![](images/slides_193_2_new.png)
+</div>
 
 Using both measures\, we can compute the  <span style="color:#ff0000">Balanced Accuracy</span>
+<div style="text-align:center">
+![](images/slides_193_3_new.png)
+</div>
+</div>
 
 
 ---
 
 
-Problem of Imbalancing and Accuracy
+## Problem of Imbalancing and Accuracy
 
+<div style="font-size:1.6em;font-weight:600">
 Assume the following case: A credit card company wants to create a fraud detection system to include it into their transactional systems\. The outcomes should be "Accept" \(Y\) and "Reject" \(N\)\. Because fraud rarely occurs\, the data set consists of 320 observations for Y and 139 for N\. They are partitioned into training and test set\. Finally\, the model is trained and tested\.
 
 Because of the majority of the Y class\, the training process concentrates on these cases because their correct classification promises the highest accuracy\.
 
 The results of the test of the model is consequently:
 
-N      Y
-
-N      21   32
-
-Y        6   94
+<div>
+![](images/slides_194_new.png)
+</div>
 
 Thus\, the model is blind for the N cases\. But these are the ones of primary interest for the company\.
+</div>
 
 
 ---
 
 
-Evaluating the quality of Classification \(IV\)
+## Evaluating the quality of Classification \(IV\)
 
-![](images/slides_224.png)
-
+<div style="display:flex; font-size:1.3em;font-weight:600">
+<div style="width:50%">
 <span style="color:#ff0000">Precision</span>  measures the proportion of predicted positives who are true positives\. A precision of 0\.5 means that whenever the model classifies a positive\, there is a 50% chance of it really being a positive\.The higher the precision the smaller the number of false positives\.
-
+<div>
+![](images/slides_195_new.png)
+</div>
 <span style="color:#ff0000">Recall</span>  measures the percentage of positives the model is able to catch\. It is defined as the number of true positives divided by the total number of positives in the dataset\. A recall of 50% would mean that 50% of the positives had been predicted as such by the model while the other 50% of positives have been missed by the model\.
+</div>
+<div style="width:50%;text-align:center;">
+![](images/slides_224.png)
+</div>
 
-Source: Wikipedia
+</div>
+<p style="text-align:right">Source: Wikipedia</p>
 
 
 ---
 
 
-Evaluating the quality of Classification \(V\)
+## Evaluating the quality of Classification \(V\)
 
+<div style="font-size:1.6em;font-weight:600">
 The F1 Score can be interpreted as the weighted average of both precision and recall\. The main idea of the F1 Score is to strike a balance between both precision and recall and measure it in a single metric\.
-
+<div style="text-align:center">
+![](images/slides_196_new.png)
+</div>
 A F1 score reaches its best value at 1 \(perfect precision and recall\) and worst at 0\.
 
 It is commonly used in cases of high class imbalance\.
+</div>
 
 
 ---
 
 
-Creation and Use of Models
+## Creation and Use of Models
 
-New Customers/Transactions/\.\.\.
+<div style="text-align:center">
+![](images/slides_197_new.png)
+</div>
+
+---
+
+
+## Navigation 
+
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.1&nbsp; K-Nearest Neighbors</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.2&nbsp; Evaluating the Quality of Classification</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.1.3&nbsp; Decision Tree Approaches</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.4&nbsp; Logistic Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.5&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.6&nbsp; Resampling</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.7&nbsp; Ensemble Learning</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Which one is better?
 
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.1\.1	K\-Nearest Neighbors
-
-4\.4\.1\.2	Evaluating the Quality of Classification
-
-<span style="color:#c00000">4\.4\.1\.3	Decision Tree Approaches</span>
-
-4\.4\.1\.4	Logistic Regression
-
-4\.4\.1\.5	Neural Networks
-
-4\.4\.1\.6	Resampling
-
-4\.4\.1\.7	Ensemble Learning
-
-4\.4\.2	Regression
-
+<div style="text-align:center">
+![](images/slides_199_new.png)
+</div>
 
 ---
 
 
-Which one is better?
+## Introductory Example
 
-
----
-
-
-Introductory Example
-
+<div style="text-align:center">
 ![](images/slides_225.png)
-
-![](images/slides_226.png)
-
-![](images/slides_227.png)
-
-![](images/slides_228.png)
-
-![](images/slides_229.png)
-
-![](images/slides_230.png)
-
-![](images/slides_231.png)
-
-![](images/slides_232.png)
-
-![](images/slides_233.png)
-
-<span style="color:#000000">	university degree</span>
-
-Respond to Advertisement
-
-no
-
-yes
-
-![](images/slides_234.png)
-
-![](images/slides_235.png)
-
-![](images/slides_236.png)
-
-![](images/slides_237.png)
-
-![](images/slides_238.png)
-
-![](images/slides_239.png)
-
-![](images/slides_240.png)
+</div>
 
 ::: {.notes}
 
@@ -1809,85 +1656,124 @@ Proportions in the leafs can be interpreted as probabilities.
 ---
 
 
-Decision Trees \(I\)
+## Decision Trees \(I\)
 
+<div style="font-size:1.6em;font-weight:600">
 Decision trees belong to the hierarchical methods of classification\. They analyze step\-by\-step \(recursive partitioning\)\.
 
 A decision tree consists of nodes and borders\. The topmost node \(without any parent node\) is called "root"\. A node without a child node is called "leaf"\. Nodes that have parent and  child nodes are called "interior nodes"\. The interior nodes represent the splitting of the included object sets\. An interior node has at least two child nodes \(sons\)\. If every interior node has exactly two child nodes\, the tree is called a "binary tree"\.
 
 A decision tree method starts at the root\, which includes all objects\. The different features are compared \(with an adequate measure\) regarding their suitability of classification\. The most appropriate feature determines the branching of the current set of objects: regarding this feature\, the current set of objects is divided into disjoint subsets \(partitioning\)\. This method is now used recursively to the created child nodes \(subsets\)\.
+</div>
 
 
 ---
 
 
-Decision Trees \(II\)
+## Decision Trees \(II\)
 
+<div style="font-size:1.6em;font-weight:600">
+<p>
 Graphically\, decision tree models divide the dataspace in a large number of subspaces and search for the variables which are able to split the dataspace with the greatest homogeneity\. We can think of the decision tree as a map of different path\. For a distinct combination of predictor variables and their observed values\, we would enter a specific path\, which gives the classification in the leaf of the decision tree\.
-
+</p>
+<div style="float:left;width:50%">
 The decision tree approach does not require any assumption about the functional form of variables or distributions\. Furthermore in contrast to parametric models like linear regressions\, the decision tree algorithm can model multiple structures as well as complex relationships within the data\, which would be difficult to replicate in a linear model\.
-
+</div>
+<div class="volumeImageWrapper" style="float:right">
 ![](images/slides_241.png)
+</div>
+</div>
+
 
 
 ---
 
 
-Decision Trees \(III\)
+## Decision Trees \(III\)
 
+<div class="descriptive-wrapper">
 ![](images/slides_242.png)
+</div>
 
-Source: http://iopscience\.iop\.org/article/10\.1088/1749\-4699/5/1/015004
-
-
----
-
-
-Overview of important Decision Tree Methods
-
-| __Name__ | CART | ID3 | C5\.0 | CHAID | Random Forests |
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| __Idea__ | Choose the attribute with the highest information content | One of the first methods from Quinlan; uses the concept of  information gain | Like ID3 based on the concept of information gain | Choose the attribute that is most dependent from the target variable | Construct many trees with different sets of features and samples \(randomly\)\. Result by voting\. |
-| __Measure used__ | Gini\-Index | Information gain \(entropy\) | Ratio of information gain | Chi\-square split | optional\, mostly Gini\-Index |
-| __Type of Splitting__ | binary | complete\, pruning | complete\, pruning | complete\, pruning | complete |
-
+<p style="text-align:center">Source: http://iopscience\.iop\.org/article/10\.1088/1749\-4699/5/1/015004</p>
 
 ---
 
 
-Introductory Example
+## Overview of important Decision Tree Methods
 
+<table class="comparison-table">
+  <tr>
+    <th>Name</th>
+    <th>CART</th>
+    <th>ID3</th>
+    <th>C5.0</th>
+    <th>CHAID</th>
+    <th>Random Forests</th>
+  </tr>
+  <tr>
+    <td><b>Idea</b></td>
+    <td>Choose the attribute with the highest information content</td>
+    <td>One of the first methods from Quinlan; uses the concept of information gain</td>
+    <td>Like ID3 based on the concept of information gain</td>
+    <td>Choose the attribute that is most dependent on the target variable</td>
+    <td>Construct many trees with different sets of features and samples (randomly). Result by voting.</td>
+  </tr>
+  <tr>
+    <td><b>Measure used</b></td>
+    <td>Gini-Index</td>
+    <td>Information gain (entropy)</td>
+    <td>Ratio of information gain</td>
+    <td>Chi-square split</td>
+    <td>Optional, mostly Gini-Index</td>
+  </tr>
+  <tr>
+    <td><b>Type of Splitting</b></td>
+    <td>Binary</td>
+    <td>Complete, pruning</td>
+    <td>Complete, pruning</td>
+    <td>Complete, pruning</td>
+    <td>Complete</td>
+  </tr>
+</table>
+
+---
+
+## Introductory Example
+
+<div class="descriptive-wrapper">
+![](images/slides_205_new.png)
+</div>
+
+---
+
+## Splitting with Entropy in ID3
+
+<div class="descriptive-wrapper">
+![](images/slides_206_new.png)
+</div>
+
+---
+
+## Calculating the Information Gain
+
+<div style="font-size:1.6em;font-weight:600">
+The information gain is a measure, that shows (by combination of the entropies) the appropriateness of an attribute for splitting:
+<div style="text-align:center">
+![](images/slides_207_1_new.png)
+</div>
+where m = number of values (here two: light, strong), ti = number of data sets with strong or light wind (8 resp. 6), t = total number of data sets (14) and entropy(t) = entropy before splitting.
+<div style="text-align:center">
+![](images/slides_207_2_new.png)
+</div>
+</div>
 
 ---
 
 
-Splitting with Entropy in ID3
+## Decision using ID3
 
-<span style="color:#000000"> __ID3 uses the entropy as a measure for the impurity of a node t:__ </span>
-
-<span style="color:#000000"> __where p__ </span>  <span style="color:#000000"> __i__ </span>  <span style="color:#000000"> __ =	relative frequency of cases in a node\, __ </span>  <span style="color:#000000"> __	that belong to a class __ </span>  <span style="color:#000000"> __i__ </span>
-
-
-
-* <span style="color:#000000"> __Attribute Wind:__ </span>
-  * <span style="color:#000000"> __light: 6 x yes\, 2 x no__ </span>
-  * <span style="color:#000000"> __strong: 3 x yes\, 3 x no__ </span>
-
----
-
-
-<span style="color:#000000">Calculating the Information Gain</span>
-
-<span style="color:#000000"> __The information gain is a measure\, that shows \(by combination of the entropies\) the appropriateness of an attribute for splitting:__ </span>
-
-<span style="color:#000000"> __where m = number of values \(here two: light\, strong\)\, __ </span>  <span style="color:#000000"> __t__ </span>  <span style="color:#000000"> __i__ </span>  <span style="color:#000000"> __ = number of data sets with strong or light wind \(8 resp\. 6\)\, t = total number of data sets \(14\) and entropy\(t\) = entropy before splitting\.__ </span>
-
-
----
-
-
-Decision using ID3
-
+<div style="font-size:1.6em;font-weight:600">
 Information gain \(outlook\) = 0\.246
 
 Information gain \(humidity\) = 0\.151
@@ -1900,90 +1786,97 @@ We choose the attribute with the largest information gain \(here: outlook\) for 
 
 As solution we obtain the following tree:
 
+<div style="text-align:center;margin-top:2em">
 ![](images/slides_243.png)
+</div>
+</div>
 
 
 ---
 
 
-Decision using C5\.0
+## Decision using C5\.0
 
-<span style="color:#000000">ID3 tends to favor attributes that have a large number of values\, resulting in larger trees\. For example\, if we have an attribute that has a distinct value for each record\, then the entropy is 0\, thus the information gain is maximal\. </span>
-
-<span style="color:#000000">To compensate for this\, </span>  <span style="color:#000000"> __C5\.0 is a further development that uses the information gain ratio as a splitting criterion:__ </span>
-
-<span style="color:#000000">In the case of our example the </span>  <span style="color:#000000">GainRatio</span>  <span style="color:#000000"> of Windy is</span>
-
-<span style="color:#000000">and the </span>  <span style="color:#000000">GainRatio</span>  <span style="color:#000000"> of Outlook is </span>
-
-
----
-
-
-Handling Numerical Attributes
-
-Numerical attributes are usually splitted binary\. In contrast to categorical attributes many possible splitting points exist \.
-
-The splitting point with the highest information gain is looked for\. For this\, the potential attribute is sorted according to its values first and then all possible splitting point and the corresponding information gains are calculated\. In extreme cases there exists n\-1 possibilities\.
-
-Test the splitting point temperature = 71\.5:
-
-
-
-  * temperature < 71\.5: 4 x yes\, 2 x no
-  * temperature > 71\.5 : 5 x yes\, 3 x no
-  * We calculate:
+<div style="font-size:1.3em;font-weight:600">
+<p>ID3 tends to favor attributes that have a large number of values, resulting in larger trees. For example, if we have an attribute that has a distinct value for each record, then the entropy is 0, thus the information gain is maximal. </p>
+<p>To compensate for this, C5.0 is a further development that uses the information gain ratio as a splitting criterion:</p>
+<div style="text-align:center">
+![](images/slides_209_new.png)
+</div>
+<p>In the case of our example the GainRatio of Windy is</p>
+<div style="text-align:center">
+![](images/slides_209_2_new.png)
+</div>
+<p>
+and the GainRatio of Outlook is 
+</p>
+<div style="text-align:center">
+![](images/slides_209_2_new.png)
+</div>
+</div>
 
 ---
 
 
-The CART Algorithm
+## Handling Numerical Attributes
 
-<span style="color:#000000"> __The CART algorithm \(Classification And Regression Trees\) constructs trees that have only binary splits\. Like C5\.0\, it is able to handle categorical and  numerical attributes\. __ </span>
+<div style="font-size:1.6em;font-weight:600">
 
-<span style="color:#000000"> __As a measure for the impurity of a node t\, CART uses the Gini Index\. In the case of two classes the Gini Index is defined as:__ </span>
-
-<span style="color:#000000"> __where p__ </span>  <span style="color:#000000"> __i__ </span>  <span style="color:#000000"> __ =	relative frequency of cases in a node\, __ </span>  <span style="color:#000000"> __	that belong to a class __ </span>  <span style="color:#000000"> __i__ </span>  <span style="color:#000000"> __\, __ </span>  <span style="color:#000000"> __i__ </span>  <span style="color:#000000"> __=1\,2\. __ </span>
-
-<span style="color:#000000"> __A node t  is __ </span>  <span style="color:#000000"> __splitted__ </span>  <span style="color:#000000"> __ by the attribute that minimizes:__ </span>
-
-<span style="color:#000000"> __This is equivalent to:__ </span>
-
+<p>Numerical attributes are usually splitted binary. In contrast to categorical attributes many possible splitting points exist .</p>
+<p>The splitting point with the highest information gain is looked for. For this, the potential attribute is sorted according to its values first and then all possible splitting point and the corresponding information gains are calculated. In extreme cases there exists n-1 possibilities. </p>
+<div style="text-align:center">
+![](images/slides_210_new.png)
+</div>
+</div>
 
 ---
 
 
-Splitting in CART
+## The CART Algorithm
 
-
-
-* <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __Attribute __ </span>  <span style="color:#000000"> __Wind:__ </span>
-  * <span style="color:#000000"> __light: 6 x yes\, 2 x no__ </span>
-  * <span style="color:#000000"> __strong: 3 x yes\, 3 x no__ </span>
-  * <span style="color:#000000"> __resulting in:__ </span>
-
----
-
-
-Coherence between Entropy and Gini Index
-
-<span style="color:#000000"> __Remark: Entropy has been scaled from \(0\, 1\) to \(0\, 0\.5\)\!__ </span>
-
+<div style="font-size:1.6em;font-weight:600">
+<p>The CART algorithm (Classification And Regression Trees) constructs trees that have only binary splits. Like C5.0, it is able to handle categorical and  numerical attributes. </p>
+<p>As a measure for the impurity of a node t, CART uses the Gini Index. In the case of two classes the Gini Index is defined as:</p>
+<div>
+![](images/slides_211_new.png)
+</div>
+</div>
 
 ---
 
 
+## Splitting in CART
+
+<div style="text-align:center">
+![](images/slides_212_new.png)
+</div>
+
+---
+
+
+## Coherence between Entropy and Gini Index
+
+<div style="text-align:center">
+![](images/slides_213_new.png)
+<p style="color:#000000;font-size:1.6em"> __Remark: Entropy has been scaled from \(0\, 1\) to \(0\, 0\.5\)\!__ </p>
+</div>
+
+---
+
+## Overfitting (I)
+
+<div style="font-size:1.6em;font-weight:600">
+<div>
+<p>Most decision tree algorithms partition training data until every node contains objects of a single class, or until further partitioning is impossible because two objects have the same value for each attribute but belong to different classes. If there are no such conflicting objects, the decision tree will correctly classify all training objects.</p>
+</div>
+<div>
+<p style="float:left;width:65%">If tree performance is measured from the number of correctly classified cases it is com-mon to find that the training data gives an over-optimistic guide to future performance,i.e. with new data. A tree should exhibit generalization, i.e. work well with data other than those used to generate it. When the tree grows during training it often shows a decrease in generalization. This is because the deeper nodes are fitting noise in the training data not representative over the entire universe from which the training set was sampled. This is called 'overfitting'.
+</p>
+<div style="float:right">
 ![](images/slides_244.png)
-
-optimum tree size
-
-Most decision tree algorithms partition training data until every node contains objects of a single class\, or until further partitioning is impossible because two objects have the same value for each attribute but belong to different classes\. If there are no such conflicting objects\, the decision tree will correctly classify all training objects\.
-
-If tree performance is measured from the number of correctly classified cases it is com\-mon to find that the training data gives an over\-optimistic guide to future performance\,
-
-i\.e\. with new data\. A tree should exhibit generalization\, i\.e\. work well with data other than those used to generate it\. When the tree grows during training it often shows a decrease in generalization\. This is because the deeper nodes are fitting noise in the training data not representative over the entire universe from which the training set was sampled\. This is called 'overfitting'\.
-
-Overfitting can be avoided by pruning the tree so that this will improve generalization\. This can be done by using a stopping criterion that prevents some sets of training cases from being subdivided \(prepruning\)\, or by removing some of the structure of the tree after it has been produced \(postpruning\)\.
+</div>
+</div>
+</div>
 
 
 ---

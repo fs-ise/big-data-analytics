@@ -288,7 +288,7 @@ ul > li {
   height: 600px;
   width: 100%;
 }
-.volumeImageWrapper img{
+.volumeImageWrapper img,.Multivariate-wrapper img{
   height: 350px;
   width: 700px;
 }
@@ -452,7 +452,11 @@ ol.colored-numbers li::before {
 .disc-list li{
   list-style: disc;
 }
-
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 /* end */
 .join-container {
   display: flex;
