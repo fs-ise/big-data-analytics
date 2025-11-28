@@ -1,6 +1,8 @@
 FROM ghcr.io/quarto-dev/quarto:latest
 
-# --- System dependencies (adapt this block to match what you already had) ---
+ENV DEBIAN_FRONTEND=noninteractive
+
+# --- System dependencies ---
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         curl \
@@ -10,13 +12,18 @@ RUN apt-get update && \
         libfontconfig \
     && rm -rf /var/lib/apt/lists/*
 
+RUN pip3 install --no-cache-dir jupyter ipykernel matplotlib plotly scikit-learn
+RUN python3 -m ipykernel install --name=python3 --display-name "Python 3"
+
 # --- Install recent Node.js (NodeSource) ---
-# IMPORTANT: if you previously had "apt-get install nodejs npm" somewhere,
-# remove that – we replace it with this modern Node.js.
 RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
     apt-get update && \
     apt-get install -y --no-install-recommends nodejs && \
     rm -rf /var/lib/apt/lists/*
 
-# Optional: check versions during build (handy for debugging)
-RUN node -
+# log versions at build time (handy for debugging)
+RUN node -v && npm -v
+
+RUN npm install -g decktape
+
+WORKDIR /project
