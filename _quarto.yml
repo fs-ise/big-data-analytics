@@ -1,6 +1,8 @@
 project:
-  title: "My Slides"
+  type: website
+  title: "Big Data and Analytics"
   output-dir: _site 
+  post-render: "bash scripts/decktape.sh"
 format:
   revealjs:
     theme: simple
