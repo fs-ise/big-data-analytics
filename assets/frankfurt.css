@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 0.75rem;
-  padding: 8px 16px;
+  padding: 22px 22px;
   max-height: var(--fs-header-h);
   background: rgba(255,255,255,0.92);
   backdrop-filter: saturate(120%) blur(4px);
@@ -108,14 +108,21 @@ body,
   margin-bottom: 1em;  /* Increase to 1.5em or 2em if you want more space */
 }
 
+.reveal .slides section.level1.center {
+  top: 320px !important;  /* smaller than 379px = higher on the screen */
+}
+
 .reveal .slides section.centered-slide {
   display: flex !important;
   flex-direction: column;
-  justify-content: flex-start; /* align to top */
-  align-items: center;         /* keep horizontally centered */
+  justify-content: flex-start;
+  align-items: center;
   text-align: center;
   height: 100%;
-  padding-top: 20vh;           /* tweak: 5vh, 8vh, 12vh, ... */
+  padding-top: 0;        /* no extra padding */
+
+  position: relative;    /* allow top offset */
+  top: -60px;            /* move slide content up; tweak -20px / -60px etc. */
 }
 
 
@@ -130,4 +137,3 @@ body,
 .reveal .slide-menu-button {
   margin-bottom: 10px;
 }
-
