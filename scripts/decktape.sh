@@ -14,6 +14,8 @@ echo "${QUARTO_PROJECT_OUTPUT_FILES:-}" | while IFS= read -r out; do
       # We’re *inside* the quarto container, working_dir is /project
       # QUARTO_PROJECT_OUTPUT_FILES are relative to /project, so this works:
       decktape \
+        --chrome-arg=--no-sandbox \
+        --chrome-arg=--disable-gpu \
         -s 1600x900 -p 2000 \
         reveal "$html" "$pdf"
       ;;
