@@ -27,7 +27,15 @@ jobs:
         with:
           tinytex: false    # set true if you render PDFs needing LaTeX
 
-      # Optional: Python / R setup if needed
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install decktape
+        run: |
+          npm install -g decktape
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
