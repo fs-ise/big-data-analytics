@@ -5,7 +5,7 @@ echo "${QUARTO_PROJECT_OUTPUT_FILES:-}" | while IFS= read -r out; do
   [[ -z "$out" ]] && continue
 
   case "$out" in
-    *.html)
+    slides/*.html)
       html="$out"
       pdf="${out%.html}.pdf"
 
@@ -18,6 +18,9 @@ echo "${QUARTO_PROJECT_OUTPUT_FILES:-}" | while IFS= read -r out; do
         --chrome-arg=--disable-gpu \
         -s 1600x900 -p 2000 \
         reveal "$html" "$pdf"
+      ;;
+    *)
+      echo "Skipping non-slide output: $out"
       ;;
   esac
 done
