@@ -5,14 +5,12 @@ echo "${QUARTO_PROJECT_OUTPUT_FILES:-}" | while IFS= read -r out; do
   [[ -z "$out" ]] && continue
 
   case "$out" in
-    slides/*.html)
+    */slides/*.html)
       html="$out"
       pdf="${out%.html}.pdf"
 
       echo "Decktape: $html -> $pdf"
 
-      # We’re *inside* the quarto container, working_dir is /project
-      # QUARTO_PROJECT_OUTPUT_FILES are relative to /project, so this works:
       decktape \
         --chrome-arg=--no-sandbox \
         --chrome-arg=--disable-gpu \
