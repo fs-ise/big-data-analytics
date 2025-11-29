@@ -86,24 +86,25 @@ We may prepare the [handout](all_lectures.pdf) generated based on all slides.
 
 ## Recommended literature
 
+
 Part 1:
 
-- Sharda, R., Delen, D., & Turban, E. (2018). Business intelligence, analytics, and data science: a managerial perspective.
-- Martínez-Plumed, F., Contreras-Ochando, L., Ferri, C., Hernández-Orallo, J., Kull, M., Lachiche, N., Ramirez-Quintana, M. J. & Flach, P. (2019). CRISP-DM twenty years later: From data mining processes to data science trajectories. IEEE Transactions on Knowledge and Data Engineering, 33(8), 3048-3061. 
-- Chen, H., Chiang, R. H., & Storey, V. C. (2012). Business intelligence and analytics: From big data to big impact. MIS Quarterly 36(4), 1165-1188.
+- Sharda, R., Delen, D., & Turban, E. (2018). Business intelligence, analytics, and data science: a managerial perspective. [link](https://elibrary.pearson.de/book/99.150005/9781292727530)
+- Martínez-Plumed, F., Contreras-Ochando, L., Ferri, C., Hernández-Orallo, J., Kull, M., Lachiche, N., Ramirez-Quintana, M. J. & Flach, P. (2019). CRISP-DM twenty years later: From data mining processes to data science trajectories. _IEEE Transactions on Knowledge and Data Engineering_, _33_(8), 3048-3061. [link](https://ieeexplore.ieee.org/abstract/document/8943998)
+- Chen, H., Chiang, R. H., & Storey, V. C. (2012). Business intelligence and analytics: From big data to big impact. _MIS Quarterly_ 36(4), 1165-1188. [link](https://www.jstor.org/stable/41703503)
 
 Part 2:
 
-- Vaisman, A.; Zimányi, E. (2016): Data Warehouse Systems: Design and Implementation (Data-Centric Systems and Applications), Springer.
-- Schutt, R.; O’Neil, C. (2014): Doing Data Science, O’Reilly Media.
-- Raschka, Sebastian (2015): Python Machine Learning, Packt Publishing.
+- Vaisman, A.; Zimányi, E. (2016): Data Warehouse Systems: Design and Implementation (Data-Centric Systems and Applications), Springer. [link](https://link.springer.com/book/10.1007/978-3-662-65167-4)
+- Schutt, R.; O’Neil, C. (2014): Doing Data Science, O’Reilly Media. [link](https://www.oreilly.com/library/view/doing-data-science/9781449363871/)
+- Raschka, Sebastian (2015): Python Machine Learning, Packt Publishing. [link](https://www.packtpub.com/en-us/product/python-machine-learning-9781783555130)
 
 Part 3:
 
-- Schmarzo, B. (2016): Big Data MBA, Wiley.
-- Bengfort, B., Bilbro, R., & Ojeda, T. (2018). Applied text analysis with python: Enabling language-aware data products with machine learning. O’Reilly Media, Inc. 
+- Schmarzo, B. (2016): Big Data MBA, Wiley. [link](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119238881)
+- Bengfort, B., Bilbro, R., & Ojeda, T. (2018). _Applied text analysis with python: Enabling language-aware data products with machine learning_. O'Reilly Media, Inc. [link](https://www.oreilly.com/library/view/applied-text-analysis/9781491963036/)
 
 Part 4:
 
-- Davenport, T. H. (2006). Competing on analytics. Harvard Business Review, 84(1), 98.
-- Vidgen, R., Shaw, S., & Grant, D. B. (2017). Management challenges in creating value from business analytics. European Journal of Operational Research, 261(2), 626-639.
+- Davenport, T. H. (2006). Competing on analytics. _Harvard Business Review_, _84_(1), 98. [link](https://cs.brown.edu/courses/cs295-11/competing.pdf)
+- Vidgen, R., Shaw, S., & Grant, D. B. (2017). Management challenges in creating value from business analytics. _European Journal of Operational Research_, _261_(2), 626-639. [link](https://www.sciencedirect.com/science/article/pii/S0377221717301455)
