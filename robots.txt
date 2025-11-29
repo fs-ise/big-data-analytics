@@ -1,1 +1,1 @@
-Sitemap: https://geritwagner.github.io/big-data-analytics/sitemap.xml
+Sitemap: https://fs-ise.github.io/big-data-analytics/sitemap.xml
