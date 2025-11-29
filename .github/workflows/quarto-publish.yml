@@ -28,13 +28,14 @@ jobs:
           tinytex: false    # set true if you render PDFs needing LaTeX
 
       # Optional: Python / R setup if needed
-      # - name: Set up Python
-      #   uses: actions/setup-python@v5
-      #   with:
-      #     python-version: '3.11'
-      #
-      # - name: Install Python deps
-      #   run: |
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install Python deps
+        run: |
+          pip install jupyter ipykernel matplotlib plotly scikit-learn
       #     pip install -r requirements.txt
 
       - name: Render site
