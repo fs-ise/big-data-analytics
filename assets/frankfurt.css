@@ -292,6 +292,18 @@ ul > li {
   height: 350px;
   width: 700px;
 }
+.BackpropagationWrapper img{
+  height: 250px;
+  width: 600px;
+}
+.Backpropagation4Wrapper img{
+  height: 350px;
+  width: 800px;
+}
+.crossValidWrapper img{
+  height: 280px;
+  width: 60%;
+}
 
 .Descriptive-wrapper,
 .Predictive-wrapper,
@@ -351,6 +363,9 @@ ul > li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.crossVald p{
+  margin:0 !important
 }
 
 .first-box p,

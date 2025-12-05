@@ -1882,105 +1882,94 @@ and the GainRatio of Outlook is
 ---
 
 
-Overfitting \(II\)
+## Overfitting \(II\)
 
-The Iearner overfits to correctly classify‚ the noisy data objects
 
-Noisy or dirty data objects
-
+<div style="text-align:center">
 ![](images/slides_245.png)
+</div>
 
 
 ---
 
 
-Random Forest \(I\)
+## Random Forest \(I\)
 
-<span style="color:#000000">Random forest is an ensemble classifier that consists of many decision trees\. </span>
+<div style="font-size:1.6em;font-weight:600;position:relative">
+<div style="width:70%">
+<p style="color:#000000">Random forest is an ensemble classifier that consists of many decision trees\. </p>
 
-<span style="color:#000000">For every tree a  subset of the data objects and a subset of features is randomly chosen\. Then the tree is constructed usually using the Gini Index\. </span>
+<p style="color:#000000">For every tree a  subset of the data objects and a subset of features is randomly chosen\. Then the tree is constructed usually using the Gini Index\. </p>
 
-<span style="color:#000000">In the end\, a simple majority vote is taken for prediction\.</span>
-
+<p style="color:#000000">In the end\, a simple majority vote is taken for prediction\.</p>
+</div>
+<div style="position:absolute;top:0;right:0">
 ![](images/slides_246.png)
+</div>
 
-<span style="color:#000000">Algorithm</span>  <span style="color:#000000">:</span>
 
-<span style="color:#000000">1\.	Create n samples from the original data\. Frequent sample size is 2/3\.</span>
+<p><span style="color:#000000">Algorithm</span>  <span style="color:#000000">:</span></p>
 
-<span style="color:#000000">2\.	For each of the samples\, grow a tree\, with the following modification: at each node\, rather than choosing the best split among all predictors\, randomly sample m\* of the m predictors and choose the best split from among those variables\.</span>
+<p style="color:#000000">1\.	Create n samples from the original data\. Frequent sample size is 2/3\.</p>
 
-<span style="color:#000000">3\.	Predict by aggregating the predictions of the n trees \(majority votes\)\.</span>
+<p style="color:#000000">2\.	For each of the samples\, grow a tree\, with the following modification: at each node\, rather than choosing the best split among all predictors\, randomly sample m\* of the m predictors and choose the best split from among those variables\.</p>
+
+<p style="color:#000000">3\.	Predict by aggregating the predictions of the n trees \(majority votes\)\.</p>
+</div>
 
 
 ---
 
+## Random Forest (II)
 
-<span style="color:#000000"> __Random Forest \(II\)__ </span>
-
-<span style="color:#000000">Voting\-Principle of Random Forest:</span>
-
-<span style="color:#000000">To</span>  <span style="color:#000000"> </span>  <span style="color:#000000">avoid</span>  <span style="color:#000000"> </span>  <span style="color:#000000">overfitting</span>  <span style="color:#000000"> </span>  <span style="color:#000000">effects</span>  <span style="color:#000000">\, </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">size</span>  <span style="color:#000000"> </span>  <span style="color:#000000">and</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">depth</span>  <span style="color:#000000"> </span>  <span style="color:#000000">of</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">trees</span>  <span style="color:#000000"> </span>  <span style="color:#000000">can</span>  <span style="color:#000000"> </span>  <span style="color:#000000">be</span>  <span style="color:#000000"> </span>  <span style="color:#000000">restricted</span>  <span style="color:#000000">\. </span>
-
+<div style="font-size:1.6em;font-weight:600">
+<p style="color:#000000">Voting\-Principle of Random Forest:</p>
+<div style="text-align:center">
 ![](images/slides_247.png)
+</div>
+
+<p style="color:#000000">To<span style="color:#000000"> </span>  <span style="color:#000000">avoid</span>  <span style="color:#000000"> </span>  <span style="color:#000000">overfitting</span>  <span style="color:#000000"> </span>  <span style="color:#000000">effects</span>  <span style="color:#000000">\, </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">size</span>  <span style="color:#000000"> </span>  <span style="color:#000000">and</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">depth</span>  <span style="color:#000000"> </span>  <span style="color:#000000">of</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">trees</span>  <span style="color:#000000"> </span>  <span style="color:#000000">can</span>  <span style="color:#000000"> </span>  <span style="color:#000000">be</span>  <span style="color:#000000"> </span>  <span style="color:#000000">restricted</span>  <span style="color:#000000">\. </span></p>  
+
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Navigation
 
-4\.1	Subject of Predictive Analytics
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.1\.1	K\-Nearest Neighbors
-
-4\.4\.1\.2	Evaluating the Quality of Classification
-
-4\.4\.1\.3	Decision Tree Approaches
-
-<span style="color:#c00000">4\.4\.1\.4	Logistic Regression</span>
-
-4\.4\.1\.5	Neural Networks
-
-4\.4\.1\.6	Resampling
-
-4\.4\.1\.7	Ensemble Learning
-
-4\.4\.2	Regression
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.1&nbsp; K-Nearest Neighbors</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.2&nbsp; Evaluating the Quality of Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.3&nbsp; Decision Tree Approaches</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.1.4&nbsp; Logistic Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.5&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.6&nbsp; Resampling</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.7&nbsp; Ensemble Learning</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-Introductory Example
+## Introductory Example
 
+<div style="text-align:center">
 ![](images/slides_248.png)
-
-![](images/slides_249.png)
-
-<span style="color:#000000"> __websites \(features\)__ </span>
-
-<span style="color:#000000">1=visited</span>
-
-<span style="color:#000000">0=not visited</span>
-
-<span style="color:#000000"> __ad \(target\)__ </span>
-
-<span style="color:#000000">1=clicked</span>
-
-<span style="color:#000000">0=not clicked</span>
-
-<span style="color:#ff0000">Giant sparse matrix\!</span>
-
-<span style="color:#ff0000">One matrix for every ad\!</span>
+</div>
 
 ::: {.notes}
 
@@ -1994,57 +1983,68 @@ Can be solved by Naïve Bayes! Looking for an alternative
 ---
 
 
-Why not classical linear regression?
+## Why not classical linear regression?
 
+<div style="font-size:1.6em;font-weight:600">
 It is possible to implement  a linear regression on such a dataset where Y=\{0\,1\}\.
 
 Problems:
 
-The predicted values of the linear model can be greater than 1 or less than 0
+&bull; The predicted values of the linear model can be greater than 1 or less than 0
 
-e is not normally distributed because Y takes on only two values
+<div style="text-align:center">
+![](images/slides_220_new.png)
+</div>
 
-The error terms are heteroscedastic \(the error variance is not constant for all values of X\)
+&bull; e is not normally distributed because Y takes on only two values
 
-Source: Bichler \(2015\): Course Business Analytics\, TU München
+&bull; The error terms are heteroscedastic \(the error variance is not constant for all values of X\)
+</div>
+
+<p style="text-align:right">Source: Bichler \(2015\): Course Business Analytics\, TU München</p>
 
 
 ---
 
 
-Logistic regression \(I\)
+## Logistic regression \(I\)
 
+<div style="font-size:1.6em;font-weight:600">
 Logistic regression is a regression model where the dependent variable is categorical\. The classical logistic regression is a binary classifier\, where the dependent variable has two states\. The output of a logistic regression model ranges between 0 and 1\.
 
 Logistic regression uses the logistic function \(or Sigmoid function\) because it can take an input with any value from negative to positive infinity\, whereas the output always takes values between zero and one and hence is interpretable as a probability\.
 
-It is defined as:
-
+<div>
 ![](images/slides_250.png)
+</div>
+</div>
 
 
 ---
 
 
-Logistic regression \(II\)
+## Logistic regression \(II\)
 
-If we set
 
-the logistic function can now be written as:
+<div>
+![](images/slides_222_new.png)
+</div>
 
+<div style="font-size:1.4em;font-weight:600">
 We interpret F\(x\) as the conditional probability that the class attribute has the value 1 with the given input vector x\.
 
-The coefficients ß0 and ß can be estimated via Maximum Likelihood Estimation\.
+The coefficients &beta;<sub>0</sub> and &beta; can be estimated via Maximum Likelihood Estimation\.
 
-The parameter ß0 represents the unconditional probability of "Y=1" knowing nothing about the feature vector x\.
+The parameter &beta;<sub>0</sub> represents the unconditional probability of "Y=1" knowing nothing about the feature vector x\.
 
-The parameter vector β defines the slope of the logit function\. It determines the extent to which certain features contribute for increased or decreased likelihood to "Y=1"\.
+The parameter vector &beta; defines the slope of the logit function\. It determines the extent to which certain features contribute for increased or decreased likelihood to "Y=1"\.
 
 The output of a logistic model is a probability\. To use this for classification purposes:
 
 If the predicted probability is > 0\.5 the label is 1
 
 and otherwise 0\.
+</div>
 
 ::: {.notes}
 
@@ -2055,92 +2055,78 @@ odd = Chance
 
 ---
 
+## Navigation
 
-4	Predictive Analytics
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.1	Subject of Predictive Analytics
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.1\.1	K\-Nearest Neighbors
-
-4\.4\.1\.2	Evaluating the Quality of Classification
-
-4\.4\.1\.3	Decision Tree Approaches
-
-4\.4\.1\.4	Logistic Regression
-
-<span style="color:#c00000">4\.4\.1\.5	Neural Networks</span>
-
-4\.4\.1\.6	Resampling
-
-4\.4\.1\.7	Ensemble Learning
-
-4\.4\.2	Regression
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.1&nbsp; K-Nearest Neighbors</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.2&nbsp; Evaluating the Quality of Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.3&nbsp; Decision Tree Approaches</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.4&nbsp; Logistic Regression</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.1.5&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.6&nbsp; Resampling</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.7&nbsp; Ensemble Learning</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-Functionality of Human Neurons
+## Functionality of Human Neurons
 
+<div style="text-align:center">
 ![](images/slides_251.png)
+</div>
 
+---
+
+
+## An Easy Example \(I\)
+
+<div style="text-align:center">
 ![](images/slides_252.png)
+</div>
 
-A Look into the Nervous System
+---
 
-Design of a Neuron
+
+## An Easy Example \(II\)
+
+<div style="text-align:center">
+![](images/slides_252_2.png)
+</div>
 
 
 ---
 
 
-An Easy Example \(I\)
+## Functionality of a Neuron
 
-<span style="color:#000000"> __f\(x\) = Activation function__ </span>
-
-<span style="color:#000000"> __e\.g\. __ </span>
-
-<span style="color:#000000"> __where t = Stimulus threshold__ </span>
-
-
----
-
-
-An Easy Example \(II\)
-
-<span style="color:#000000"> __f\(x\) = Activation function__ </span>
-
-<span style="color:#000000"> __e\.g\. __ </span>
-
-<span style="color:#000000"> __where t = Stimulus threshold__ </span>
-
-
----
-
-
-Functionality of a Neuron
-
+<div class="descriptive-wrapper">
 ![](images/slides_253.jpg)
+</div>
 
 
 ---
 
+## The Perceptron
 
-<span style="color:#000000"> __For the case of n inputs\, we can rewrite the neuron's function to__ </span>
 
-<span style="color:#000000"> __with b = \-t\. b is known as the perceptron's bias\. The result of this function would then be fed into an activation function to produce a labeling__ </span>
-
+<div>
 ![](images/slides_254.png)
-
-<span style="color:#000000"> __This results in a linear classifier\. Finally\, we have to pick a line that best separates the labeled data\. The training of the perceptron consists of feeding it multiple training samples and calculating the output for each of them\. After each sample\, the weights w are adjusted in such a way so as to minimize the output error\, defined for example as accuracy or MSE\.__ </span>
+</div>
 
 <span style="color:#000000">Source: http://www\.toptal\.com/machine\-learning/an\-introduction\-to\-deep\-learning\-from\-perceptrons\-to\-deep\-networks</span>
 
@@ -2148,40 +2134,38 @@ Functionality of a Neuron
 ---
 
 
-The Multilayer Perceptron
+## The Multilayer Perceptron
 
+<div style="font-size:1.6em;font-weight:600">
 <span style="color:#000000"> __The single perceptron approach has a major drawback: it can only learn linear functions\. To address this problem\, we’ll need to use a multilayer perceptron\, also known as feedforward neural network\. Here\, we add layers between the input and the output layer\, so\-called hidden layers__ </span>  <span style="color:#000000">\. The hidden layer is where the network stores it's internal abstract representation of the training data\.</span>
-
-<span style="color:#000000">Input Neurons</span>  <span style="color:#000000">: </span>  <span style="color:#000000">receive</span>  <span style="color:#000000"> </span>  <span style="color:#000000">signals</span>  <span style="color:#000000"> </span>  <span style="color:#000000">from</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">outer</span>  <span style="color:#000000"> </span>  <span style="color:#000000">world</span>  <span style="color:#000000">\.</span>
-
-<span style="color:#000000">Hidden Neurons</span>  <span style="color:#000000">: </span>  <span style="color:#000000">have</span>  <span style="color:#000000"> an internal </span>  <span style="color:#000000">representation</span>  <span style="color:#000000"> </span>  <span style="color:#000000">of</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">outer</span>  <span style="color:#000000"> </span>  <span style="color:#000000">world</span>  <span style="color:#000000">\.</span>
-
-<span style="color:#000000">Output Neurons</span>  <span style="color:#000000">: pass </span>  <span style="color:#000000">signals</span>  <span style="color:#000000"> </span>  <span style="color:#000000">to</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">outer</span>  <span style="color:#000000"> </span>  <span style="color:#000000">world</span>  <span style="color:#000000">\.</span>
-
+<div style="text-align:center">
+![](images/slides_229_new.png)
+</div>
+</div>
 
 ---
 
 
-Types of Activation Functions
+## Types of Activation Functions
 
-<span style="color:#000000">A linear composition of linear functions is still just a linear function\, so most neural networks use non\-linear activation functions:</span>
-
-<span style="color:#000000"> __tangens__ </span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __hyperbolicus__ </span>
-
-<span style="color:#000000">logistic</span>  <span style="color:#000000">function</span>  <span style="color:#000000">\(sigmoid\)</span>
-
+<div style="text-align:center">
+![](images/slides_230_new.png)
+</div>
 
 ---
 
 
-Design of a Multilayer Perceptron
+## Design of a Multilayer Perceptron
 
+<div style="text-align:center">
+![](images/slides_231_new.png)
+</div>
 
 ---
 
+## Backpropagation
 
-
-
+<div style="font-size:1.4em;font-weight:600">
 * The Backpropagation algorithm is used for calculating the weights\. In a training phase\, the weights are iteratively calculated using training data sets in such a way that the difference between the calculated and the expected \(true\) results is minimized\. Because the simultaneous calculation of all weights is not possible\, they must be found via a learning process\. The backpropagation algorithm looks for the minimum of the error function in weight space using the method of gradient descent\.
 * The procedure in principle:
   * \(1\)	Define the initial weights
@@ -2191,58 +2175,78 @@ Design of a Multilayer Perceptron
   * \(5\)	Iterate steps \(2\) to \(4\) for every training set
   * \(6\)	Calculate the total error\. Adjust the weights beginning with the output layer towards the input layer \(backpropagation\)
   * \(7\)	Iterate steps \(2\) to \(6\) until the total error reaches the defined error\-level or the number of maximum iterations is reached\.
+</div>
 
 ---
 
 
-Adjusting the Weights \(I\)
+## Adjusting the Weights \(I\)
 
-<span style="color:#000000">The error of a training set </span>  <span style="color:#000000">i</span>  <span style="color:#000000"> is calculated using the quadratic deviation between the values </span>  <span style="color:#000000">o</span>  <span style="color:#000000">ij</span>  <span style="color:#000000"> of the neurons of the output layer and their corresponding true values </span>  <span style="color:#000000">t</span>  <span style="color:#000000">ij</span>  <span style="color:#000000">\. </span>
 
-<span style="color:#000000">The sum of the errors of all h training objects is the total error value E:</span>
-
+<div style="font-size:1.4em;font-weight:400">
+<p>The error of a training set i is calculated using the quadratic deviation between the values o<sub>ij</sub> of the neurons of the output layer and their corresponding true values t<sub>ij</sub>. 
+</p>
+<div style="text-align:center">
 ![](images/slides_256.png)
+</div>
+<p>
+The sum of the errors of all h training objects is the total error value E:
+</p>
+<div style="text-align:center">
+![](images/slides_256_2.png)
+</div>
+</div>
+
+
 
 
 ---
 
 
-Adjusting the Weights \(II\)
+## Adjusting the Weights \(II\)
 
-<span style="color:#000000">The function E has to be minimized\. Because it depends on the output neurons </span>  <span style="color:#000000">o</span>  <span style="color:#000000">j</span>  <span style="color:#000000">\, it automatically depends on their weights to the </span>  <span style="color:#000000">precedent layer\(s\)</span>  <span style="color:#000000">:</span>
+<div style="font-size:1.4em;font-weight:400">
+<span style="color:#000000">The function E has to be minimized\. Because it depends on the output neurons </span>  o<sub>j</sub>  <span style="color:#000000">\, it automatically depends on their weights to the </span>  <span style="color:#000000">precedent layer\(s\)</span>  <span style="color:#000000">:</span>
+<div>
+![](images/slides_258.png)
+</div>
 
 <span style="color:#000000">Thus\, the weights have to be found where E is minimal\. </span>
 
 <span style="color:#000000">Examples of Error functions with two weights:</span>
-
+<div style="text-align:center">
 ![](images/slides_257.png)
+</div>
 
-![](images/slides_258.png)
+</div>
 
 
 ---
 
 
-Adjusting the Weights \(III\)
+## Adjusting the Weights \(III\)
 
-<span style="color:#000000">To minimize the error \(cost\) function E the backpropagation algorithm uses the method of gradient descent</span>  <span style="color:#000000">\. This method searches those weights\, where the </span>  <span style="color:#000000">vector containing the partial first derivatives of the error function        </span>  <span style="color:#000000">\(gradient\) </span>  <span style="color:#000000">is equal to the zero vector </span>  <span style="color:#000000">\(minimum\):</span>
+<div style="font-size:1.2em;font-weight:400">
+<span style="color:#000000">To minimize the error \(cost\) function E the backpropagation algorithm uses the method of gradient descent</span>  <span style="color:#000000">\. This method searches those weights\, where the </span>  <span style="color:#000000">vector containing the partial first derivatives of the error function &nabla;E</span>  <span style="color:#000000">\(gradient\) </span>  <span style="color:#000000">is equal to the zero vector </span>  <span style="color:#000000">\(minimum\):</span>
 
-<span style="color:#000000">To adjust the weight </span>  <span style="color:#000000">w</span>  <span style="color:#000000">ij</span>  <span style="color:#000000">\, which connects neurons </span>  <span style="color:#000000">i</span>  <span style="color:#000000"> </span>  <span style="color:#000000">to</span>  <span style="color:#000000"> j\, the formula is:</span>
-
-<span style="color:#000000">where </span>  <span style="color:#000000">a </span>  <span style="color:#000000">represents a predefined learning rate</span>  <span style="color:#000000">\, </span>  <span style="color:#000000">which defines the step length of each iteration in the negative gradient direction </span>  <span style="color:#000000">and x</span>  <span style="color:#000000">i</span>  <span style="color:#000000"> denote the output value of neuron </span>  <span style="color:#000000">i</span>  <span style="color:#000000">\.</span>
+<div>
+![](images/slides_259.png)
+</div>
+<span style="color:#000000">where </span>  <span style="color:#000000">a </span>  <span style="color:#000000">represents a predefined learning rate</span>  <span style="color:#000000">\, </span>  <span style="color:#000000">which defines the step length of each iteration in the negative gradient direction </span>  <span style="color:#000000">and x</span><sub>i</sub>  <span style="color:#000000"> denote the output value of neuron </span>  <span style="color:#000000">i</span>  <span style="color:#000000">\.</span>
 
 <span style="color:#000000">The adjusted weight is then computed via</span>
-
-![](images/slides_259.png)
+<p>w<sub>ij</sub><sup>new</sup> = w<sub>ij</sub><sup>old</sup> + &Delta;w<sub>ij</sub></p>
+</div>
 
 
 ---
 
 
-Principle of Gradient Descent \(I\)
+## Principle of Gradient Descent \(I\)
 
+<div style="font-size:1.4em;font-weight:400">
 <span style="color:#000000">Gradient descent is used to find the minimum of the error function</span>  <span style="color:#000000">\. It works iterative\. In an 1\-dimensional world\, we define the error by</span>
-
+<p>error = &frac12; &middot; (prediction &minus; actual)<sup>2</sup></p>
 <span style="color:#000000">The error function is at minimum if the error is equal to zero\.</span>
 
 <span style="color:#000000">The prediction is the result of a combination of input and weight</span>
@@ -2252,118 +2256,153 @@ Principle of Gradient Descent \(I\)
 <span style="color:#000000">Now\,  the weight is adjusted via</span>
 
 <span style="color:#000000">After repeating this several times\, the minimum</span>  <span style="color:#000000">is reached\.</span>
+</div>
 
 
 ---
 
 
-Principle of Gradient Descent \(II\)
+## Principle of Gradient Descent \(II\)
 
-<span style="color:#000000">The formula </span>
+<div style="font-size:1.4em;font-weight:400">
+<p>The formula </p>
+<p style="margin-left:4em">deltaweight = (prediction - actual).input</p>
+<p>represents the derivative of the error to the weight\.</p>
 
-<span style="color:#000000">represents the derivative of the error to the weight\.</span>
+<p>A derivative is a term that is calculated as the slope \(or gradient\) of a graph at a particular point\. The slope is described by drawing a tangent line to the graph at the point\. So\, if we are able to compute this tangent line\, we might be able to compute the desired direction to reach the minima\.</p>
 
-<span style="color:#000000">A derivative is a term that is calculated as the slope \(or gradient\) of a graph at a particular point\. The slope is described by drawing a tangent line to the graph at the point\. So\, if we are able to compute this tangent line\, we might be able to compute the desired direction to reach the minima\.</span>
-
-<span style="color:#000000">Since the weight only indirectly affects the error\, the chain rule must be applied</span>
-
-
----
-
-
-Principle of Gradient Descent \(III\)
-
-<span style="color:#000000">Gradient Descent isn't perfect\. When the gradients are too big we might overshoot so much that we're even farther away than we started</span>
-
-<span style="color:#000000">This problem is destructive because overshooting this far means we land at an even steeper slope in the opposite direction\. This causes us to overshoot again even farther\.</span>
-
-<span style="color:#000000">If the gradients are too big\, we can make them smaller\. We do this by multiplying them by a single number between 0 and 1 \(such as 0\.01\)\. This fraction is typically named alpha\.</span>
-
-<span style="color:#000000">Thus\, the adjustment of the weights is done by</span>
-
-Source: https://iamtrask\.github\.io/2015/07/27/python\-network\-part2/
+<p>Since the weight only indirectly affects the error\, the chain rule must be applied</p>
+<div>
+![](images/slides_237_new.png)
+</div>
+</div>
 
 
 ---
 
 
-Backpropagation Step by Step \(I\)
+## Principle of Gradient Descent \(III\)
 
-<span style="color:#000000">In the following\,</span>  <span style="color:#000000"> the backpropagation process will be demonstrated using a simple Neural </span>  <span style="color:#000000">Network consisting of  three layers: Input layer with two inputs neurons\, one hidden layer with two neurons\, and output layer with a single neuron: </span>
+<div style="font-size:1.4em;font-weight:400">
+<p>Gradient Descent isn't perfect\. When the gradients are too big we might overshoot so much that we're even farther away than we started</p>
+<div style="text-align:center">
+![](images/slides_238_new.png)
+</div>
 
-<span style="color:#000000">Our initial weights will be: w</span>  <span style="color:#000000">1</span>  <span style="color:#000000"> = 0\.11\, w</span>  <span style="color:#000000">2</span>  <span style="color:#000000"> = 0\.21\, w</span>  <span style="color:#000000">3</span>  <span style="color:#000000"> = 0\.12\, w</span>  <span style="color:#000000">4</span>  <span style="color:#000000"> = 0\.08\, w</span>  <span style="color:#000000">5</span>  <span style="color:#000000"> = 0\.14 and w</span>  <span style="color:#000000">6</span>  <span style="color:#000000"> = 0\.15\.</span>
+<p>This problem is destructive because overshooting this far means we land at an even steeper slope in the opposite direction\. This causes us to overshoot again even farther\.</p>
 
+<p>If the gradients are too big\, we can make them smaller\. We do this by multiplying them by a single number between 0 and 1 \(such as 0\.01\)\. This fraction is typically named alpha\.</p>
+
+<p>Thus\, the adjustment of the weights is done by</p>
+<p style="margin-left:4em">weight = weight - <i>alpha</i> . deltaweight</p>
+</div>
+
+<p style="text-align:right">Source: https://iamtrask\.github\.io/2015/07/27/python\-network\-part2/</p>
+
+
+---
+
+
+## Backpropagation Step by Step \(I\)
+
+<div style="font-size:1.2em;font-weight:400;">
+<p>In the following\, the backpropagation process will be demonstrated using a simple Neural Network consisting of  three layers: Input layer with two inputs neurons\, one hidden layer with two neurons\, and output layer with a single neuron: </p>
+<div class="BackpropagationWrapper">
 ![](images/slides_262.png)
-
+</div>
+<p>Our initial weights will be: w<sub>1</sub> = 0.11, w<sub>2</sub> = 0.21, w<sub>3</sub> = 0.12, w<sub>4</sub> = 0.08, w<sub>5</sub> = 0.14 and w<sub>6</sub> = 0.15.</p>
+<div class="BackpropagationWrapper">
 ![](images/slides_263.png)
+</div>
+</div>
 
-Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
+<p style="float:right">Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step</p>
 
 
 ---
 
 
-Backpropagation Step by Step \(II\)
+## Backpropagation Step by Step \(II\)
 
+<div style="font-size:1.4em;font-weight:400">
+<p>
 <span style="color:#000000">Our dataset has one sample with two inputs and one output with the values inputs=\[2\, 3\] and output=\[</span>  <span style="color:#ff0000">1</span>  <span style="color:#000000">\]\. We will use given weights and inputs to predict the output\. Inputs are multiplied by weights; the results are then </span>  <span style="color:#000000">passed forward to next layer:</span>
-
+</p>
+<div style="display:flex;align-items:center">
+<p style="width:30%">
 <span style="color:#000000"> </span>  <span style="color:#ff0000">For reasons of simplification\, </span>  <span style="color:#ff0000">no activation function is used </span>  <span style="color:#ff0000">in the neurons\.</span>
+</p>
 
+<div style="width:50%">
 ![](images/slides_264.png)
+</div>
+</div>
+</div>
 
-Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
+<p style="float:right">Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step</p>
 
 
 ---
 
 
-Backpropagation Step by Step \(III\)
+## Backpropagation Step by Step \(III\)
 
+<div style="font-size:1.4em;font-weight:400">
 <span style="color:#000000">The network output\, or prediction\, is not even close to actual output\. We can calculate the difference or the error as following:</span>
-
+<div>
+![](images/slides_265.png)
+</div>
 <span style="color:#000000">Our main goal of the training is to reduce the error or the difference between prediction and actual output\. Since actual output is constant\, “not changing”\, the only way to reduce the error is to change prediction value\. The question now is\, how to change prediction value?</span>
 
-![](images/slides_265.png)
+</div>
 
-Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
+<p style="float:right">Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step</p>
 
 
 ---
 
 
-Backpropagation Step by Step \(IV\)
+## Backpropagation Step by Step \(IV\)
 
+<div style="font-size:1.2em;font-weight:400">
 <span style="color:#000000">By decomposing prediction into its basic elements we can find that weights are the variable elements affecting prediction value\. To change prediction value\, we need to adjust the weights:</span>
+<div style="margin-left:4em">
+![](images/slides_266.png)
+</div>
 
 <span style="color:#000000">We</span>  <span style="color:#000000"> do this </span>  <span style="color:#000000">using Backpropagation\. To find a local minimum of a function using gradient descent\, one takes steps proportional to the negative of the gradient of the function at the current point:</span>
 
 <span style="color:#000000">For example\, we update w</span>  <span style="color:#000000">6</span>  <span style="color:#000000">:</span>
 
-![](images/slides_266.png)
-
+<div style="margin-left:4em">
 ![](images/slides_267.png)
+</div>
+</div>
 
-_We can picture gradient descent optimization as a hiker \(the weight coefficient\) who wants to climb down a mountain \(cost function\) into a valley \(cost minimum\)\, and each step is determined by the steepness of the slope \(gradient\) and the leg length of the hiker \(learning rate\)\._
-
-![](images/slides_269.png)
-
-Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
+<p style="float:right">Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step</p>
 
 
 ---
 
 
-Backpropagation Step by Step \(V\)
+## Backpropagation Step by Step \(V\)
 
+<div style="font-size:1.1em;font-weight:400">
 <span style="color:#000000">The derivation of the error function is evaluated by applying the chain rule:</span>
+<div class="Backpropagation4Wrapper">
+![](images/slides_270.png)
+</div>
 
 <span style="color:#000000">To update w</span>  <span style="color:#000000">6</span>  <span style="color:#000000"> we can apply the following formula:</span>
+<div>
+![](images/slides_271.png)
+</div>
 
 <span style="color:#000000">Similarly\, we can derive the update formula for w5 and any other weights existing between the output and the hidden layer:</span>
-
-![](images/slides_271.png)
-
+</div>
+<div>
 ![](images/slides_272.png)
+</div>
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2371,27 +2410,35 @@ Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 ---
 
 
-Backpropagation Step by Step \(VI\)
+## Backpropagation Step by Step \(VI\)
 
+<div style="font-size:1.4em;font-weight:400;margin-bottom:3em">
 <span style="color:#000000">When moving backward to update w</span>  <span style="color:#000000">1</span>  <span style="color:#000000">\, w</span>  <span style="color:#000000">2</span>  <span style="color:#000000">\, w</span>  <span style="color:#000000">3</span>  <span style="color:#000000"> and w</span>  <span style="color:#000000">4</span>  <span style="color:#000000"> existing between input and hidden layer\, the partial derivative for the error function with respect to w</span>  <span style="color:#000000">1</span>  <span style="color:#000000">\, for example\, will be as following:</span>
-
+<div>
+![](images/slides_244_new.png)
+</div>
 <span style="color:#000000">We can find the update formula for the remaining weights w</span>  <span style="color:#000000">2</span>  <span style="color:#000000">\, w</span>  <span style="color:#000000">3</span>  <span style="color:#000000"> and w</span>  <span style="color:#000000">4</span>  <span style="color:#000000"> in the same way\.</span>
+</div>
 
-Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
+<p style="float:right">Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step</p>
 
 
 ---
 
 
-Backpropagation Step by Step \(VII\)
+## Backpropagation Step by Step \(VII\)
 
-<span style="color:#000000">In summary\, the update formulas for all weights will be:</span>
-
-<span style="color:#000000">We can rewrite the update formulas in matrices:</span>
-
+<div style="font-size:1.4em;font-weight:400">
+<p style="color:#000000">In summary\, the update formulas for all weights will be:</p>
+<div style="margin-left:4em">
 ![](images/slides_274.png)
-
+</div>
+<p style="color:#000000">We can rewrite the update formulas in matrices:</p>
+<div>
 ![](images/slides_275.png)
+</div>
+</div>
+
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2399,410 +2446,428 @@ Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 ---
 
 
-Backpropagation Step by Step \(VIII\)
+## Backpropagation Step by Step \(VIII\)
 
-<span style="color:#000000">With the derived formulas we can now adjust the weights:</span>
-
+<div style="font-size:1.7em;font-weight:400;margin-bottom:3em">
+<p style="color:#000000">With the derived formulas we can now adjust the weights:</p>
+<div class="driver-Planing2-wrapper">
 ![](images/slides_276.png)
+</div>
+</div>  
 
-Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
+<p style="float:right">Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step</p>
 
 
 ---
 
 
-Backpropagation Step by Step \(IX\)
+## Backpropagation Step by Step \(IX\)
 
+<div style="font-size:1.7em;font-weight:400;">
 <span style="color:#000000">\.\.\. and use the new weights to recalculate the example:</span>
-
-<span style="color:#000000">The new prediction 0\.26 is bit closer to the output than the previously predicted one 0\.191\. We repeat now the same process until error is close or equal to zero\.</span>
-
+<div>
 ![](images/slides_277.png)
+</div>
+<span style="color:#000000">The new prediction 0\.26 is bit closer to the output than the previously predicted one 0\.191\. We repeat now the same process until error is close or equal to zero\.</span>
+</div>
 
-Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
+<p style="float:right">Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step</p>
+
+
+---
+
+## Navigation
+
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.1&nbsp; K-Nearest Neighbors</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.2&nbsp; Evaluating the Quality of Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.3&nbsp; Decision Tree Approaches</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.4&nbsp; Logistic Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.5&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.1.6&nbsp; Resampling</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.7&nbsp; Ensemble Learning</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Problems with fixed Training and Test Samples
 
-4\.1	Subject of Predictive Analytics
 
-4\.2	The Analytics Process
+<div>
+![](images/slides_249_new.png)
+</div>
 
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.1\.1	K\-Nearest Neighbors
-
-4\.4\.1\.2	Evaluating the Quality of Classification
-
-4\.4\.1\.3	Decision Tree Approaches
-
-4\.4\.1\.4	Logistic Regression
-
-4\.4\.1\.5	Neural Networks
-
-<span style="color:#c00000">4\.4\.1\.6	Resampling</span>
-
-4\.4\.1\.7	Ensemble Learning
-
-4\.4\.2	Regression
-
+<p style="font-size:1.6em"><span style="color:#ff0000">Rule</span>  <span style="color:#ff0000">: NEVER </span>  <span style="color:#ff0000">use</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">any</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">information</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">from</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">the</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">test</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">data</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">for</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">model</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">training</span>  <span style="color:#ff0000">\!</span>
+</p>
 
 ---
 
 
-Problems with fixed Training and Test Samples
+## Addressing the Endogeneity Problem
 
-Method 1       optimize
-
-Test data is used for two things:
-
-<span style="color:#ff0000">Optimize the model training</span>
-
-<span style="color:#0070c0">Select the best model via testing the model quality</span>
-
-Method 2       optimize
-
-Method 3       optimize
-
-This contradicts the idea of independent testing and results in:
-
-Endogenization of the test data
-
-Selection Bias
-
-…                   optimize
-
-<span style="color:#ff0000">Rule</span>  <span style="color:#ff0000">: NEVER </span>  <span style="color:#ff0000">use</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">any</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">information</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">from</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">the</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">test</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">data</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">for</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">model</span>  <span style="color:#ff0000"> </span>  <span style="color:#ff0000">training</span>  <span style="color:#ff0000">\!</span>
-
-
----
-
-
-Addressing the Endogeneity Problem
-
+<div style="text-align:center">
 ![](images/slides_278.png)
+</div>
 
+
+
+---
+
+
+## Selection Bias
+
+<div style="font-size:1.4em;font-weight:600">
+ Training and test error can be highly variable\, depending on precisely which observations are included in the training set and which observations are included in the validation set \( <span style="color:#ff0000">Selection Bias</span> \)\.
+<div style="text-align:center">
 ![](images/slides_279.png)
-
-![](images/slides_280.png)
-
-![](images/slides_282.png)
-
-_Predictive_  _ Model_
-
-_Validation Sample_
-
-![](images/slides_283.png)
-
+</div>
+ To avoid such problems\, one can use so\-called resampling methods\.
+</div>
 
 ---
 
 
-
-
-* Training and test error can be highly variable\, depending on precisely which observations are included in the training set and which observations are included in the validation set \( <span style="color:#ff0000">Selection Bias</span> \)\.
-  * Example of differentOLS models as a result of different samples:
-  * To avoid such problems\, one can use so\-called resampling methods\.
-
----
-
-
-Cross Validation
+## Cross Validation
 
 
 
+<div style="font-size:1.2em;font-weight:600;">
+<div style="display:flex">
+<div style="width:50%">
   * In Data Science cross validation can be used for model selection and adjustment\. In these cases\, cross validation is applied to the training data set\. For every iteration\, k\-1 folds are used for model fitting and the remaining fold for testing the model \(Validation\)\. Every time\, the quality measure \(e\.g\. accuracy\) for the validation fold is captured\. At the endof this step\, the average and the standard deviation of the measures are calculated\. The best model is the one with the best ratio in high average and low standard deviation\.
   * Once the model type and its optimal parameters have been selected\, a final model is trained using these hyper\-parameters on the  _full_  training set\, and the generali\-zation quality is measured on the test set\.
+</div>
 
-
+<div class="descriptive-wrapper">
 ![](images/slides_285.png)
+</div>
+</div>
+</div>
 
 
 ---
 
 
-Cross Validation and Grid Search
+## Cross Validation and Grid Search
 
+<div class="crossVald" style="font-size:1.2em;font-weight:600;">
+  <p>1.\ Partition the Dataset into a training and test set</p>
+  <div>
+  ![](images/slides_253_new.png)
+  </div>
+  <p>2.\ For every hyperparameter value combination apply cross validation</p>
+  <div>
+  ![](images/slides_253_2_new.png)
+  </div>
+  <p>3.\ For the combination with the highest \(mean\) quality calculate the final model with the complete training set</p>
+  <div>
+  ![](images/slides_253_3_new.png)
+  </div>
+  <p style="display:flex;align-items:center">4.\ Test the final model with the test set <span>
+  ![](images/slides_253_4_new.png)
+  </span></p>
+  <p>5.\ Compare the accurracies of training and test with regard to overfitting</p>
+</div>
 
-
-  * Partition the Dataset into a training and test set
-  * For every hyperparameter value combination apply cross validation
-  * For the combination with the highest \(mean\) quality calculate the final model with the complete training set
-  * Test the final model with the test set
-  * Compare the accurracies of training and test with regard to overfitting
-
-
-Calculate the mean quality of the validation folds\, e\.g\. mean accurracy or mean F1
 
 
 ---
 
 
-Cross Validation and Grid Search in Python
+## Cross Validation and Grid Search in Python
 
 
-
-  * Performs cross validation with the given hyperparameter combinations and manages the evaluation process
-
-
-Using the original libraries and functions
-
-<span style="color:#ff0000">KNeighborsClassifier\(\)</span>
-
-<span style="color:#ff0000">cross\_val\_score\(\)</span>
-
-
-
-  * Performs cross validation
-
-
-<span style="color:#ff0000">DecisionTreeClassifier\(\)</span>
-
-<span style="color:#ff0000">RandomForestCl</span>  <span style="color:#ff0000">…</span>  <span style="color:#ff0000">\(\)</span>
+<div class="descriptive-wrapper">
+![](images/slides_254_new.png)
+</div>
 
 
 ---
 
 
-Variants of Hyperparameter Optimization
+## Variants of Hyperparameter Optimization
 
 
-
-  * 1\. Grid Search
-  * Grid search sequentially goes through a preselected list of permutations for each hyperparameter and evaluates the entire search space\.
-  * 2\. Random Search
-  * Random search selects values for hyperparameters at random within a predefined distribution\.
-  * While a grid search is able to find the best model given the provided options\, limited compute resources means that in practice\, the search space selected will have to be limited\. A random search on the other hand does not iterate over the entire search space\.
-
----
-
-
-Other Variants of Cross Validation
-
-
-
-  * 1\. Repeated Cross Validation
-  * 2\. Nested Cross Validation
-  * Different composition of the folds by random selection\.
-
-
-![](images/slides_295.png)
-
+<div style="font-size:1.6em;font-weight:400;">
+  <h3> 1\. Grid Search</h3>
+   <p style="margin:20px 0 0 20px">Grid search sequentially goes through a preselected list of permutations for each hyperparameter and evaluates the entire search space\.</p>
+   <h3> 2\. Random Search</h3>
+   <p style="margin:20px 0 0 20px">Random search selects values for hyperparameters at random within a predefined distribution\.</p>
+   <p>While a grid search is able to find the best model given the provided options\, limited compute resources means that in practice\, the search space selected will have to be limited\. A random search on the other hand does not iterate over the entire search space\.</p>
+</div>
 
 ---
 
 
-Cross Validation in Time Series
+## Other Variants of Cross Validation
+
+  <h2> 1\. Repeated Cross Validation</h2>
+  <div class="crossValidWrapper">
+  ![](images/slides_256_new.png)
+  </div>
+  <h2> 2\. Nested Cross Validation</h2>
+  <div class="crossValidWrapper">
+  ![](images/slides_295.png)
+  </div>
 
 
-
-  * In the case of time series\, classical cross validation may cause problems\. If we choose random samples and assign them to either the test set or the training set we are quickly in the situation of using values from the future to forecast values in the past\. But we want to avoid future\-looking when we train our model\. If there is a temporal dependency between observations\, we must preserve that relation during training and testing\.
-  * A procedure that can be used for cross validating a time series model is cross validation on a rolling basis\. Start with a small subset of data for training purpose\, forecast for the later data points and then check the accuracy for the forecasted data points\. The time frame for the forecast is then included as part of the next training dataset and subsequent data points are forecasted and so on\.
-  * Scikit\-learn provides a class _TimeSeriesSplit_  to do this\.
+---
 
 
+## Cross Validation in Time Series
+
+
+<div style="font-size:1.6em;font-weight:600;">
+  <p> In the case of time series\, classical cross validation may cause problems\. If we choose random samples and assign them to either the test set or the training set we are quickly in the situation of using values from the future to forecast values in the past\. But we want to avoid future\-looking when we train our model\. If there is a temporal dependency between observations\, we must preserve that relation during training and testing\.</p>
+  <p style="display:flex"><span style="width:50%"> A procedure that can be used for cross validating a time series model is cross validation on a rolling basis\. Start with a small subset of data for training purpose\, forecast for the later data points and then check the accuracy for the forecasted data points\. The time frame for the forecast is then included as part of the next training dataset and subsequent data points are forecasted and so on\.</span><span style="width:50%">
 ![](images/slides_296.png)
+</span></p>
+  <p> Scikit\-learn provides a class _TimeSeriesSplit_  to do this\.</p>
+</div>
+
+
+
+---
+
+## Navigation
+
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.1&nbsp; K-Nearest Neighbors</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.2&nbsp; Evaluating the Quality of Classification</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.3&nbsp; Decision Tree Approaches</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.4&nbsp; Logistic Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.5&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.1.6&nbsp; Resampling</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.1.7&nbsp; Ensemble Learning</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Ensemble Methods
 
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.1\.1	K\-Nearest Neighbors
-
-4\.4\.1\.2	Evaluating the Quality of Classification
-
-4\.4\.1\.3	Decision Tree Approaches
-
-4\.4\.1\.4	Logistic Regression
-
-4\.4\.1\.5	Neural Networks
-
-4\.4\.1\.6	Resampling
-
-<span style="color:#c00000">4\.4\.1\.7	Ensemble Learning</span>
-
-4\.4\.2	Regression
-
-
----
-
-
-Ensemble Methods
-
-Ensemble methods use different models \(created via different data sets\, feature sets or methods\) that are simultaneously applied to the same problem\. The results are sent to an aggregating operation that produces the final result\.
-
+<div style="font-size:1.5em;font-weight:600">
+<p style="display:flex"><span style="width:50%">Ensemble methods use different models \(created via different data sets\, feature sets or methods\) that are simultaneously applied to the same problem\. The results are sent to an aggregating operation that produces the final result\.</span><span>![](images/slides_259_new.png)</span></p>
 The most widely used classes of ensemble methods are:
+<div style="display:flex;justify-content:space-between;width:60%;align-items:center">
+<div>
+<p>&bull; Bagging</p>
 
-Bagging
+<p>&bull; Boosting</p>
 
-Boosting
-
-Stacking
+<p>&bull; Stacking</p>
+</div>
+<div>
+![](images/slides_259_2_new.png)
+</div>
+</div>
+</div>
 
 
 ---
 
+## Bagging
 
+<div style="font-size:1.5em;font-weight:600">
 <span style="color:#ff0000">Bagging</span>  <span style="color:#000000"> means to build multiple models from different subsamples of the training dataset and/or with different methods\. The results are sent to an \(weighted\) voting operation that produces the final result\.</span>
 
-<span style="color:#000000">Source: http://rasbt\.github\.io/mlxtend/</span>  <span style="color:#000000">user\_guide</span>  <span style="color:#000000">/classifier/</span>  <span style="color:#000000">EnsembleVoteClassifier</span>  <span style="color:#000000">/</span>
-
+<div style="text-align:center">
 ![](images/slides_298.png)
-
+</div>
+</div>
+<p style="text-align:left"><span style="color:#000000">Source: http://rasbt\.github\.io/mlxtend/</span>  <span style="color:#000000">user\_guide</span>  <span style="color:#000000">/classifier/</span>  <span style="color:#000000">EnsembleVoteClassifier</span>  <span style="color:#000000">/</span></p>
 
 ---
 
+## Boosting 
 
+<div style="font-size:1.5em;font-weight:600;margin-bottom:1em">
 <span style="color:#ff0000">Boosting</span>  <span style="color:#000000"> involves sequentially building an ensemble by training each new model instance to emphasize the training instances that previous models </span>  <span style="color:#000000">mispredict</span>  <span style="color:#000000">\. Different variants exist\, mostly based on tree methods\. In general\, any method can be used\. This involves the usage of different methods at the different iterations when building the sequence of models\. </span>
 
+<div class="driver-Planing2-wrapper" style="text-align:center">
+![](images/slides_299.png)
+</div>
+</div>
 <span style="color:#000000">Source: https://blog\.bigml\.com/2017/03/14/introduction\-to\-boosted\-trees/</span>
 
-![](images/slides_299.png)
-
 
 ---
 
+## Stacking
 
+
+<div style="font-size:1.5em;font-weight:600;">
 <span style="color:#ff0000">Stacking</span>  <span style="color:#000000"> </span>  <span style="color:#000000">means to build </span>  <span style="color:#000000">multiple models \(typically of differing types\) and a supervisor model that learns how to best combine the predictions of the primary models\. </span>  <span style="color:#000000">The inputs of the </span>  <span style="color:#000000">supervisor model </span>  <span style="color:#000000">\(meta\-classifier\)</span>  <span style="color:#000000">are the outputs of </span>  <span style="color:#000000">the other models:</span>
 
+<div style="text-align:center">
+![](images/slides_300.png)
+</div>
+</div>
 <span style="color:#000000">Source: http://rasbt\.github\.io/mlxtend/</span>  <span style="color:#000000">user\_guide</span>  <span style="color:#000000">/classifier/</span>  <span style="color:#000000">StackingClassifier</span>  <span style="color:#000000">/</span>
 
-![](images/slides_300.png)
-
 
 ---
 
 
-Types of Ensembles
+## Types of Ensembles
 
-Type 1:
-
+<div style="font-size:1.4em;font-weight:400;display:flex">
+<div>
+<h3>Type 1:</h3>
+<ul class="disc-list">
+<li>
 consists of only a few models
-
+</li>
+<li>
 each is a strong model
-
+</li>
+<li>
 like few professional experts
-
-risk of diverging opinions
-
-risk of experts being biased to their experiences
-
-Type 2:
-
-consists of many models
-
-each is a weak model as a principle
-
-based on the idea of the wisdom of the masses
-
-Random Forest and Gradient Boosted Trees are examples
-
+<div>
 ![](images/slides_301.png)
+</div>
+</li>
+<li>
+risk of diverging opinions
+</li>
+<li>
+risk of experts being biased to their experiences
+</li>
+</ul>
+</div>
+
+<div>
+<h3>Type 2:</h3>
+
+<ul class="disc-list">
+<li>
+consists of many models
+</li>
+<li>
+each is a weak model as a principle
+</li>
+<li>
+based on the idea of the wisdom of the masses
+<div>
+![](images/slides_302.png)
+</div>
+</li>
+<li>
+Random Forest and Gradient Boosted Trees are examples
+</li>
+</ul>
+</div>
+</div>
+
+
+---
+
+## Navigation
+
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;color:#ff0000;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.1&nbsp; OLS</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.2&nbsp; Ridge Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.3&nbsp; Support Vector Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.4&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.5&nbsp; Decision Trees</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.6&nbsp; K-Nearest Neighbors</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Predicting using Regression Methods
 
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-<span style="color:#ff0000">4\.4\.2	Regression</span>
-
-4\.4\.2\.1	OLS
-
-4\.4\.2\.2	Ridge Regression
-
-4\.4\.2\.3	Support Vector Regression
-
-4\.4\.2\.4	Neural Networks
-
-4\.4\.2\.5	Decision Trees
-
-4\.4\.2\.6	K\-Nearest Neighbors
-
-
----
-
-
-Predicting using Regression Methods
-
+<h2>Example: Predicting House Prices</h2>
+<div style="text-align:center">
 ![](images/slides_303.png)
+</div>
 
-Example: Predicting House Prices
+<h2>Function:  Price = f\(SquareFootage\, Bedrooms\, Age\, SchoolRating\)</h2>
 
-Function:  Price = f\(SquareFootage\, Bedrooms\, Age\, SchoolRating\)
-
-Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf
-
-
----
-
-
-4	Predictive Analytics
-
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.2	Regression
-
-<span style="color:#c00000">4\.4\.2\.1	OLS</span>
-
-4\.4\.2\.2	Ridge Regression
-
-4\.4\.2\.3	Support Vector Regression
-
-4\.4\.2\.4	Neural Networks
-
-4\.4\.2\.5	Decision Trees
-
-4\.4\.2\.6	K\-Nearest Neighbors
+<p style="float:right">Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf</p>
 
 
 ---
 
 
-Traditional OLS Regression Approach
+## Navigation
 
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.2.1&nbsp; OLS</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.2&nbsp; Ridge Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.3&nbsp; Support Vector Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.4&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.5&nbsp; Decision Trees</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.6&nbsp; K-Nearest Neighbors</p>
+</div>
+
+
+---
+
+
+## Traditional OLS Regression Approach
+
+<div style="text-align:center">
 ![](images/slides_304.png)
+</div>
 
-Function:
-
-Price	= ß0 \+ ß1 \* SquareFootage\+ ß2 \* Bedrooms \+ ß3 \* Age \+ ß4 \* SchoolRating
 
 Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf
 
@@ -2810,65 +2875,124 @@ Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d03
 ---
 
 
-Ordinary Least Squares Regression
+## Ordinary Least Squares Regression
 
+<div style="font-size:1.3em;font-weight:600;">
+<p>OLS is a linear approach for predicting a quantitative response Y on the basis of a set of predictor variables X<sub>j</sub></p>
+<p style="text-align:center">
+![](images/slides_268_new.png)
+</p>
+<p>It assumes that there is approximately a linear relationship between X and Y.</p>
+<p>The optimal regression line is found where the sum of squared residuals (RSS)</p>
+<p style="text-align:center">
+![](images/slides_268_2_new.png)
+</p>
+<p>is minimal. Rewriting</p>
+<p style="text-align:center">
+![](images/slides_268_3_new.png)
+</p>
+<p>the parameter vector b can be calculated via:   𝜷=〖(𝑿^′ 𝑿)〗^(−𝟏) 𝑿^′ 𝒚</p>
+</div>
 
 ---
 
 
-Measuring the Quality of Fit \(I\)
+## Measuring the Quality of Fit \(I\)
 
+<div style="font-size:1.4em;font-weight:600;">
 Measuring the quality of fit means to measure how well the predictions of a model match the observed data\.
 
 A commonly\-used measure is the Mean Absolute Error \(MAE\) which can be calculated for the training and the test set
-
+<p style="text-align:center">
+![](images/slides_269_new.png)
+</p>
 A variant is the Mean Absolute Percentage Error \(MAPE\) which expresses the error in percent
-
+<p style="text-align:center">
+![](images/slides_268_2_new.png)
+</p>
 While MAE and MAPE are easily interpretable\, using the absolute value of the error often is not as desirable as squaring this difference\. Depending on how you want your model to treat outliers\, or extreme values\, in your data\, you may want to bring more attention to these outliers or downplay them\.
 
 Consequently\, the most used measure in regression is the Mean Squared Error \(MSE\) or its variant the Root Mean Squared Error  \(RMSE\)\, which is the square root of the MSE\.
+<p style="text-align:center">
+![](images/slides_269_3_new.png)
+</p>
+</div>
 
 
 ---
 
 
-Measuring the Quality of Fit \(II\)
+## Measuring the Quality of Fit \(II\)
+
+<div style="font-size:1.3em;font-weight:600;">
+An alternative measure is R<sup>2</sup>, which calculates the proportion of variance explained. It indicates how much better the model predicts compared to the mean ȳ as a naïve predictor 
+<p style="text-align:center">
+![](images/slides_270_new.png)
+</p>
+As the formula shows, R<sup>2</sup> is a normalized version of MSE. Technically, it is the MSE divided by a constant that is case-dependent but the same for all the comparative models IF THE SAME DATA SET IS USED. In this case and only in this case, there can be no difference between R<sup>2</sup> and MSE in evaluating models. It is easier to interpret R2 compared to the MSE.
+
+To measure the robustness, the formula is applied to the test set using the mean ȳ of the training set. This measure is named <span style="color:#ff0000;">Pseudo-R<sup>2</sup></span>
+<p style="text-align:center">
+![](images/slides_270_2_new.png)
+</p>
+
+While R<sup>2</sup> is between 0 and 1, Pseudo-R<sup>2</sup> can also be less than 0 (but not greater than 1). In this case, the model is even worse in practical application than using ȳ would be.
+
+
+</div>
+
+---
+
+
+## Navigation
+
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.1&nbsp; OLS</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.2.2&nbsp; Ridge Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.3&nbsp; Support Vector Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.4&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.5&nbsp; Decision Trees</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.6&nbsp; K-Nearest Neighbors</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Ridge Regression
 
-4\.1	Subject of Predictive Analytics
+<div style="font-size:1.3em;font-weight:600;">
+Ridge Regression is an enhancement of OLS using a technique that constrains or regularizes the coefficient estimates. This is done by shrinking the coefficient estimates towards zero resulting in a gain in robustness and a higher generalization ability.
 
-4\.2	The Analytics Process
+Similar to OLS, Ridge Regression estimates the parameters of the function
 
-4\.3	Data Preparation
+<p style="text-align:center">
+𝑦<sub>𝑖</sub> = 𝛽<sub>𝟎</sub> + 𝜷′𝒙<sub>𝑖</sub> + 𝜐<sub>𝑖</sub>
+</p>
 
-4\.4	Methods\, Algorithms and Applications
+but instead of minimizing the residual sum of squares (𝜐<sup>2</sup>), the function to minimize is
+<p style="text-align:center">
+![](images/slides_272_new.png)
+</p>
+where 𝜆 ≥ 0 is a tuning parameter, to be determined separately. It is called a shrinkage penalty and has the effect of shrinking the estimates of β<sub>j</sub> towards zero. This is equivalent to reducing complexity
 
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
+<p style="color:#ff0000;">Remark: 𝜆 is not applied to the intercept 𝛽<sub>𝟎</sub>!</p>
 
-4\.4\.2	Regression
+</div>
 
-4\.4\.2\.1	OLS
-
-<span style="color:#ff0000">4\.4\.2\.2	Ridge Regression</span>
-
-4\.4\.2\.3	Support Vector Regression
-
-4\.4\.2\.4	Neural Networks
-
-4\.4\.2\.5	Decision Trees
-
-4\.4\.2\.6	K\-Nearest Neighbors
-
-
----
-
-
-Ridge Regression
 
 ::: {.notes}
 
@@ -2879,60 +3003,80 @@ Example of 3 Parameters, free of range, with a range [-50,50], and a range [-5,5
 
 ---
 
-
+## Complexity
+<div style="font-size:1.4em;font-weight:600;">
 <span style="color:#000000">Complexity can be measured as the size of the set of possible outputs for a given set of inputs\.</span>
-
+<p style="text-align:center">
+![](images/slides_273_new.png)
+</p>
 <span style="color:#000000">In this example the interval 0 to x</span>  <span style="color:#000000">\*</span>  <span style="color:#000000"> represents the set of possible inputs\. Function h</span>  <span style="color:#000000">0</span>  <span style="color:#000000"> has the lowest complexity because there is just one output independent of the inputs\. h</span>  <span style="color:#000000">2</span>  <span style="color:#000000"> has the highest complexity because here the set of possible outputs is the biggest one\.</span>
+</div>
 
 
 ---
 
 
-Complexity und Generalisation
+## Complexity und Generalisation
 
-<span style="color:#000000">Mean</span>  <span style="color:#000000"> </span>  <span style="color:#000000">Squared</span>  <span style="color:#000000"> Error</span>
-
-
----
-
-
-Different Complexities
-
+<p style="text-align:center">
+![](images/slides_274_new.png)
+</p>
 
 ---
 
 
+## Different Complexities
+
+<p style="text-align:center">
+![](images/slides_275_new.png)
+</p>
+
+---
+
+## Relationship of 𝜆 and Complexity
+
+<div style="font-size:1.3em;font-weight:600;">
 𝜆 → ∞ : Lowest Complexity
 
-the ridge regression coefficients are equal to zero\. For every input\, the result is β0\.
+the ridge regression coefficients are equal to zero\. For every input\, the result is β<sub>0</sub>\.
 
 𝜆 = 0 : Relative High Complexity \(linear Model\)
 
 the penalty term has no effect\, and ridge regression will produce the least squares estimates\.
 
+
+<div style="display:flex;align-items:center;justify-content:center;">
 Example:
+<span>![](images/slides_305.png)</span>
+<div style="font-weight:400;width:50%">
+<p style="color:#000000">Source: </p>
 
-![](images/slides_305.png)
+<p style="color:#000000">James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 215f\.</p>
+</div>
+</div>
 
-<span style="color:#000000">Source: </span>
-
-<span style="color:#000000">James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 215f\.</span>
+</div>
 
 
 ---
 
 
-Handling High\-Dimensionality \(I\)
+## Handling High\-Dimensionality \(I\)
 
+<div style="font-size:1.3em;font-weight:600;">
 OLS is not suitable for high\-dimensional data\. Especially when the number of features p is as large as\, or larger than\, the number of observations\, OLS cannot be applied\. _ _ Regardless of whether or not there truly is a relationship between the features and the response\, OLS will yield a set of coefficient estimates that result in a perfect fit to the data\, such that the residuals are 	zero\.
+
+<div style="display:flex;align-items:center;gap:2em">
+![](images/slides_306.png)
+<div>
+<p style="color:#000000;font-weight:400">Source: </p>
+<p style="color:#000000;font-weight:400">James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 239f\.</p>
+</div>
+</div>
 
 The figure shows two cases\. When there are 20 observations\, n > p and the OLS line does not perfectly fit the data\. When there are only two observations\, then regardless of the values of those observations\, the regression line will fit the data exactly\. This is problematic because this perfect fit will almost certainly lead to overfitting of the data\.
 
-![](images/slides_306.png)
-
-<span style="color:#000000">Source: </span>
-
-<span style="color:#000000">James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 239f\.</span>
+</div>
 
 ::: {.notes}
 
@@ -2945,14 +3089,17 @@ Example: A marketing analyst interested in understanding people’s online shopp
 ---
 
 
-Handling High\-Dimensionality \(II\)
+## Handling High\-Dimensionality \(II\)
 
+<div style="font-size:1.3em;font-weight:600;">
 The figure illustrates the risk of applying OLS when the number of features p is large\. The model R2 increases to 1 as the number of features increases\, and the training set MSE decreases to 0\. At the same time\, the MSE on a test set becomes extremely large as the number of features increases\.
 
-In contrast\, methods like ridge regression are particularly useful for performing regression in the high\-dimensional setting\. Essentially\, these approaches avoid overfitting by using a less flexible fitting approach than least squares\.
-
+<div style="text-align:center">
 ![](images/slides_307.png)
+</div>
 
+In contrast\, methods like ridge regression are particularly useful for performing regression in the high\-dimensional setting\. Essentially\, these approaches avoid overfitting by using a less flexible fitting approach than least squares\.
+</div>
 <span style="color:#000000">Source: James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 240f\.</span>
 
 ::: {.notes}
@@ -2964,38 +3111,40 @@ Exercise on page 251!!!!!!!!!!!!!!
 
 ---
 
+## Navigation
 
-4	Predictive Analytics
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.1	Subject of Predictive Analytics
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.2	Regression
-
-4\.4\.2\.1	OLS
-
-4\.4\.2\.2	Ridge Regression
-
-<span style="color:#ff0000">4\.4\.2\.3	Support Vector Regression</span>
-
-4\.4\.2\.4	Neural Networks
-
-4\.4\.2\.5	Decision Trees
-
-4\.4\.2\.6	K\-Nearest Neighbors
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.1&nbsp; OLS</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.2&nbsp; Ridge Regression</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.2.3&nbsp; Support Vector Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.4&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.5&nbsp; Decision Trees</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.6&nbsp; K-Nearest Neighbors</p>
+</div>
 
 
 ---
 
 
-Support Vector Regression
+## Support Vector Regression
+
+<div style="font-size:1.5em;font-weight:600;">
+Similar to the other regression approaches, Support Vector Regression estimates the parameters of the function:
+
+𝑦<sub>i</sub> = 𝛽<sub>0</sub> + 𝜷′𝒙<sub>i</sub> + 𝜐<sub>i</sub>
 
 <span style="color:#000000">The Goal is to find a robust model with a high generalization ability\.</span>
 
@@ -3004,159 +3153,168 @@ Support Vector Regression
 <span style="color:#000000">1\. Eliminating Noise</span>
 
 <span style="color:#000000">2\. Handling Complexity</span>
+</div>
 
 
 ---
 
 
-Insensitive Loss Function \(I\)
+## Insensitive Loss Function \(I\)
 
-<span style="color:#000000"> __\-insensitive Loss__ </span>
-
+<div style="text-align:center">
 ![](images/slides_308.png)
-
-<span style="color:#000000">does not penalize acceptable deviations \(defined by    \)</span>
+</div>
 
 
 ---
 
 
-Insensitive Loss Function \(II\)
+## Insensitive Loss Function \(II\)
 
+<div style="font-size:1.5em;font-weight:600;">
 Using the e\-insensitive loss function\, only those data objects are considered in the estimation\, which have a distance greater than e from the regression function:
 
+<div style="text-align:center">
 ![](images/slides_309.png)
-
-![](images/slides_310.png)
-
-e\-insen\-sitiveRegion
+</div>
 
 Every object inside the e\-insensitive region is ignored\. It is regarded as noise\.
+</div>
 
 
 ---
 
 
-Support Vector Regression \(I\)
+## Support Vector Regression \(I\)
 
+<div style="text-align:center">
 ![](images/slides_311.png)
+</div>
 
+
+---
+
+
+## Estimating the SVR \(Linear Case\)
+
+<div style="text-align:center">
 ![](images/slides_312.png)
+</div>
 
+---
+
+
+## Nonlinearity \(I\)
+
+<div style="text-align:center">
 ![](images/slides_313.png)
-
-Decision criterion:
-
-_Choose the line with the smallest sum of error slopes      with _  _paying attention to the flatness of the regression line\!_
+</div>
 
 
 ---
 
 
-Estimating the SVR \(Linear Case\)
+## Nonlinearity \(II\)
 
-
----
-
-
-Nonlinearity \(I\)
-
-<span style="color:#000000"> __The linear __ </span>  <span style="color:#000000"> __case__ </span>  <span style="color:#000000"> __:__ </span>
-
-<span style="color:#000000"> __The __ </span>  <span style="color:#000000"> __nonlinear__ </span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __case__ </span>  <span style="color:#000000"> __:__ </span>
-
+<div style="text-align:center">
+![](images/slides_286_new.png)
+</div>
 
 ---
 
 
-Nonlinearity \(II\)
+## Kernel Functions \(I\)
 
-
----
-
-
-Kernel Functions \(I\)
-
+<div style="font-size:1.5em;font-weight:600;">
 <span style="color:#000000">Kernel Functions are used to project n\-dimensional input to m\-dimensional input\, where m is higher than n:</span>
+<div style="text-align:center">
+![](images/slides_287_new.png)
+</div>
 
 <span style="color:#000000">Any point x in the original space is mapped into the higher dimensional space\. For reason of efficiency\, the mapping is not performed in real but instead embedded in the model building process via the kernel function:</span>
 
-<span style="color:#000000">    Instead of  </span>  <span style="color:#000000">ß</span>  <span style="color:#000000">0</span>  <span style="color:#000000"> </span>  <span style="color:#000000">\+ </span>  <span style="color:#000000">ß · x</span>  <span style="color:#000000">  = y </span>  <span style="color:#000000">the following is used </span>  <span style="color:#000000">ß</span>  <span style="color:#000000">0</span>  <span style="color:#000000"> </span>  <span style="color:#000000">\+ </span>  <span style="color:#000000">ß · </span>  <span style="color:#000000">F</span>  <span style="color:#000000">\(x\) </span>  <span style="color:#000000"> = y</span>
+<span style="color:#000000">    Instead of  </span>  <span style="color:#000000">ß</span><sub style="color:#000000">0</sub>  <span style="color:#000000"> </span>  <span style="color:#000000">\+ </span>  <span style="color:#000000">ß · x</span>  <span style="color:#000000">  = y </span>  <span style="color:#000000">the following is used </span>  <span style="color:#000000">ß</span><sub style="color:#000000">0</sub>  <span style="color:#000000"> </span>  <span style="color:#000000">\+ </span>  <span style="color:#000000">ß · </span>  <span style="color:#000000">Φ</span><span style="color:#000000">\(x\) </span>  <span style="color:#000000"> = y</span>
 
 <span style="color:#000000">The main idea to use a kernel is: A linear regression curve in higher dimensions becomes a non\-linear regression curve in lower dimensions\.</span>
+</div>
 
 
 ---
 
 
-Estimating the SVR \(Nonlinear Case\)
+## Estimating the SVR \(Nonlinear Case\)
+
+<div style="text-align:center">
+![](images/slides_288_new.png)
+</div>
+
+---
+
+
+## Kernel Functions \(II\)
+
+<div style="font-size:1.5em;font-weight:600;">
+<p style="color:#000000">A frequently used kernel function is the Polynomial Kernel Function:</p>
+<p style="margin-left:2em;font-weight:400">K(x,z) = (z<sup>T</sup>x)<sup>n</sup></p>
+<p style="font-weight:400">where x and z are vector points in any fixed dimensional space and n is the order of  the kernel\.</p>
+
+<p style="color:#000000">In the case of order equal to 2\, we get:</p>
+<div style="text-align:center">
+![](images/slides_289_new.png)
+</div>
+</div>
+
+<p style="text-align:center">Source: https://journals\.plos\.org/ploscompbiol/article?id=10\.1371/journal\.pcbi\.1000173</p>
 
 
 ---
 
 
-Kernel Functions \(II\)
+## Kernel Functions \(III\)
 
-<span style="color:#000000">A frequently used kernel function is the Polynomial Kernel Function:</span>
-
-<span style="color:#000000">where x and z </span>  <span style="color:#000000">are vector points in any fixed dimensional space and n is the order of  the kernel\.</span>
-
-<span style="color:#000000">In the case of order equal to 2\, we get:</span>
-
+<div style="font-size:1.3em;font-weight:600;">
+<p>Another frequently used kernel function is the Radial Basis Function (RBF):</p>
+<div style="text-align:center">
+![](images/slides_290_new.png)
+</div>
+</div>
 Source: https://journals\.plos\.org/ploscompbiol/article?id=10\.1371/journal\.pcbi\.1000173
 
 
 ---
 
 
-Kernel Functions \(III\)
+## Navigation
 
-<span style="color:#000000">A</span>  <span style="color:#000000"> __nother __ </span>  <span style="color:#000000"> __frequently__ </span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __used__ </span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __kernel__ </span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __function__ </span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __is__ </span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __the__ </span>  <span style="color:#000000"> __ Radial Basis __ </span>  <span style="color:#000000"> __Function__ </span>  <span style="color:#000000"> __ \(__ </span>  <span style="color:#000000"> __RBF\):__ </span>
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-<span style="color:#000000">It maps the data according a Gaussian function where Sigma \(</span>  <span style="color:#000000">s</span>  <span style="color:#000000">\) is a streching factor\.</span>
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-<span style="color:#000000">Different Sigmas</span>
-
-<span style="color:#000000">= Euclidean</span>  <span style="color:#000000"> distance between x and z</span>  <span style="color:#000000"> </span>
-
-Source: https://journals\.plos\.org/ploscompbiol/article?id=10\.1371/journal\.pcbi\.1000173
-
-
----
-
-
-4	Predictive Analytics
-
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.2	Regression
-
-4\.4\.2\.1	OLS
-
-4\.4\.2\.2	Ridge Regression
-
-4\.4\.2\.3	Support Vector Regression
-
-<span style="color:#ff0000">4\.4\.2\.4	Neural Networks</span>
-
-4\.4\.2\.5	Decision Trees
-
-4\.4\.2\.6	K\-Nearest Neighbors
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.1&nbsp; OLS</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.2&nbsp; Ridge Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.3&nbsp; Support Vector Regression</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.2.4&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.5&nbsp; Decision Trees</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.6&nbsp; K-Nearest Neighbors</p>
+</div>
 
 
 ---
 
 
-Using Neural Network for Regression
+## Using Neural Network for Regression
 
+<div style="font-size: 1.6em; font-weight:700;">
 Artificial neural networks are often used for classification because of the relationship to logistic regression\. Neural networks typically use a logistic activation function and output values from 0 to 1 like logistic regression\.
 
 But  the continuous output of a net must not be interpreted as a probability\, so neural networks can be used too for regression\, to model complex and non\-linear relationships\.
@@ -3166,80 +3324,101 @@ The Singlelayer Perceptron corresponds to a linear regression while a Multilayer
 Because of the high complexity of the MLP\, the models are usually very sensitive and have a tendency to overfitting\.
 
 There exist regularization methods\, which make the networks better at generalizing beyond the training data\.\(see http://neuralnetworksanddeeplearning\.com/chap3\.html\)
+</div>
 
 
 ---
 
 
-Neural Network \(Multilayer Perceptron\)
+## Neural Network \(Multilayer Perceptron\)
 
+<div style="text-align:center">
 ![](images/slides_319.png)
+</div>
 
-Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf
+<p style="text-align:center">Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf</p>
 
 
 ---
 
+## Deep Learning
 
+
+<div style="text-align:center">
 ![](images/slides_320.png)
+</div>
 
-Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf
-
-
----
-
-
-4	Predictive Analytics
-
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.2	Regression
-
-4\.4\.2\.1	OLS
-
-4\.4\.2\.2	Ridge Regression
-
-4\.4\.2\.3	Support Vector Regression
-
-4\.4\.2\.4	Neural Networks
-
-<span style="color:#ff0000">4\.4\.2\.5	Decision Trees</span>
-
-4\.4\.2\.6	K\-Nearest Neighbors
+<p style="text-align:center">Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf</p>
 
 
 ---
 
 
-Introductory Example
+## Navigation
 
-Decision Tree for Predicting Fuel Consumption of Cars\(in Miles\-per\-Gallon \)
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.1&nbsp; OLS</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.2&nbsp; Ridge Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.3&nbsp; Support Vector Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.4&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.2.5&nbsp; Decision Trees</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.6&nbsp; K-Nearest Neighbors</p>
+</div>
 
 
 ---
 
 
-Regression Trees
+## Introductory Example
 
+<div style="text-align:center">
+<h3>Decision Tree for Predicting Fuel Consumption of Cars\(in Miles\-per\-Gallon \)</h3>
+![](images/slides_296_new.png)
+</div>
+
+---
+
+
+## Regression Trees
+
+
+<div style="font-size: 1.3em; font-weight:700;">
+<p>
 Some of the tree approaches can be used for regression too\. They can be used for nonlinear multiple regression\. The output must be numerical\.
+</p>
 
+<div style="display:flex;">
+<div style="width:40%">
+![](images/slides_322.png)
+</div>
+<div style="width:60%">
+<p>
 The figure shows a regression tree for predicting the salary of a baseball player\, based on the number of years that he has played in the major leagues and the number of hits that he made in the previous year\.
-
+</p>
+<p>
 The predicted salary is given by the mean value of the salaries in the corresponding leaf\, e\.g\. for the players in the data set with Years<4\.5\, the mean \(log\-scaled\) salary is 5\.11\, and so we make a prediction of e5\.11 thousands of dollars\, i\.e\. $165\,670\, for these players\.
+</p>
+</div>
+</div>
 
 Players with Years>=4\.5 are assigned to the right branch\, and then that group is further subdivided by Hits\. The predicted salaries for the resulting two groups are 1\,000\*e6\.00 =$403\,428 and 1\,000\*e6\.74 =$845\,346\.
 
-![](images/slides_322.png)
+</div>
 
-<span style="color:#000000">Source: James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 304f\.</span>
+<p style="text-align:right;">Source: James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 304f\.</p>
 
 ::: {.notes}
 
@@ -3251,23 +3430,16 @@ Example to do in R from Cart2.pdf
 ---
 
 
-Constructing a Regression Tree \(I\)
+## Constructing a Regression Tree \(I\)
 
+<div>
 ![](images/slides_323.png)
-
-<span style="color:#000000">Source: James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 305f\.</span>
-
-::: {.notes}
-
-Example to do in R from Cart2.pdf
-
-:::
+</div>
+<p style="font-size:1.4em;font-weight:600">We consider all features and all possible values of the cutpoint s for each of the features, and then choose the feature and cutpoint such that the resulting tree has the lowest RSS.
+</p>
 
 
----
-
-
-Constructing a Regression Tree \(II\)
+<p style="color:#000000;text-align:right">Source: James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 305f\.</p>
 
 ::: {.notes}
 
@@ -3279,8 +3451,35 @@ Example to do in R from Cart2.pdf
 ---
 
 
-Random Forests for Regression
+## Constructing a Regression Tree \(II\)
 
+<div style="font-size:1.4em;font-weight:600;">
+<p>For any feature j and cutpoint s, we seek the value of j and s that minimizes</p>
+<div style="text-align:center;">
+![](images/slides_299_new.png)
+</div>
+<p>where ȳ<sub>R1</sub>  is the mean value for the training observations in 𝑅<sub>1</sub> (𝑗,𝑠), and ȳ<sub>R2</sub> is the mean value for the training observations in 𝑅<sub>2</sub> (𝑗,𝑠). 
+</p>
+<p>After splitting, we repeat the process, looking for the best feature and best cutpoint in order to split the data further so as to minimize the RSS within each of the resulting regions.</p>
+<p>The process continues until a stopping criterion is reached; for instance, we may continue until no region contains more than five observations.</p>
+<p>Once the regions R<sub>1</sub>, . . . , R<sub>J</sub> have been created, we predict the objects from the test set.
+<p>To handle the problem of overfitting, pruning methods exist even for regression trees. For further information see:</p>
+</p>
+</div>
+<p>James et al. (2013): An Introduction to Statistical Learning with R Applications, p. 307f.</p>
+::: {.notes}
+
+Example to do in R from Cart2.pdf
+
+:::
+
+
+---
+
+
+## Random Forests for Regression
+
+<div style="font-weight:600;font-size:1.6em">
 Due to the usage of means as predictors a regression tree usually simplifies the true relationship between the inputs and the output\. The advantage over traditional statistical methods is\, that it can give valuable insights about which variables are important and where\. But the prediction ability is poor compared to other regression approaches\.
 
 A much better prediction quality can be achieved with the creation of an ensemble of trees\, use them for prediction and averaging their results\. This is done\, when applying the Random Forests approach to a regression task\.
@@ -3289,26 +3488,25 @@ Regression Forests are an ensemble of different regression trees and are used fo
 
 The disadvantage of Random Forests is that the analysis\, which aggregates over the results of many bootstrap trees\, does not produce a single\, easily interpretable tree diagram\.
 
+</div>
 
 ---
 
 
-Comparing the Fitting Ability of one vs\. many Regression Trees
+## Comparing the Fitting Ability of one vs\. many Regression Trees
 
-Single Regression Tree
 
-Average of 100 Regression Trees
-
+<div style="text-align:center;">
 ![](images/slides_324.png)
-
-![](images/slides_325.png)
+</div>
 
 
 ---
 
 
-Limitations of Tree Methods in Regression
+## Limitations of Tree Methods in Regression
 
+<div style="font-weight:600;font-size:1.6em">
 When applied to regression problems\, tree methods have the limitation that they cannot exceed the range of values of the target variable used in training\. The reason for this lies in their design principle\, how the leaves of the trees are created\.
 
 Thus\, Random Forests may perform poorly when the target data is out of the range of the original training data\, e\.g\. in the case of data with persistent trends\. A solution may be a frequent re\-training in this case\.
@@ -3316,167 +3514,221 @@ Thus\, Random Forests may perform poorly when the target data is out of the rang
 An important strength of Random Forests is that they are able to perform still well in the case of missing data\. According to their construction principle\, not every tree is using the same features\.
 
 If there is any missing value for a feature during the application there usually are enough trees remaining that do not use this feature to produce accurate predictions\.
+</div>
 
 
 ---
 
+## Navigation
 
-4	Predictive Analytics
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.1	Subject of Predictive Analytics
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.2	Regression
-
-4\.4\.2\.1	OLS
-
-4\.4\.2\.2	Ridge Regression
-
-4\.4\.2\.3	Support Vector Regression
-
-4\.4\.2\.4	Neural Networks
-
-4\.4\.2\.5	Decision Trees
-
-<span style="color:#ff0000">4\.4\.2\.6	K\-Nearest Neighbors</span>
-
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.1&nbsp; OLS</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.2&nbsp; Ridge Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.3&nbsp; Support Vector Regression</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.4&nbsp; Neural Networks</p>
+  <p style="margin:0;margin-left:160px;">4.4.2.5&nbsp; Decision Trees</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.2.6&nbsp; K-Nearest Neighbors</p>
+</div>
 
 ---
 
 
-k\-Nearest Neighbors for Regression
+## k\-Nearest Neighbors for Regression
 
+<div style="font-weight:600;font-size:1.6em">
+<p>
 k\-Nearest Neighbors cannot only be used for classification but also for regression\. The only difference in regression is that the prediction is not the result of a majority vote but of an averaging process\.
-
+</p>
+<div style="width:50%;float:left">
+<p>
 A simple implementation of KNN regression is to calculate the average of the numerical target of the k\-nearest neighbors\.  Another approach uses an inverse distance weighted average of the K\-nearest neighbors\. KNN regression uses the same distance functions as KNN classification\.
-
+</p>
+<p>
 Example:
+</p>
+</div>
+<div style="float:right ;">
+![](images/slides_325.png)
+</div>
+
+
+</div>
+
+
+
+
+---
+
+## Navigation
+
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
+
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
+
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:120px;color:#ff0000;">4.4.2&nbsp; Segmentation</p>
+  <p style="margin:0;margin-left:160px;">4.4.3.1&nbsp; K-Means</p>
+  <p style="margin:0;margin-left:160px;">4.4.3.2&nbsp; Hierarchical Cluster Analysis</p>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Introductory Example
 
-4\.1	Subject of Predictive Analytics
-
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.2	Regression
-
-<span style="color:#c00000">4\.4\.3	Segmentation</span>
-
-4\.4\.3\.1	K\-Means
-
-4\.4\.2\.2	Hierarchical Cluster Analysis
-
-
----
-
-
-Introductory Example
-
+<div style="font-weight:600;font-size:1.4em">
 Assume you are a wholesale distributor and each row of your dataset corresponds to a customer showing the following attributes:
 
-1\) FRESH: annual spending on fresh products \(Continuous\); 2\) MILK: annual spending on milk products \(Continuous\); 3\) GROCERY: annual spending on grocery products \(Continuous\); 4\) FROZEN: annual spending on frozen products \(Continuous\) 5\) DETERGENTS\_PAPER: annual spending on detergents and paper products \(Continuous\) 6\) DELICATESSEN: annual spending on delicatessen products \(Continuous\); 7\) CHANNEL: customers buying channel \(Nominal\) 8\) REGION: customers region \(Nominal\)
+<ol style="font-weight:400;font-size:0.7em">
+  <li>FRESH : annual spending on fresh products (Continuous)</li>
+  <li>MILK : annual spending on milk products (Continuous)</li>
+  <li>GROCERY : annual spending on grocery products (Continuous)</li>
+  <li>FROZEN : annual spending on frozen products (Continuous)</li>
+  <li>DETERGENTS_PAPER : annual spending on detergents and paper products (Continuous)</li>
+  <li>DELICATESSEN : annual spending on delicatessen products (Continuous)</li>
+  <li>CHANNEL : customers buying channel (Nominal)</li>
+  <li>REGION : customers region (Nominal)</li>
+</ol>
 
 Your goal is to segment the users\. That means finding similar types of users and bunching them together\.
 
 Why would you want to do this?
 
-You might want to give different users different experiences\. Marketing often does this; for example\, to offer toner to people who are known to own printers\.
+ ● You might want to give different users different experiences\. Marketing often does this; for example\, to offer toner to people who are known to own printers\.
 
-You might have a model that works better for specific groups\. Or you might have different models for different groups\.
+ ● You might have a model that works better for specific groups\. Or you might have different models for different groups\.
+</div>
 
 
 ---
 
 
-Cluster Analysis
+## Cluster Analysis
 
+<div style="font-weight:600;font-size:1.6em">
 <span style="color:#000000"> __Cluster analysis is a type of multivariate statistical analysis\. It is used to group data into separate clusters\. The main objective of clustering is to find similarities between data objects\, and then group similar objects together to assist in understanding relationships that might exist among them\. Cluster analysis is based on a mathematical formulation of a measure of similarity\. __ </span>
 
 <span style="color:#000000"> __There are different types of cluster analysis methods:__ </span>
 
-<span style="color:#0000ff"> __Clustering Methods__ </span>
+<div style="text-align:center">
+![](images/slides_307_new.png)
+</div>
+</div>
 
 
 ---
 
 
-4	Predictive Analytics
+## Navigation
 
-4\.1	Subject of Predictive Analytics
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.2	Regression
-
-4\.4\.3	Segmentation
-
-<span style="color:#c00000">4\.4\.3\.1	K\-Means</span>
-
-4\.4\.2\.2	Hierarchical Cluster Analysis
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Segmentation</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.3.1&nbsp; K-Means</p>
+  <p style="margin:0;margin-left:160px;">4.4.3.2&nbsp; Hierarchical Cluster Analysis</p>
+</div>
 
 
 ---
 
 
-Partitioning Cluster Methods
+## Partitioning Cluster Methods
 
+<div style="font-weight:600;font-size:1.6em">
 <span style="color:#000000"> __The partitioning cluster methods divide the data into a predetermined number of __ </span>  <span style="color:#000000">clusters\. The most popular technique is the K\-Means algorithm\.</span>
 
-Given a set of observations \( _x_ 1\, _x_ 2\,…\, _x_  _n_ \)\, where each observation is a  _m_ \-dimensional real vector\,  _k_ \-means clustering aims to partition the n observations into \( _k_ ≤ _n_ \) segments  _S_ =\{ _S_ 1\, _S_ 2\,\.\.\.\, _S_  _k_ \} so as to minimize the within\-cluster sum of squares \(WCSS\)\.
+Given a set of observations \( x<sub>1</sub>\, x<sub>2</sub>\,…\, x<sub>n</sub> \)\, where each observation is a  _m_ \-dimensional real vector\,  _k_ \-means clustering aims to partition the n observations into \( _k_ ≤ _n_ \) segments  _S_ =\{ S<sub>1</sub>\, S<sub>2</sub>\,\.\.\.\, S<sub>K</sub> \} so as to minimize the within\-cluster sum of squares \(WCSS\)\.
 
 The objective is to find
 
-where  _   _  is the mean of points in  _S_  _i_ \.
+<div>
+![](images/slides_309_new.png)
+</div>
+
+where x̄<sub>i</sub>  is the mean of points in  S<sub>i</sub> \.
+</div>
+
+
+---
+
+## K-Means
+
+<div style="font-weight:600;font-size:1.6em">
+<p>Procedure of K-Means:</p>
+<div style="display:grid;grid-template-columns:auto 1fr;column-gap:50px">
+ <p>Step 1:</p>
+ <p>Randomly partition the data objects into k clusters</p>
+</div>
+<div style="display:grid;grid-template-columns:auto 1fr;column-gap:50px">
+ <p>Step 2:</p>
+ <p>Calculate the cluster centroids.</p>
+</div>
+<div style="display:grid;grid-template-columns:auto 1fr;column-gap:50px">
+ <p>Step 3:</p>
+ <p>Calculate the distance from every data point to all centroids</p>
+</div>
+<div style="display:grid;grid-template-columns:auto 1fr;column-gap:50px">
+ <p>Step 4:</p>
+ <p>If a data point is closest to its own centroid, leave it where it is. If the data point is not closest to its own centroid, assign  it to the cluster with the closest centroid.
+</p>
+</div>
+<div style="display:grid;grid-template-columns:auto 1fr;column-gap:50px">
+ <p>Step 5:</p>
+ <p>Repeat the step 2 to 4 until a complete pass through of all the data points results in no data point changing from one cluster to another.
+</p>
+</div>
+</div>
+
 
 
 ---
 
 
-<span style="color:#000000">Procedure of K\-Means:</span>
+## Example of a K\-Means Cluster Analysis
 
-<span style="color:#000000"> __Step 1:	Randomly partition the data objects into k clusters\.__ </span>
-
-<span style="color:#000000"> __Step 2:	Calculate the cluster centroids\.__ </span>
-
-<span style="color:#000000"> __Step 3:	Calculate the distance from every data point to all centroids__ </span>
-
-<span style="color:#000000"> __Step 4:	If a data point is closest to its own centroid\, leave it where it  __ </span>  <span style="color:#000000"> __	__ </span>  <span style="color:#000000">is\. If the data </span>  <span style="color:#000000"> __point is not closest to its own centroid\, assign   __ </span>  <span style="color:#000000"> __	__ </span>  <span style="color:#000000">it to the cluster with </span>  <span style="color:#000000"> __the closest centroid\.__ </span>
-
-<span style="color:#000000"> __Step 5:	Repeat the step 2 to 4 until a complete pass through of all  __ </span>  <span style="color:#000000"> __	__ </span>  <span style="color:#000000">the data points </span>  <span style="color:#000000"> __results in no data point changing from one __ </span>  <span style="color:#000000"> __	cluster to another\.__ </span>
-
-
----
-
-
-Example of a K\-Means Cluster Analysis
-
+<div style="text-align:center">
 ![](images/slides_327.png)
+</div>
 
 
 ---
+
+## Finding the Optimal Number of Clusters (I)
 
 
 __Between cluster variance: __
