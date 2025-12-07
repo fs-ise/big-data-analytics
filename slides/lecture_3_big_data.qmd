@@ -63,7 +63,7 @@ format:
 ## 4V’s of Big Data
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_61.png" alt="">
+  <img data-src="../images/slides_61.png" alt="">
 </div>
 
 Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
@@ -75,10 +75,10 @@ Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
 
 <div style="margin-top:-3em">
 <div class="volumeImageWrapper" style="display:flex;justify-content:start">
-  <img data-src="images/slides_62.png" alt="">
+  <img data-src="../images/slides_62.png" alt="">
 </div>
 <div class="volumeImageWrapper" style="display:flex;justify-content:end">
-  <img data-src="images/slides_63.png" alt="">
+  <img data-src="../images/slides_63.png" alt="">
 </div>
 </div>
 
@@ -89,7 +89,7 @@ Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
 ## The Model of Generating and Consuming Data has Changed
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_76_new.png" alt="">
+  <img data-src="../images/slides_76_new.png" alt="">
 </div>
 
 
@@ -100,7 +100,7 @@ Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
 
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_77_new.png" alt="">
+  <img data-src="../images/slides_77_new.png" alt="">
 </div>
 
 Source: www.cs.kent.edu/~jin/BigData/Lecture1.pptx
@@ -168,7 +168,7 @@ Source: http://de\.slideshare\.net/BernardMarr/140228\-big\-data\-slide\-share/3
 
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_77_new.png" alt="">
+  <img data-src="../images/slides_77_new.png" alt="">
 </div>
 
 Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
@@ -180,7 +180,7 @@ Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
 ## A Single View to the Customer
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_81_new.png" alt="">
+  <img data-src="../images/slides_81_new.png" alt="">
 </div>
 
 Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
@@ -192,7 +192,7 @@ Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
 ## Velocity \(Speed\)
 
 <div style="float:right">
-  <img data-src="images/slides_97.png" alt="">
+  <img data-src="../images/slides_97.png" alt="">
 </div>
 
 <ul class="disc-list" style="font-size:1.7em;width:80%;font-wight:800">
@@ -224,7 +224,7 @@ Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
 ## Real\-Time Analytics
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_83_new.png" alt="">
+  <img data-src="../images/slides_83_new.png" alt="">
 </div>
 
 Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
@@ -235,7 +235,7 @@ Source: www\.cs\.kent\.edu/~jin/BigData/Lecture1\.pptx
 ## Veracity \(Uncertainty\)
 
 <div>
-  <img data-src="images/slides_99.png" alt="">
+  <img data-src="../images/slides_99.png" alt="">
 </div>
 
 
@@ -283,7 +283,7 @@ Source: http://de\.slideshare\.net/BernardMarr/140228\-big\-data\-slide\-share/3
 ## Turning Big Data into Value
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_86_new.png" alt="">
+  <img data-src="../images/slides_86_new.png" alt="">
 </div>
 
 Source: http://de\.slideshare\.net/BernardMarr/140228\-big\-data\-slide\-share/3\-The\_basic\_idea\_behind\_the
@@ -299,7 +299,7 @@ Source: http://de\.slideshare\.net/BernardMarr/140228\-big\-data\-slide\-share/3
 </p>
 </div>
 <div class="descriptive-wrapper" style="width:30%">
-  <img data-src="images/slides_87_new.png" alt="">
+  <img data-src="../images/slides_87_new.png" alt="">
 </div>
 
 </div>
@@ -311,7 +311,7 @@ Source: http://de.slideshare.net/BernardMarr/140228-big-data-slide-share/3-The_b
 ## Identify and Prioritize Data Sources
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_88_new.png" alt="">
+  <img data-src="../images/slides_88_new.png" alt="">
 </div>
 
 Source: Schmarzo (2016):  Big Data MBA, p. 49
@@ -321,7 +321,7 @@ Source: Schmarzo (2016):  Big Data MBA, p. 49
 ## The Four Layers of Big Data (II)
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_89_new.png" alt="">
+  <img data-src="../images/slides_89_new.png" alt="">
 </div>
 
 Source: http://de.slideshare.net/BernardMarr/140228-big-data-slide-share/3-The_basic_idea_behind_the
@@ -332,7 +332,7 @@ Source: http://de.slideshare.net/BernardMarr/140228-big-data-slide-share/3-The_b
 ## The Four Layers of Big Data (III)
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_90_new.png" alt="">
+  <img data-src="../images/slides_90_new.png" alt="">
 </div>
 
 Source: http://de.slideshare.net/BernardMarr/140228-big-data-slide-share/3-The_basic_idea_behind_the
@@ -342,7 +342,7 @@ Source: http://de.slideshare.net/BernardMarr/140228-big-data-slide-share/3-The_b
 ## The Four Layers of Big Data (IV)
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_91_new.png" alt="">
+  <img data-src="../images/slides_91_new.png" alt="">
 </div>
 
 Source: http://de.slideshare.net/BernardMarr/140228-big-data-slide-share/3-The_basic_idea_behind_the
@@ -377,7 +377,7 @@ A clean separation between data movement and data transformation has the  benefi
 A data lake is a method of storing data within a system in its natural format, that facilitates the collocation of data in various schemata and structural forms. The idea of data lake is to have a single store of all data in the enterprise ranging from raw data to transformed data which is used for various tasks including reporting, visualization, analytics and machine learning. [Wikipedia]
 </h3>
 <div style="text-align:center">
-  <img data-src="images/slides_93_new.png" alt="">
+  <img data-src="../images/slides_93_new.png" alt="">
 </div>
 <p style="text-align:center">Source: https://www.pmone.com/fileadmin/user_upload/pics/other/Data_lake.jpg
 </p>
@@ -388,7 +388,7 @@ A data lake is a method of storing data within a system in its natural format, t
 ## Modern Data Analytics Architecture
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_94_new.png" alt="">
+  <img data-src="../images/slides_94_new.png" alt="">
 </div>
 
 ---
@@ -409,7 +409,7 @@ While the data in the classic data warehouse comes from a "well-defined" physica
 </p>
 </div>
 <div>
-<img data-src="images/slides_95_new.png" alt="">
+<img data-src="../images/slides_95_new.png" alt="">
 </div>
 </div>
 </div>

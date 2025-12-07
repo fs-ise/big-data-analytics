@@ -29,11 +29,11 @@ revealjs-plugins:
 
 ::: columns
 ::: column
-![](images/slides_0.png){width="80%"}
+![](../images/slides_0.png){width="80%"}
 :::
 
 ::: column
-![](images/slides_1.png){width="60%"}
+![](../images/slides_1.png){width="60%"}
 :::
 :::
 
@@ -48,7 +48,7 @@ Source: Bernard Marr; Source: Ruoming Jin
 
 ## Worldwide Corporate Data Growth
 
-![](images/slides_2.png){fig-align="center" width="90%"}
+![](../images/slides_2.png){fig-align="center" width="90%"}
 
 
 # Computing Power {data-stack-name="Computing Power"}
@@ -57,7 +57,7 @@ Source: Bernard Marr; Source: Ruoming Jin
 
 The rapid acceleration of computing power—driven by advances in hardware, cloud infrastructure, and parallel processing—has enabled modern analytics and machine learning to scale to massive datasets.
 
-![](images/slides_3.png){fig-align="center" width="50%"}
+![](../images/slides_3.png){fig-align="center" width="50%"}
 
 
 # Algorithms {data-stack-name="Algorithms"}
@@ -66,15 +66,15 @@ The rapid acceleration of computing power—driven by advances in hardware, clou
 
 ::: columns
 ::: column
-![](images/slides_4.png){width="70%"}
+![](../images/slides_4.png){width="70%"}
 Traditional Regression
 :::
 
 ::: column
-![](images/slides_5.png){width="60%"}
+![](../images/slides_5.png){width="60%"}
 Decision Tree
 
-![](images/slides_6.png){width="60%"}
+![](../images/slides_6.png){width="60%"}
 Neural Network
 :::
 :::
@@ -158,23 +158,23 @@ plt.show()
 
 **Traditional Analytics Process:**
 
-![](images/slide-13.1.png){fig-align="center" width="40%"}
+![](../images/slide-13.1.png){fig-align="center" width="40%"}
 
 
 **Modern Analytics Process:**
 
-![](images/slide-13.2.png){fig-align="center" width="40%"}
+![](../images/slide-13.2.png){fig-align="center" width="40%"}
 
 
 ## From the Past to the Present
 
-![](images/slide-14-new.png){fig-align="center" width="60%"}
+![](../images/slide-14-new.png){fig-align="center" width="60%"}
 
 
 ## Evolution of Analytics
 
 
-![](images/slides_20.jpg){fig-align="center"  width="70%"} 
+![](../images/slides_20.jpg){fig-align="center"  width="70%"} 
 
 
 ::: aside
@@ -185,7 +185,7 @@ Source: http://juxt.pro/blog/posts/machine-learning-with-clojure.html
 ## Types of Analytics (I)
 
 
-![](images/slides_21.png){fig-align="center" width="60%"}
+![](../images/slides_21.png){fig-align="center" width="60%"}
 
 
 ::: aside
@@ -238,17 +238,17 @@ Source: Schmarzo, p. 13
 
 ## Descriptive Analytics Process
 
-![](images/slides_23.png){fig-align="center" width="45%"} 
+![](../images/slides_23.png){fig-align="center" width="45%"} 
 
 
 ## Predictive Analytics Process
 
-![](images/slides_24.png){fig-align="center" width="60%"} 
+![](../images/slides_24.png){fig-align="center" width="60%"} 
 
 
 ## Example Inventory Planning
 
-![](images/slides_25.png){fig-align="center" width="60%"}
+![](../images/slides_25.png){fig-align="center" width="60%"}
 
 <p>On the basis of more than 300 million data records per week, Otto makes more than one billion forecasts per year on the sales development of individual articles for the next days and weeks. Such forecasts allow Otto to reduce its own inventories by up to 30% on average.</p>
 
@@ -260,15 +260,15 @@ Source: http://www.bvl.de/misc/filePush.php?mimeType=application/pdf&fullPath=/f
 
 ## Classical Corporate Planning
 
-![](images/slides_26.png){fig-align="center" width="60%"}
+![](../images/slides_26.png){fig-align="center" width="60%"}
 
 ## Example Driver-based Planing (I)
 
-![](images/slides-27-new.png){fig-align="center" width="60%"}
+![](../images/slides-27-new.png){fig-align="center" width="60%"}
 
 ## Example Driver-based Planing (II)
 
-![](images/slides-28-new.png){fig-align="center" width="40%"}
+![](../images/slides-28-new.png){fig-align="center" width="40%"}
 
 1. Sales forecasts based on market and social media data
 2. Automated pricing based on market and competitor analyses

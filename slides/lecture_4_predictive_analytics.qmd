@@ -29,7 +29,7 @@ format:
 <h2 style="text-align:center">Dr\. John Snow's Map of the 1854 London Cholera Outbreak</h2>
 
 <div class="descriptive-wrapper">
-![](images/slides_104.png)
+![](../images/slides_104.png)
 </div>
 
 <p style="text-align:center">Source: http://www\.udel\.edu/johnmack/frec480/cholera</p>
@@ -41,7 +41,7 @@ format:
 ## Use Cases of Data Analytics \- Examples
 
 <div class="descriptive-wrapper">
-![](images/slides_98_new.png)
+![](../images/slides_98_new.png)
 </div>
 
 
@@ -50,7 +50,7 @@ format:
 
 ## Fundamental Skills of Data Analytics
 <div class="descriptive-wrapper">
-![](images/slides_105.png)
+![](../images/slides_105.png)
 </div>
 
 
@@ -60,7 +60,7 @@ format:
 ## The Data Analytics Process
 
 <div class="descriptive-wrapper">
-![](images/slides_106.png)
+![](../images/slides_106.png)
 </div>
 
 <span style="color:#000000">Source</span>  <span style="color:#000000">: http://www\.datasciencecentral\.com/profiles/blogs/data\-science\-simplified\-principles\-and\-process</span>
@@ -92,7 +92,7 @@ Source: Dataiku \- Data Science for Banking and Insurance
 ## Statistical Regression vs\. Machine Learning Algorithms
 
 <div class="descriptive-wrapper">
-![](images/slides_107.png)
+![](../images/slides_107.png)
 </div>
 
 ---
@@ -150,7 +150,7 @@ counterfactual : den Tatsachen widersprechend
 ## Correlation
 
 <div style="text-align:center;">
-![](images/slides_112.png)
+![](../images/slides_112.png)
 </div>
 
 <p style="font-size:1.3em;text-align:center">Source: Organic Trade Association\, 2011 Organic lndustry Survey\, U\.p\. Department of Education\, Ofﬁce of Special Education Programs\, Data Analysis System \(DANS\)
@@ -164,7 +164,7 @@ counterfactual : den Tatsachen widersprechend
 ## Correlation vs\. Causality \(I\)
 
 <div style="text-align:center;">
-![](images/slides_107_new.png)
+![](../images/slides_107_new.png)
 </div>
 
 <div style="font-size:1.7em;font-weight:600">
@@ -179,7 +179,7 @@ counterfactual : den Tatsachen widersprechend
 ## Correlation vs\. Causality \(II\)
 
 <div class="descriptive-wrapper">
-![](images/slides_114.png)
+![](../images/slides_114.png)
 </div>
 
 
@@ -203,7 +203,7 @@ counterfactual : den Tatsachen widersprechend
 ## Statistical Estimation
 
 <div class="descriptive-wrapper">
-![](images/slides_116.png)
+![](../images/slides_116.png)
 </div>
 
 Source: http://www\.dxbydt\.com/the\-size\-of\-your\-sample
@@ -254,7 +254,7 @@ In the given context\, a  <span style="color:#ff0000">model</span>  is the descr
 
 ## Traditional Analytics Process
 
-![](images/slides_117.png)
+![](../images/slides_117.png)
 
 ---
 
@@ -262,7 +262,7 @@ In the given context\, a  <span style="color:#ff0000">model</span>  is the descr
 ## Example Regression \- Fitting the model
 
 <div class="descriptive-wrapper">
-![](images/slides_121.png)
+![](../images/slides_121.png)
 </div>
 
 ---
@@ -270,7 +270,7 @@ In the given context\, a  <span style="color:#ff0000">model</span>  is the descr
 ## Example Regression \- Testing the model
 
 <div class="descriptive-wrapper">
-![](images/slides_123.png)
+![](../images/slides_123.png)
 </div>
 
 ---
@@ -279,7 +279,7 @@ In the given context\, a  <span style="color:#ff0000">model</span>  is the descr
 ## Data Errors and their Consequences
 
 <div class="descriptive-wrapper">
-![](images/slides_125_new.png)
+![](../images/slides_125_new.png)
 </div>
 
 ---
@@ -287,7 +287,7 @@ In the given context\, a  <span style="color:#ff0000">model</span>  is the descr
 
 ## Modern Analytics Process
 
-![](images/slides_126_new.png)
+![](../images/slides_126_new.png)
 
 
 ---
@@ -296,7 +296,7 @@ In the given context\, a  <span style="color:#ff0000">model</span>  is the descr
 ## Best Fit vs\. Best Generalization
 
 <div class="descriptive-wrapper">
-![](images/slides_129.png)
+![](../images/slides_129.png)
 </div>
 
 
@@ -306,7 +306,7 @@ In the given context\, a  <span style="color:#ff0000">model</span>  is the descr
 ## Over\- and Underfitting
 
 <div style="text-align:center;">
-![](images/slides_131.png)
+![](../images/slides_131.png)
 </div>
 
 
@@ -341,7 +341,7 @@ Noise is everything that arises from random variations in the data\. It cannot b
 
 </div>
 <div style="width:40%" class="descriptive-wrapper">
-![](images/slides_132_new.png)
+![](../images/slides_132_new.png)
 </div>
 </div>
 
@@ -351,7 +351,7 @@ Noise is everything that arises from random variations in the data\. It cannot b
 ## Summarizing: Statistics vs\. Data Analytics
 
 <div class="descriptive-wrapper">
-![](images/slides_133_new.png)
+![](../images/slides_133_new.png)
 </div>
 
 ---
@@ -373,7 +373,7 @@ For this reason\, the choice of the method can often not be made ex ante\. In th
 ## Linear World
 
 <div class="descriptive-wrapper">
-![](images/slides_134_new.png)
+![](../images/slides_134_new.png)
 </div>
 
 
@@ -382,7 +382,7 @@ For this reason\, the choice of the method can often not be made ex ante\. In th
 ## Quadratic World
  
 <div class="descriptive-wrapper">
-![](images/slides_135_new.png)
+![](../images/slides_135_new.png)
 </div>
 
 
@@ -392,7 +392,7 @@ For this reason\, the choice of the method can often not be made ex ante\. In th
 ## Nonlinear World \(Type 1\)
 
 <div class="descriptive-wrapper">
-![](images/slides_136_new.png)
+![](../images/slides_136_new.png)
 </div>
 
 ---
@@ -401,7 +401,7 @@ For this reason\, the choice of the method can often not be made ex ante\. In th
 ## Nonlinear World \(Type 2\)
 
 <div class="descriptive-wrapper">
-![](images/slides_137_new.png)
+![](../images/slides_137_new.png)
 </div>
 
 
@@ -411,7 +411,7 @@ For this reason\, the choice of the method can often not be made ex ante\. In th
 ## Nonlinear World \(Type 3\)
 
 <div class="descriptive-wrapper">
-![](images/slides_138_new.png)
+![](../images/slides_138_new.png)
 </div>
 
 
@@ -421,7 +421,7 @@ For this reason\, the choice of the method can often not be made ex ante\. In th
 ## Nonlinear World \(Type 4\)
 
 <div class="descriptive-wrapper">
-![](images/slides_139_new.png)
+![](../images/slides_139_new.png)
 </div>
 
 
@@ -430,7 +430,7 @@ For this reason\, the choice of the method can often not be made ex ante\. In th
 ## The Data Analytics Process \- Technical View
 
 <div class="descriptive-wrapper">
-![](images/slides_133.png)
+![](../images/slides_133.png)
 </div>
 
 <span style="color:#000000">Source: http://blogs\.msdn\.microsoft\.com/martinkearn/2016/03/01/machine\-learning\-is\-for\-muggles\-too/</span>
@@ -465,7 +465,7 @@ For this reason\, the choice of the method can often not be made ex ante\. In th
 <p style="font-weight:600;font-size:1.5em">The data collection and preparation phase is the most labor\-intensive one\, consuming on average between 60\-80% of a data scientist’s time\. It’s critical therefore to select a tool that can automate or at least speed the workflows associated with data preparation\.
 </p>
 <div style="text-align:center">
-![](images/slides_134.png)
+![](../images/slides_134.png)
 </div>
 
 <p style="text-align:right"> 2016 Dataiku\, Inc\.</p>
@@ -489,7 +489,7 @@ examine for irregular outliers (e.g. Age=236)
 </div>
 <div>
 <h3 style="font-size:1.4em;font-weight-700;">2.\ Handling missing values</h3>
-![](images/slides_140_new.png)
+![](../images/slides_140_new.png)
 </div>
 </div>
 
@@ -499,7 +499,7 @@ examine for irregular outliers (e.g. Age=236)
 ## Missing Values Strategies
 
 <div class="descriptive-wrapper">
-![](images/slides_141_new.png)
+![](../images/slides_141_new.png)
 </div>
 
 ---
@@ -586,7 +586,7 @@ Use sampling to partition into training and test data\.
 ## Popular Methods of Sampling \(I\)
 
 <div class="descriptive-wrapper">
-![](images/slides_135.png)
+![](../images/slides_135.png)
 </div>
 
 ---
@@ -595,7 +595,7 @@ Use sampling to partition into training and test data\.
 ## Popular Methods of Sampling \(II\)
 
 <div class="descriptive-wrapper">
-![](images/slides_167.png)
+![](../images/slides_167.png)
 </div>
 
 --- 
@@ -604,7 +604,7 @@ Use sampling to partition into training and test data\.
 ## Systematic Sampling
 
 <div class="descriptive-wrapper">
-![](images/slides_176.png)
+![](../images/slides_176.png)
 </div>
 
 
@@ -613,7 +613,7 @@ Use sampling to partition into training and test data\.
 ## Random Sampling
 
 <div class="descriptive-wrapper">
-![](images/slides_177.png)
+![](../images/slides_177.png)
 </div>
 
 ---
@@ -622,7 +622,7 @@ Use sampling to partition into training and test data\.
 ## Proportional Sampling
 
 <div class="descriptive-wrapper">
-![](images/slides_178.png)
+![](../images/slides_178.png)
 </div>
 
 
@@ -632,7 +632,7 @@ Use sampling to partition into training and test data\.
 ## Downsampling
 
 <div class="descriptive-wrapper">
-![](images/slides_179.png)
+![](../images/slides_179.png)
 </div>
 
 
@@ -647,7 +647,7 @@ Use sampling to partition into training and test data\.
 </div>
 
 <div style="float:right;width:40%">
-![](images/slides_180.png)
+![](../images/slides_180.png)
 </div>
 </div>
 
@@ -664,7 +664,7 @@ Use sampling to partition into training and test data\.
 
 <span style="color:#000000">A feature \(variable\, attribute\) is depicted by a column in a dataset\. Considering a generic two\-dimensional dataset\, each observation is depicted by a row and each feature by a column\, which will have a specific value for an observation:</span>
 <div style="text-align:center">
-![](images/slides_144_new.png)
+![](../images/slides_144_new.png)
 </div>
 <span style="color:#000000">Features can be of two major types\. </span>  <span style="color:#ff0000">Raw features</span>  <span style="color:#000000"> are obtained directly from the dataset with no extra data manipulation or engineering\. </span>  <span style="color:#ff0000">Derived features</span>  <span style="color:#000000"> are usually obtained from feature engineering\, where we extract features from existing data attributes\. A simple example would be creating a new feature “Age” from an employee dataset containing "Birthdate"\.</span>
 
@@ -720,7 +720,7 @@ Sources:	Sarkar\, D\.: Understanding Feature Engineering\, towardsdatascience\.c
 <p style="color:#000000">To overcome this effect\, we scale the features to bring them to the same level of magnitudes\. The two most discussed scaling methods are Normalization and Standardization\. </p>
 
 <div>
-![](images/slides_146_new.png)
+![](../images/slides_146_new.png)
 </div>
 </div>
 
@@ -737,7 +737,7 @@ Sources:	Sarkar\, D\.: Understanding Feature Engineering\, towardsdatascience\.c
 
 <span style="color:#ff0000">One hot encoding</span>  <span style="color:#000000"> is a representation of a categorical variable as binary vectors\. Every categorical value is assigned to an artificial binary variable\. If the corresponding categorical value occurs in a data row the value of its binary replacement is equal to 1 else 0\, e\.g\. </span>
 <div style="text-align:center">
-![](images/slides_147_new.png)
+![](../images/slides_147_new.png)
 </div>
 <span style="color:#000000">It is usual when creating dummy variables to have one less variable than the number of categories present to avoid perfect collinearity \(dummy variable trap\)\.</span>
 </div>
@@ -751,7 +751,7 @@ Sources:	Sarkar\, D\.: Understanding Feature Engineering\, towardsdatascience\.c
 <div style="font-size:1.4em;font-weight:700">
 <p style="color:#000000">Data sets often contain date/time features\. These features are rarely useful in their original form because they only contain ongoing values\. However\, they can be useful for extracting cyclical factors\, such as weekly or seasonal effects\. Suppose\, we are given a data "flight date time vs status"\. Then\, given the date\-time data\, we have to predict the status of the flight\.</p>
 <div style="text-align:center">
-![](images/slides_183.png)
+![](../images/slides_183.png)
 </div>
 <p style="color:#000000">But the status of the flight may depend on the hour of the day\, not on the date\-time\. To analyze this\, we will create the new feature " Hour\_Of\_Day"\. Using the "Hour\_Of\_Day" feature\, the machine will learn better as this feature is directly related to the status of the flight\.</p>
 
@@ -770,7 +770,7 @@ Sources:	Sarkar\, D\.: Understanding Feature Engineering\, towardsdatascience\.c
 
 <span style="color:#000000">In other cases\, it might be appropriate to transform latitude and longitude into categories which reflect regions\, for example</span>
 <div style="text-align:center">
-![](images/slides_185.png)
+![](../images/slides_185.png)
 </div>
 </div>
 
@@ -821,7 +821,7 @@ Sources:	Sarkar\, D\.: Understanding Feature Engineering\, towardsdatascience\.c
 The partitioning of the data in <span style="color:#ff0000">Training and Test Data</span>  has the aim to proof if the analytical results can be generalized. The analysis (e.g. the development of a classifier) is carried out on the basis of training data. Subsequently, the results are applied to the test data. If the results are significantly worse than the training data, the model is not generalizable, which is called overfitting.
 </p>
 <div style="text-align:center">
-![](images/slides_186.png)
+![](../images/slides_186.png)
 </div>
 <p>
 The partitioning of the data in training and test data can be carried out in the following ways: 
@@ -844,7 +844,7 @@ The partitioning of the data in training and test data can be carried out in the
 
 
 <div style="text-align:center">
-![](images/slides_152_new.png)
+![](../images/slides_152_new.png)
 </div>
 
 <p style="text-align:right">Source: http://www.cs.kent.edu/~jin/BigData/Lecture10-ML-Classification.pptx</p>
@@ -854,7 +854,7 @@ The partitioning of the data in training and test data can be carried out in the
 
 ## Partitioning
 
-![](images/slides_187.png)
+![](../images/slides_187.png)
 
 
 ---
@@ -902,7 +902,7 @@ Non\-graphical exploratory data analysis is the first step when beginning to ana
 The characteristics of interest for a categorical variable are simply the range of values and the frequency of occurrence for each value\.
 
 <div style="text-align:center">
-![](images/slides_188.png)
+![](../images/slides_188.png)
 </div>
 </div>
 
@@ -919,7 +919,7 @@ Usually\, the detection of outliers is an unsupervised process\, because they ar
 
 In the case of  <span style="color:#ff0000">numerical attributes</span>  the Interquartil Range can be used\. Here\, an outlier is defined if the attribute lies outside the interval
 <div style="text-align:center">
-![](images/slides_187_new.png)
+![](../images/slides_187_new.png)
 </div>
 
 
@@ -928,7 +928,7 @@ Usually\, k has a value between 1\.5 and 3\. The bigger k\, the more different  
 
 Can be visualized by a Box\-and\-Whisker Plot:
 <div style="text-align:right">
-![](images/slides_189.png)
+![](../images/slides_189.png)
 </div>
 </div>
 
@@ -947,7 +947,7 @@ Can be visualized by a Box\-and\-Whisker Plot:
 </div>
 
 <div style="text-align:center">
-![](images/slides_190.png)
+![](../images/slides_190.png)
 </div>
 
 
@@ -968,13 +968,13 @@ for categorical variables: Pie charts\, Bar graphs\, …
 
 <div style="display:flex;justify-content:center">
 <div style="height:600px;width:400px">
-![](images/slides_193.png)
+![](../images/slides_193.png)
 </div>
 <div style="height:600px;width:400px">
-![](images/slides_191.png)
+![](../images/slides_191.png)
 </div>
 <div style="height:600px;width:400px">
-![](images/slides_192.png)
+![](../images/slides_192.png)
 </div>
 </div>
 
@@ -988,10 +988,10 @@ Multivariate non\-graphical EDA techniques generally show the relationship betwe
 </div>
 <div style="display:flex;justify-content:center;margin-top:4em">
 <div class="Multivariate-wrapper" >
-![](images/slides_194.png)
+![](../images/slides_194.png)
 </div>
 <div class="Multivariate-wrapper">
-![](images/slides_195.png)
+![](../images/slides_195.png)
 </div>
 </div>
 
@@ -1005,7 +1005,7 @@ Multivariate non\-graphical EDA techniques generally show the relationship betwe
 Multivariate graphical EDA techniques are scatterplots for numerical variables\, Barcharts for categorical variables\, or Boxplots for mixed types\.
 
 <div style="text-align:center">
-![](images/slides_196.png)
+![](../images/slides_196.png)
 </div>
 </div>
 
@@ -1016,7 +1016,7 @@ Multivariate graphical EDA techniques are scatterplots for numerical variables\,
 ## Touring Diagram
 
 <div class="descriptive-wrapper">
-![](images/slides_199.gif)
+![](../images/slides_199.gif)
 </div>
 
 ---
@@ -1046,7 +1046,7 @@ Multivariate graphical EDA techniques are scatterplots for numerical variables\,
 ## Categories in Machine Learning
 
 <div style="text-align:center">
-![](images/slides_200.png)
+![](../images/slides_200.png)
 </div>
 
 
@@ -1055,7 +1055,7 @@ Multivariate graphical EDA techniques are scatterplots for numerical variables\,
 ## Supervised Learning
 
 <div style="text-align:center">
-![](images/slides_203.png)
+![](../images/slides_203.png)
 </div>
 
 
@@ -1065,7 +1065,7 @@ Multivariate graphical EDA techniques are scatterplots for numerical variables\,
 ## Unsupervised Learning
 
 <div style="text-align:center">
-![](images/slides_207.png)
+![](../images/slides_207.png)
 </div>
 
 
@@ -1076,7 +1076,7 @@ Multivariate graphical EDA techniques are scatterplots for numerical variables\,
 
 
 <div style="text-align:center">
-![](images/slides_209.png)
+![](../images/slides_209.png)
 </div>
 
 
@@ -1085,7 +1085,7 @@ Multivariate graphical EDA techniques are scatterplots for numerical variables\,
 ## Use Cases Quiz
 
 <div style="text-align:center">
-![](images/slides_210.png)
+![](../images/slides_210.png)
 </div>
 
 ---
@@ -1112,7 +1112,7 @@ For these cases there exist a different approach known as reinforcement learning
 ## Reinforcement Learning
 
 <div class="volumeImageWrapper" style="text-align:center">
-![](images/slides_211.jpg)
+![](../images/slides_211.jpg)
 </div>
 <div style="font-size:1.5em;font-weight:600">
 The agent learns how to achieve a given goal by trial\-and\-error interactions with its environment by maximizing a reward\.
@@ -1133,7 +1133,7 @@ The core of AlphaGo is a deep neural network\. It was initially trained to learn
 A newer version named AlphaGo Zero skips the step of being trained and learns to play simply by playing games against itself\, starting from completely random play\.
 </div>
 <div style="width:50%">
-![](images/slides_212.png)
+![](../images/slides_212.png)
 </div>
 </div>
 
@@ -1157,7 +1157,7 @@ Poker is more difficult because it’s a game with imperfect information\. With 
 
 “We didn’t tell Libratus how to play poker\. We gave it the rules of poker and said ‘learn on your own’\.” The AI started playing randomly but over the course of playing trillions of hands was able to refine its approach and arrive at a winning strategy\.
 <div class="volumeImageWrapper" style="float:right">
-![](images/slides_214.jpg)
+![](../images/slides_214.jpg)
 </div>
 </div>
 
@@ -1199,12 +1199,12 @@ GPT is based on a huge neural network that essentially represents the language m
 ChatGPT generates its response word by word via a sequence of probabilities\, with each new word depending on the previous ones\.
 
 <div style="text-align:center">
-![](images/slides_216.png)
+![](../images/slides_216.png)
 </div>
 
 The most probable word is not always selected; instead\, randomization takes place\. This means that different variants can be created for the same task\.
 <div style="text-align:center">
-![](images/slides_217.png)
+![](../images/slides_217.png)
 </div>
 </div>
 
@@ -1215,7 +1215,7 @@ The most probable word is not always selected; instead\, randomization takes pla
 ## ChatGPT \- Semantic Spaces \(I\)
 
 <div style="text-align:center">
-![](images/slides_218.png)
+![](../images/slides_218.png)
 </div>
 
 
@@ -1225,7 +1225,7 @@ The most probable word is not always selected; instead\, randomization takes pla
 ## ChatGPT \- Semantic Spaces \(II\)
 
 <div style="text-align:center">
-![](images/slides_176_new.png)
+![](../images/slides_176_new.png)
 </div>
 
 ---
@@ -1234,7 +1234,7 @@ The most probable word is not always selected; instead\, randomization takes pla
 ## ChatGPT \- Evaluation Component
 
 <div style="text-align:center">
-![](images/slides_220.png)
+![](../images/slides_220.png)
 </div>
 
 
@@ -1283,7 +1283,7 @@ What if a new guy comes in who is 49years old and who makes 53\,000 Euro? What i
 </div>
 
 <div style="float:right;">
-![](images/slides_221.png)
+![](../images/slides_221.png)
 </div>
 </div>
 
@@ -1336,7 +1336,7 @@ What if a new guy comes in who is 49years old and who makes 53\,000 Euro? What i
 ## Measuring Similarity
 
 <div style="text-align:center">
-![](images/slides_182_new.png)
+![](../images/slides_182_new.png)
 </div>
 
 ---
@@ -1344,7 +1344,7 @@ What if a new guy comes in who is 49years old and who makes 53\,000 Euro? What i
 ## Unnormalized vs. Normalized
 
 <div style="text-align:center">
-![](images/slides_183_new.png)
+![](../images/slides_183_new.png)
 </div>
 
 ---
@@ -1352,7 +1352,7 @@ What if a new guy comes in who is 49years old and who makes 53\,000 Euro? What i
 ## Example (I)
 
 <div style="text-align:center">
-![](images/slides_184_new.png)
+![](../images/slides_184_new.png)
 </div>
 
 ---
@@ -1360,7 +1360,7 @@ What if a new guy comes in who is 49years old and who makes 53\,000 Euro? What i
 ## Example (II)
 
 <div style="text-align:center">
-![](images/slides_185_new.png)
+![](../images/slides_185_new.png)
 </div>
 
 ---
@@ -1396,7 +1396,7 @@ What if a new guy comes in who is 49years old and who makes 53\,000 Euro? What i
 ## Creation and Use of Models
 
 <div style="text-align:center">
-![](images/slides_188_new.png)
+![](../images/slides_188_new.png)
 </div>
 
 ---
@@ -1405,7 +1405,7 @@ What if a new guy comes in who is 49years old and who makes 53\,000 Euro? What i
 ## Calculating Accuracies
 
 <div style="text-align:center">
-![](images/slides_189_new.png)
+![](../images/slides_189_new.png)
 </div>
 
 
@@ -1479,7 +1479,7 @@ True positives \(TP\)\, true negatives \(TN\)\, false positives \(FP\)\, and fal
 </div>
 
 <div style="text-align:center">
-![](images/slides_223.png)
+![](../images/slides_223.png)
 </div>
 
 
@@ -1491,11 +1491,11 @@ True positives \(TP\)\, true negatives \(TN\)\, false positives \(FP\)\, and fal
 <div style="font-size:1.6em;font-weight:600">
 Test metrics are used to assess how accurately the model predicts the known values:
 <div style="text-align:center">
-![](images/slides_192_new.png)
+![](../images/slides_192_new.png)
 </div>
 Most classification algorithms pursue to minimize the misclassification rate\. They implicitly assume that all misclassification errors cost equally\. In many real\-world applications\, this assumption is not true\. Cost\-sensitive learning takes costs\, such as the misclassification cost\, into consideration\. Using costs\, the error rate can be calculated via:
 <div style="text-align:center">
-![](images/slides_1922_new.png)
+![](../images/slides_1922_new.png)
 </div>
 </div>
 
@@ -1509,19 +1509,19 @@ Most classification algorithms pursue to minimize the misclassification rate\. T
 Misclassification rate and accuracy can be misleading\, for example in the case of imbalanced samples\. Extreme case:
 
 <div style="text-align:center">
-![](images/slides_193_new.png)
+![](../images/slides_193_new.png)
 </div>
 
 For problems like\, this additional measures are required to evaluate a classifier\.
 
 <span style="color:#ff0000">Sensitivity</span>  \(true positive rate\, recall\) measures the proportion of positives that are correctly identified as such\.  <span style="color:#ff0000">Specificity</span>  \(true negative rate\) measures the proportion of negatives that are correctly identified as such\.
 <div style="text-align:center">
-![](images/slides_193_2_new.png)
+![](../images/slides_193_2_new.png)
 </div>
 
 Using both measures\, we can compute the  <span style="color:#ff0000">Balanced Accuracy</span>
 <div style="text-align:center">
-![](images/slides_193_3_new.png)
+![](../images/slides_193_3_new.png)
 </div>
 </div>
 
@@ -1539,7 +1539,7 @@ Because of the majority of the Y class\, the training process concentrates on th
 The results of the test of the model is consequently:
 
 <div>
-![](images/slides_194_new.png)
+![](../images/slides_194_new.png)
 </div>
 
 Thus\, the model is blind for the N cases\. But these are the ones of primary interest for the company\.
@@ -1555,12 +1555,12 @@ Thus\, the model is blind for the N cases\. But these are the ones of primary in
 <div style="width:50%">
 <span style="color:#ff0000">Precision</span>  measures the proportion of predicted positives who are true positives\. A precision of 0\.5 means that whenever the model classifies a positive\, there is a 50% chance of it really being a positive\.The higher the precision the smaller the number of false positives\.
 <div>
-![](images/slides_195_new.png)
+![](../images/slides_195_new.png)
 </div>
 <span style="color:#ff0000">Recall</span>  measures the percentage of positives the model is able to catch\. It is defined as the number of true positives divided by the total number of positives in the dataset\. A recall of 50% would mean that 50% of the positives had been predicted as such by the model while the other 50% of positives have been missed by the model\.
 </div>
 <div style="width:50%;text-align:center;">
-![](images/slides_224.png)
+![](../images/slides_224.png)
 </div>
 
 </div>
@@ -1575,7 +1575,7 @@ Thus\, the model is blind for the N cases\. But these are the ones of primary in
 <div style="font-size:1.6em;font-weight:600">
 The F1 Score can be interpreted as the weighted average of both precision and recall\. The main idea of the F1 Score is to strike a balance between both precision and recall and measure it in a single metric\.
 <div style="text-align:center">
-![](images/slides_196_new.png)
+![](../images/slides_196_new.png)
 </div>
 A F1 score reaches its best value at 1 \(perfect precision and recall\) and worst at 0\.
 
@@ -1589,7 +1589,7 @@ It is commonly used in cases of high class imbalance\.
 ## Creation and Use of Models
 
 <div style="text-align:center">
-![](images/slides_197_new.png)
+![](../images/slides_197_new.png)
 </div>
 
 ---
@@ -1627,7 +1627,7 @@ It is commonly used in cases of high class imbalance\.
 ## Which one is better?
 
 <div style="text-align:center">
-![](images/slides_199_new.png)
+![](../images/slides_199_new.png)
 </div>
 
 ---
@@ -1636,7 +1636,7 @@ It is commonly used in cases of high class imbalance\.
 ## Introductory Example
 
 <div style="text-align:center">
-![](images/slides_225.png)
+![](../images/slides_225.png)
 </div>
 
 ::: {.notes}
@@ -1676,7 +1676,7 @@ Graphically\, decision tree models divide the dataspace in a large number of sub
 The decision tree approach does not require any assumption about the functional form of variables or distributions\. Furthermore in contrast to parametric models like linear regressions\, the decision tree algorithm can model multiple structures as well as complex relationships within the data\, which would be difficult to replicate in a linear model\.
 </div>
 <div class="volumeImageWrapper" style="float:right">
-![](images/slides_241.png)
+![](../images/slides_241.png)
 </div>
 </div>
 
@@ -1688,7 +1688,7 @@ The decision tree approach does not require any assumption about the functional 
 ## Decision Trees \(III\)
 
 <div class="descriptive-wrapper">
-![](images/slides_242.png)
+![](../images/slides_242.png)
 </div>
 
 <p style="text-align:center">Source: http://iopscience\.iop\.org/article/10\.1088/1749\-4699/5/1/015004</p>
@@ -1738,7 +1738,7 @@ The decision tree approach does not require any assumption about the functional 
 ## Introductory Example
 
 <div class="descriptive-wrapper">
-![](images/slides_205_new.png)
+![](../images/slides_205_new.png)
 </div>
 
 ---
@@ -1746,7 +1746,7 @@ The decision tree approach does not require any assumption about the functional 
 ## Splitting with Entropy in ID3
 
 <div class="descriptive-wrapper">
-![](images/slides_206_new.png)
+![](../images/slides_206_new.png)
 </div>
 
 ---
@@ -1756,11 +1756,11 @@ The decision tree approach does not require any assumption about the functional 
 <div style="font-size:1.6em;font-weight:600">
 The information gain is a measure, that shows (by combination of the entropies) the appropriateness of an attribute for splitting:
 <div style="text-align:center">
-![](images/slides_207_1_new.png)
+![](../images/slides_207_1_new.png)
 </div>
 where m = number of values (here two: light, strong), ti = number of data sets with strong or light wind (8 resp. 6), t = total number of data sets (14) and entropy(t) = entropy before splitting.
 <div style="text-align:center">
-![](images/slides_207_2_new.png)
+![](../images/slides_207_2_new.png)
 </div>
 </div>
 
@@ -1783,7 +1783,7 @@ We choose the attribute with the largest information gain \(here: outlook\) for 
 As solution we obtain the following tree:
 
 <div style="text-align:center;margin-top:2em">
-![](images/slides_243.png)
+![](../images/slides_243.png)
 </div>
 </div>
 
@@ -1797,17 +1797,17 @@ As solution we obtain the following tree:
 <p>ID3 tends to favor attributes that have a large number of values, resulting in larger trees. For example, if we have an attribute that has a distinct value for each record, then the entropy is 0, thus the information gain is maximal. </p>
 <p>To compensate for this, C5.0 is a further development that uses the information gain ratio as a splitting criterion:</p>
 <div style="text-align:center">
-![](images/slides_209_new.png)
+![](../images/slides_209_new.png)
 </div>
 <p>In the case of our example the GainRatio of Windy is</p>
 <div style="text-align:center">
-![](images/slides_209_2_new.png)
+![](../images/slides_209_2_new.png)
 </div>
 <p>
 and the GainRatio of Outlook is 
 </p>
 <div style="text-align:center">
-![](images/slides_209_2_new.png)
+![](../images/slides_209_2_new.png)
 </div>
 </div>
 
@@ -1821,7 +1821,7 @@ and the GainRatio of Outlook is
 <p>Numerical attributes are usually splitted binary. In contrast to categorical attributes many possible splitting points exist .</p>
 <p>The splitting point with the highest information gain is looked for. For this, the potential attribute is sorted according to its values first and then all possible splitting point and the corresponding information gains are calculated. In extreme cases there exists n-1 possibilities. </p>
 <div style="text-align:center">
-![](images/slides_210_new.png)
+![](../images/slides_210_new.png)
 </div>
 </div>
 
@@ -1834,7 +1834,7 @@ and the GainRatio of Outlook is
 <p>The CART algorithm (Classification And Regression Trees) constructs trees that have only binary splits. Like C5.0, it is able to handle categorical and  numerical attributes. </p>
 <p>As a measure for the impurity of a node t, CART uses the Gini Index. In the case of two classes the Gini Index is defined as:</p>
 <div>
-![](images/slides_211_new.png)
+![](../images/slides_211_new.png)
 </div>
 </div>
 
@@ -1844,7 +1844,7 @@ and the GainRatio of Outlook is
 ## Splitting in CART
 
 <div style="text-align:center">
-![](images/slides_212_new.png)
+![](../images/slides_212_new.png)
 </div>
 
 ---
@@ -1853,7 +1853,7 @@ and the GainRatio of Outlook is
 ## Coherence between Entropy and Gini Index
 
 <div style="text-align:center">
-![](images/slides_213_new.png)
+![](../images/slides_213_new.png)
 <p style="color:#000000;font-size:1.6em"> __Remark: Entropy has been scaled from \(0\, 1\) to \(0\, 0\.5\)\!__ </p>
 </div>
 
@@ -1869,7 +1869,7 @@ and the GainRatio of Outlook is
 <p style="float:left;width:65%">If tree performance is measured from the number of correctly classified cases it is com-mon to find that the training data gives an over-optimistic guide to future performance,i.e. with new data. A tree should exhibit generalization, i.e. work well with data other than those used to generate it. When the tree grows during training it often shows a decrease in generalization. This is because the deeper nodes are fitting noise in the training data not representative over the entire universe from which the training set was sampled. This is called 'overfitting'.
 </p>
 <div style="float:right">
-![](images/slides_244.png)
+![](../images/slides_244.png)
 </div>
 </div>
 </div>
@@ -1884,7 +1884,7 @@ The Iearner overfits to correctly classify‚ the noisy data objects
 
 Noisy or dirty data objects
 
-![](images/slides_245.png)
+![](../images/slides_245.png)
 
 
 ---
@@ -1898,7 +1898,7 @@ Random Forest \(I\)
 
 <span style="color:#000000">In the end\, a simple majority vote is taken for prediction\.</span>
 
-![](images/slides_246.png)
+![](../images/slides_246.png)
 
 <span style="color:#000000">Algorithm</span>  <span style="color:#000000">:</span>
 
@@ -1918,7 +1918,7 @@ Random Forest \(I\)
 
 <span style="color:#000000">To</span>  <span style="color:#000000"> </span>  <span style="color:#000000">avoid</span>  <span style="color:#000000"> </span>  <span style="color:#000000">overfitting</span>  <span style="color:#000000"> </span>  <span style="color:#000000">effects</span>  <span style="color:#000000">\, </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">size</span>  <span style="color:#000000"> </span>  <span style="color:#000000">and</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">depth</span>  <span style="color:#000000"> </span>  <span style="color:#000000">of</span>  <span style="color:#000000"> </span>  <span style="color:#000000">the</span>  <span style="color:#000000"> </span>  <span style="color:#000000">trees</span>  <span style="color:#000000"> </span>  <span style="color:#000000">can</span>  <span style="color:#000000"> </span>  <span style="color:#000000">be</span>  <span style="color:#000000"> </span>  <span style="color:#000000">restricted</span>  <span style="color:#000000">\. </span>
 
-![](images/slides_247.png)
+![](../images/slides_247.png)
 
 
 ---
@@ -1958,9 +1958,9 @@ Random Forest \(I\)
 
 Introductory Example
 
-![](images/slides_248.png)
+![](../images/slides_248.png)
 
-![](images/slides_249.png)
+![](../images/slides_249.png)
 
 <span style="color:#000000"> __websites \(features\)__ </span>
 
@@ -2016,7 +2016,7 @@ Logistic regression uses the logistic function \(or Sigmoid function\) because i
 
 It is defined as:
 
-![](images/slides_250.png)
+![](../images/slides_250.png)
 
 
 ---
@@ -2086,9 +2086,9 @@ odd = Chance
 
 Functionality of Human Neurons
 
-![](images/slides_251.png)
+![](../images/slides_251.png)
 
-![](images/slides_252.png)
+![](../images/slides_252.png)
 
 A Look into the Nervous System
 
@@ -2124,7 +2124,7 @@ An Easy Example \(II\)
 
 Functionality of a Neuron
 
-![](images/slides_253.jpg)
+![](../images/slides_253.jpg)
 
 
 ---
@@ -2134,7 +2134,7 @@ Functionality of a Neuron
 
 <span style="color:#000000"> __with b = \-t\. b is known as the perceptron's bias\. The result of this function would then be fed into an activation function to produce a labeling__ </span>
 
-![](images/slides_254.png)
+![](../images/slides_254.png)
 
 <span style="color:#000000"> __This results in a linear classifier\. Finally\, we have to pick a line that best separates the labeled data\. The training of the perceptron consists of feeding it multiple training samples and calculating the output for each of them\. After each sample\, the weights w are adjusted in such a way so as to minimize the output error\, defined for example as accuracy or MSE\.__ </span>
 
@@ -2197,7 +2197,7 @@ Adjusting the Weights \(I\)
 
 <span style="color:#000000">The sum of the errors of all h training objects is the total error value E:</span>
 
-![](images/slides_256.png)
+![](../images/slides_256.png)
 
 
 ---
@@ -2211,9 +2211,9 @@ Adjusting the Weights \(II\)
 
 <span style="color:#000000">Examples of Error functions with two weights:</span>
 
-![](images/slides_257.png)
+![](../images/slides_257.png)
 
-![](images/slides_258.png)
+![](../images/slides_258.png)
 
 
 ---
@@ -2229,7 +2229,7 @@ Adjusting the Weights \(III\)
 
 <span style="color:#000000">The adjusted weight is then computed via</span>
 
-![](images/slides_259.png)
+![](../images/slides_259.png)
 
 
 ---
@@ -2289,9 +2289,9 @@ Backpropagation Step by Step \(I\)
 
 <span style="color:#000000">Our initial weights will be: w</span>  <span style="color:#000000">1</span>  <span style="color:#000000"> = 0\.11\, w</span>  <span style="color:#000000">2</span>  <span style="color:#000000"> = 0\.21\, w</span>  <span style="color:#000000">3</span>  <span style="color:#000000"> = 0\.12\, w</span>  <span style="color:#000000">4</span>  <span style="color:#000000"> = 0\.08\, w</span>  <span style="color:#000000">5</span>  <span style="color:#000000"> = 0\.14 and w</span>  <span style="color:#000000">6</span>  <span style="color:#000000"> = 0\.15\.</span>
 
-![](images/slides_262.png)
+![](../images/slides_262.png)
 
-![](images/slides_263.png)
+![](../images/slides_263.png)
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2305,7 +2305,7 @@ Backpropagation Step by Step \(II\)
 
 <span style="color:#000000"> </span>  <span style="color:#ff0000">For reasons of simplification\, </span>  <span style="color:#ff0000">no activation function is used </span>  <span style="color:#ff0000">in the neurons\.</span>
 
-![](images/slides_264.png)
+![](../images/slides_264.png)
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2319,7 +2319,7 @@ Backpropagation Step by Step \(III\)
 
 <span style="color:#000000">Our main goal of the training is to reduce the error or the difference between prediction and actual output\. Since actual output is constant\, “not changing”\, the only way to reduce the error is to change prediction value\. The question now is\, how to change prediction value?</span>
 
-![](images/slides_265.png)
+![](../images/slides_265.png)
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2335,13 +2335,13 @@ Backpropagation Step by Step \(IV\)
 
 <span style="color:#000000">For example\, we update w</span>  <span style="color:#000000">6</span>  <span style="color:#000000">:</span>
 
-![](images/slides_266.png)
+![](../images/slides_266.png)
 
-![](images/slides_267.png)
+![](../images/slides_267.png)
 
 _We can picture gradient descent optimization as a hiker \(the weight coefficient\) who wants to climb down a mountain \(cost function\) into a valley \(cost minimum\)\, and each step is determined by the steepness of the slope \(gradient\) and the leg length of the hiker \(learning rate\)\._
 
-![](images/slides_269.png)
+![](../images/slides_269.png)
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2357,9 +2357,9 @@ Backpropagation Step by Step \(V\)
 
 <span style="color:#000000">Similarly\, we can derive the update formula for w5 and any other weights existing between the output and the hidden layer:</span>
 
-![](images/slides_271.png)
+![](../images/slides_271.png)
 
-![](images/slides_272.png)
+![](../images/slides_272.png)
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2385,9 +2385,9 @@ Backpropagation Step by Step \(VII\)
 
 <span style="color:#000000">We can rewrite the update formulas in matrices:</span>
 
-![](images/slides_274.png)
+![](../images/slides_274.png)
 
-![](images/slides_275.png)
+![](../images/slides_275.png)
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2399,7 +2399,7 @@ Backpropagation Step by Step \(VIII\)
 
 <span style="color:#000000">With the derived formulas we can now adjust the weights:</span>
 
-![](images/slides_276.png)
+![](../images/slides_276.png)
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2413,7 +2413,7 @@ Backpropagation Step by Step \(IX\)
 
 <span style="color:#000000">The new prediction 0\.26 is bit closer to the output than the previously predicted one 0\.191\. We repeat now the same process until error is close or equal to zero\.</span>
 
-![](images/slides_277.png)
+![](../images/slides_277.png)
 
 Source: http://hmkcode\.github\.io/ai/backpropagation\-step\-by\-step
 
@@ -2483,19 +2483,19 @@ Selection Bias
 
 Addressing the Endogeneity Problem
 
-![](images/slides_278.png)
+![](../images/slides_278.png)
 
-![](images/slides_279.png)
+![](../images/slides_279.png)
 
-![](images/slides_280.png)
+![](../images/slides_280.png)
 
-![](images/slides_282.png)
+![](../images/slides_282.png)
 
 _Predictive_  _ Model_
 
 _Validation Sample_
 
-![](images/slides_283.png)
+![](../images/slides_283.png)
 
 
 ---
@@ -2518,7 +2518,7 @@ Cross Validation
   * Once the model type and its optimal parameters have been selected\, a final model is trained using these hyper\-parameters on the  _full_  training set\, and the generali\-zation quality is measured on the test set\.
 
 
-![](images/slides_285.png)
+![](../images/slides_285.png)
 
 
 ---
@@ -2589,7 +2589,7 @@ Other Variants of Cross Validation
   * Different composition of the folds by random selection\.
 
 
-![](images/slides_295.png)
+![](../images/slides_295.png)
 
 
 ---
@@ -2604,7 +2604,7 @@ Cross Validation in Time Series
   * Scikit\-learn provides a class _TimeSeriesSplit_  to do this\.
 
 
-![](images/slides_296.png)
+![](../images/slides_296.png)
 
 
 ---
@@ -2662,7 +2662,7 @@ Stacking
 
 <span style="color:#000000">Source: http://rasbt\.github\.io/mlxtend/</span>  <span style="color:#000000">user\_guide</span>  <span style="color:#000000">/classifier/</span>  <span style="color:#000000">EnsembleVoteClassifier</span>  <span style="color:#000000">/</span>
 
-![](images/slides_298.png)
+![](../images/slides_298.png)
 
 
 ---
@@ -2672,7 +2672,7 @@ Stacking
 
 <span style="color:#000000">Source: https://blog\.bigml\.com/2017/03/14/introduction\-to\-boosted\-trees/</span>
 
-![](images/slides_299.png)
+![](../images/slides_299.png)
 
 
 ---
@@ -2682,7 +2682,7 @@ Stacking
 
 <span style="color:#000000">Source: http://rasbt\.github\.io/mlxtend/</span>  <span style="color:#000000">user\_guide</span>  <span style="color:#000000">/classifier/</span>  <span style="color:#000000">StackingClassifier</span>  <span style="color:#000000">/</span>
 
-![](images/slides_300.png)
+![](../images/slides_300.png)
 
 
 ---
@@ -2712,7 +2712,7 @@ based on the idea of the wisdom of the masses
 
 Random Forest and Gradient Boosted Trees are examples
 
-![](images/slides_301.png)
+![](../images/slides_301.png)
 
 
 ---
@@ -2750,7 +2750,7 @@ Random Forest and Gradient Boosted Trees are examples
 
 Predicting using Regression Methods
 
-![](images/slides_303.png)
+![](../images/slides_303.png)
 
 Example: Predicting House Prices
 
@@ -2794,7 +2794,7 @@ Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d03
 
 Traditional OLS Regression Approach
 
-![](images/slides_304.png)
+![](../images/slides_304.png)
 
 Function:
 
@@ -2908,7 +2908,7 @@ the penalty term has no effect\, and ridge regression will produce the least squ
 
 Example:
 
-![](images/slides_305.png)
+![](../images/slides_305.png)
 
 <span style="color:#000000">Source: </span>
 
@@ -2924,7 +2924,7 @@ OLS is not suitable for high\-dimensional data\. Especially when the number of f
 
 The figure shows two cases\. When there are 20 observations\, n > p and the OLS line does not perfectly fit the data\. When there are only two observations\, then regardless of the values of those observations\, the regression line will fit the data exactly\. This is problematic because this perfect fit will almost certainly lead to overfitting of the data\.
 
-![](images/slides_306.png)
+![](../images/slides_306.png)
 
 <span style="color:#000000">Source: </span>
 
@@ -2947,7 +2947,7 @@ The figure illustrates the risk of applying OLS when the number of features p is
 
 In contrast\, methods like ridge regression are particularly useful for performing regression in the high\-dimensional setting\. Essentially\, these approaches avoid overfitting by using a less flexible fitting approach than least squares\.
 
-![](images/slides_307.png)
+![](../images/slides_307.png)
 
 <span style="color:#000000">Source: James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 240f\.</span>
 
@@ -3009,7 +3009,7 @@ Insensitive Loss Function \(I\)
 
 <span style="color:#000000"> __\-insensitive Loss__ </span>
 
-![](images/slides_308.png)
+![](../images/slides_308.png)
 
 <span style="color:#000000">does not penalize acceptable deviations \(defined by    \)</span>
 
@@ -3021,9 +3021,9 @@ Insensitive Loss Function \(II\)
 
 Using the e\-insensitive loss function\, only those data objects are considered in the estimation\, which have a distance greater than e from the regression function:
 
-![](images/slides_309.png)
+![](../images/slides_309.png)
 
-![](images/slides_310.png)
+![](../images/slides_310.png)
 
 e\-insen\-sitiveRegion
 
@@ -3035,11 +3035,11 @@ Every object inside the e\-insensitive region is ignored\. It is regarded as noi
 
 Support Vector Regression \(I\)
 
-![](images/slides_311.png)
+![](../images/slides_311.png)
 
-![](images/slides_312.png)
+![](../images/slides_312.png)
 
-![](images/slides_313.png)
+![](../images/slides_313.png)
 
 Decision criterion:
 
@@ -3169,7 +3169,7 @@ There exist regularization methods\, which make the networks better at generaliz
 
 Neural Network \(Multilayer Perceptron\)
 
-![](images/slides_319.png)
+![](../images/slides_319.png)
 
 Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf
 
@@ -3177,7 +3177,7 @@ Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d03
 ---
 
 
-![](images/slides_320.png)
+![](../images/slides_320.png)
 
 Source: http://www\.sclgsummit\.org/uploads/presentation/8934b2d0be055a2261f5d0320f5b59bb\.pdf
 
@@ -3233,7 +3233,7 @@ The predicted salary is given by the mean value of the salaries in the correspon
 
 Players with Years>=4\.5 are assigned to the right branch\, and then that group is further subdivided by Hits\. The predicted salaries for the resulting two groups are 1\,000\*e6\.00 =$403\,428 and 1\,000\*e6\.74 =$845\,346\.
 
-![](images/slides_322.png)
+![](../images/slides_322.png)
 
 <span style="color:#000000">Source: James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 304f\.</span>
 
@@ -3249,7 +3249,7 @@ Example to do in R from Cart2.pdf
 
 Constructing a Regression Tree \(I\)
 
-![](images/slides_323.png)
+![](../images/slides_323.png)
 
 <span style="color:#000000">Source: James et al\. \(2013\): An Introduction to Statistical Learning with R Applications\, p\. 305f\.</span>
 
@@ -3295,9 +3295,9 @@ Single Regression Tree
 
 Average of 100 Regression Trees
 
-![](images/slides_324.png)
+![](../images/slides_324.png)
 
-![](images/slides_325.png)
+![](../images/slides_325.png)
 
 
 ---
@@ -3469,7 +3469,7 @@ where  _   _  is the mean of points in  _S_  _i_ \.
 
 Example of a K\-Means Cluster Analysis
 
-![](images/slides_327.png)
+![](../images/slides_327.png)
 
 
 ---
@@ -3570,17 +3570,17 @@ Process of the Hierarchical Cluster Analysis
 
 Measuring Similarity between Clusters \(I\)
 
-![](images/slides_328.png)
+![](../images/slides_328.png)
 
 <span style="color:#000000">Distance between two clusters is the distance between the closest points:</span>
 
 <span style="color:#000000">Complete Linkage:</span>
 
-![](images/slides_329.png)
+![](../images/slides_329.png)
 
 <span style="color:#000000">Distance between two clusters is the distance between the farthest pair of points:</span>
 
-![](images/slides_330.png)
+![](../images/slides_330.png)
 
 <span style="color:#000000">Distance between two clusters </span>  <span style="color:#000000">i</span>  <span style="color:#000000"> and j is the distance between their </span>  <span style="color:#000000">cendroids</span>  <span style="color:#000000">:</span>
 
@@ -3594,11 +3594,11 @@ Measuring Similarity between Clusters \(II\)
 
 <span style="color:#000000">Distance between clusters is the average distance between the cluster points:</span>
 
-![](images/slides_331.png)
+![](../images/slides_331.png)
 
 <span style="color:#000000">Ward’s Method / Minimum Variance Method \(only Agglomerative\):</span>
 
-![](images/slides_332.png)
+![](../images/slides_332.png)
 
 <span style="color:#000000">Ward's minimum variance criterion minimizes the total within\-cluster variance\. At each step the pair of clusters is merged that leads to minimum increase in total within\-cluster variance after merging\. This can be calculated as the square of the distance between cluster means divided by the sum of the reciprocals of the number of observations in each cluster: </span>
 
@@ -3610,7 +3610,7 @@ Measuring Similarity between Clusters \(II\)
 
 Single Linkage Example \(I\)
 
-![](images/slides_333.png)
+![](../images/slides_333.png)
 
 <span style="color:#000000">Source: Fred\, Ana: Unsupervised Learning\, </span>  <span style="color:#000000">Universidade</span>  <span style="color:#000000"> </span>  <span style="color:#000000">Técnica</span>  <span style="color:#000000"> de </span>  <span style="color:#000000">Lisboa</span>
 
@@ -3620,7 +3620,7 @@ Single Linkage Example \(I\)
 
 Single Linkage Example \(II\)
 
-![](images/slides_334.png)
+![](../images/slides_334.png)
 
 <span style="color:#000000">Source: Fred\, Ana: Unsupervised Learning\, </span>  <span style="color:#000000">Universidade</span>  <span style="color:#000000"> </span>  <span style="color:#000000">Técnica</span>  <span style="color:#000000"> de </span>  <span style="color:#000000">Lisboa</span>
 
@@ -3634,5 +3634,5 @@ In a dendrogram the widths of the horizontal lines give an impression about the 
 
 Counting the points that cut this line might be a good answer for the number of clusters the data can have\. It is the number 6 in this case\.
 
-![](images/slides_335.png)
+![](../images/slides_335.png)
 

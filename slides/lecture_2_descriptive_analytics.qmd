@@ -18,7 +18,7 @@ format:
 ## Application Systems Pyramid
 
 <div class="pyramid-wrapper">
-  <img data-src="images/slides_27.png" alt="">
+  <img data-src="../images/slides_27.png" alt="">
 </div>
 
 
@@ -28,7 +28,7 @@ format:
 ## Typical Descriptive Questions
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_28.png" alt="">
+  <img data-src="../images/slides_28.png" alt="">
 </div>
 <p style="float:right;">Source: Alfred Schlaucher\, Oracle\, p\. 15</p>
 
@@ -106,7 +106,7 @@ format:
 ## Contradiction between Operational Data Architecture and Analytical Information Needs
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_29_new.png" alt="">
+  <img data-src="../images/slides_29_new.png" alt="">
 </div>
 Source: Jung/Winter \(2000\): Data Warehousing Strategie: Erfahrungen\, Methoden\, Visionen\, Berlin\, p\. 7\.
 
@@ -119,7 +119,7 @@ Source: Jung/Winter \(2000\): Data Warehousing Strategie: Erfahrungen\, Methoden
 <div style="margin-top:1.4em">
 <h1>The hardware load differs in operational application systems and data warehouse systems over time</h1>
 <div class="Intensities-wrapper">
-  <img data-src="images/slides_30.png" alt="">
+  <img data-src="../images/slides_30.png" alt="">
 </div>
 <h1>=> A data warehouse relieves the operational systems</h1>
 </div>
@@ -154,7 +154,7 @@ Source: "What is a Data Warehouse?" W\.H\. Inmon\, Prism\, Volume 1\, Number 1\,
 ## The Data Warehouse Concept
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_31_new.png" alt="">
+  <img data-src="../images/slides_31_new.png" alt="">
 </div>
 
 
@@ -164,7 +164,7 @@ Source: "What is a Data Warehouse?" W\.H\. Inmon\, Prism\, Volume 1\, Number 1\,
 ## Layers of a Data Warehouse System
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_35_new.png" alt="">
+  <img data-src="../images/slides_35_new.png" alt="">
 </div>
 
 
@@ -174,7 +174,7 @@ Source: "What is a Data Warehouse?" W\.H\. Inmon\, Prism\, Volume 1\, Number 1\,
 ## Components of a Data Warehouse
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_36_new.png" alt="">
+  <img data-src="../images/slides_36_new.png" alt="">
 </div>
 
 ---
@@ -211,7 +211,7 @@ Source: "What is a Data Warehouse?" W\.H\. Inmon\, Prism\, Volume 1\, Number 1\,
 ## Examples of Aggregation Levels in a Data Warehouse
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_37_new.png" alt="">
+  <img data-src="../images/slides_37_new.png" alt="">
 </div>
 
 
@@ -393,7 +393,7 @@ Source: "What is a Data Warehouse?" W\.H\. Inmon\, Prism\, Volume 1\, Number 1\,
 ## Architectural Variants of Data Warehouses in Practice
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_41_new.png" alt="">
+  <img data-src="../images/slides_41_new.png" alt="">
 </div>
 
 
@@ -403,7 +403,7 @@ Source: "What is a Data Warehouse?" W\.H\. Inmon\, Prism\, Volume 1\, Number 1\,
 ## From Transactions to Reports
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_42_new.png" alt="">
+  <img data-src="../images/slides_42_new.png" alt="">
 </div>
 
 
@@ -413,7 +413,7 @@ Source: "What is a Data Warehouse?" W\.H\. Inmon\, Prism\, Volume 1\, Number 1\,
 ## Example of a Dashboard
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_43_new.png" alt="">
+  <img data-src="../images/slides_43_new.png" alt="">
 </div>
 Source: https://www\.bluemargin\.com/power\-bi\-full\-blog/topic/private\-equity\-data\-intelligence
 
@@ -423,7 +423,7 @@ Source: https://www\.bluemargin\.com/power\-bi\-full\-blog/topic/private\-equity
 ## Star Schema \(I\)
 <p style="font-weight:700;font-size:1.5em;">The Star schema has a central fact table and exactly one dimension table for each dimension.</p>
 <div style="display:flex;justify-content:center;">
-  <img data-src="images/slides_38.png" alt="">
+  <img data-src="../images/slides_38.png" alt="">
 </div>
 <p style="display:flex;justify-content:center;">Source: Müller Lenz (2013), p. 60f</p>
 <p style="font-weight:700;font-size:1.5em;">The cardinality between the fact table and a dimension table is n∶1, i.e. a fact (e.g. sales: 67,000 euros) is described by one dimension expression for each dimension (e.g. time: 1st quarter=, region: Hesse, product group: books). A dimension characteristic (e.g. product group: books) is associated with 0, 1 or n facts.</p>
@@ -438,7 +438,7 @@ Source: https://www\.bluemargin\.com/power\-bi\-full\-blog/topic/private\-equity
 ## Star Schema \(II\)
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_45_new.png" alt="">
+  <img data-src="../images/slides_45_new.png" alt="">
 </div>
 
 
@@ -447,9 +447,9 @@ Source: https://www\.bluemargin\.com/power\-bi\-full\-blog/topic/private\-equity
 
 ## Star Schema \(III\)
 
-![](images/slides_40.png)
+![](../images/slides_40.png)
 
-![](images/slides_41.png)
+![](../images/slides_41.png)
 
 
 ---
@@ -458,7 +458,7 @@ Source: https://www\.bluemargin\.com/power\-bi\-full\-blog/topic/private\-equity
 ## Star Schema Table Design \(I\)
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_47_new.png" alt="">
+  <img data-src="../images/slides_47_new.png" alt="">
 </div>
 
 
@@ -468,7 +468,7 @@ Source: https://www\.bluemargin\.com/power\-bi\-full\-blog/topic/private\-equity
 ## Star Schema Table Design \(II\)
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_43.png" alt="">
+  <img data-src="../images/slides_43.png" alt="">
 </div>
 
 <p style="text-align:center">Source: https://www.guru99.com/star-snowflake-data-warehousing.html</p>
@@ -480,7 +480,7 @@ Source: https://www\.bluemargin\.com/power\-bi\-full\-blog/topic/private\-equity
 ## Star Schema Example
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_44.png" alt="">
+  <img data-src="../images/slides_44.png" alt="">
 </div>
 
 
@@ -561,7 +561,7 @@ Source: Hartung \(2011\)\, p\. 37
 <h2 style="font-size:1.6em">In the Snowflake schema\, the redundancies in the Star schema are resolved in the dimension tables and the hierarchy levels are each modeled with their own tables:</h2>
 
 <div style="text-align:center">
-  <img data-src="images/slides_45.png" alt="">
+  <img data-src="../images/slides_45.png" alt="">
 </div>
 <p style="text-align:center">Source: https://www.guru99.com/star-snowflake-data-warehousing.html</p>
 
@@ -591,7 +591,7 @@ Source: Hartung \(2011\)\, p\. 37
 The Galaxy schema contains more than one fact table. The fact tables share some but not all dimensions. The Galaxy schema thus represents more than one data cube (multi-cubes)
 </p>
 <div style="text-align:center;margin-top:3em;">
-  <img data-src="images/slides_54_new.png" alt="">
+  <img data-src="../images/slides_54_new.png" alt="">
 </div>
 </div>
 
@@ -600,7 +600,7 @@ The Galaxy schema contains more than one fact table. The fact tables share some 
 ## Table Structure of the Galaxy Schema 
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_55_new.png" alt="">
+  <img data-src="../images/slides_55_new.png" alt="">
 </div>
 
 ---
@@ -626,7 +626,7 @@ The Galaxy schema contains more than one fact table. The fact tables share some 
 ## DW Planning – User Questions (II)
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_57_new.png" alt="">
+  <img data-src="../images/slides_57_new.png" alt="">
 </div>
 <p style="text-align:right">Source: Alfred Schlaucher, Oracle, p. 28</p>
 
@@ -636,7 +636,7 @@ The Galaxy schema contains more than one fact table. The fact tables share some 
 ## Result: Star Schema
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_58_new.png" alt="">
+  <img data-src="../images/slides_58_new.png" alt="">
 </div>
 
 <p style="text-align:right">Source: Alfred Schlaucher, Oracle, p. 40</p>
@@ -724,7 +724,7 @@ OLAP functionality can be characterized as dynamic, multidimensional analysis of
 ## Facts and Dimensions
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_63_new.png" alt="">
+  <img data-src="../images/slides_63_new.png" alt="">
 </div>
 
 ---
@@ -732,7 +732,7 @@ OLAP functionality can be characterized as dynamic, multidimensional analysis of
 ## Organizing Data as Hypercube
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_64_new.png" alt="">
+  <img data-src="../images/slides_64_new.png" alt="">
 </div>
 
 ---
@@ -740,7 +740,7 @@ OLAP functionality can be characterized as dynamic, multidimensional analysis of
 ## OLAP Operations: Slicing and Dicing
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_65_new.png" alt="">
+  <img data-src="../images/slides_65_new.png" alt="">
 </div>
 
 ---
@@ -748,7 +748,7 @@ OLAP functionality can be characterized as dynamic, multidimensional analysis of
 ## OLAP Operations: Rotate
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_66_new.png" alt="">
+  <img data-src="../images/slides_66_new.png" alt="">
 </div>
 
 ---
@@ -756,7 +756,7 @@ OLAP functionality can be characterized as dynamic, multidimensional analysis of
 ## OLAP Operations: Drill Down and Roll Up
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_67_new.png" alt="">
+  <img data-src="../images/slides_67_new.png" alt="">
 </div>
 
 ---
@@ -767,7 +767,7 @@ OLAP functionality can be characterized as dynamic, multidimensional analysis of
 <strong style="font-size:1.5em">The result of a nest operation physically represents a two-dimensional matrix. It is extended by displaying different hierarchy levels of one or more dimensions on one axis (column or row) in nested form. In the following example, three dimensions are displayed:
 </strong>
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_68_new.png" alt="">
+  <img data-src="../images/slides_68_new.png" alt="">
 </div>
 </div>
 
@@ -776,11 +776,11 @@ OLAP functionality can be characterized as dynamic, multidimensional analysis of
 ## OLAP as Excel plug-in
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_69_new.png" alt="">
+  <img data-src="../images/slides_69_new.png" alt="">
 </div>
 
 ## Architecture of an OLAP System
 
 <div class="descriptive-wrapper">
-  <img data-src="images/slides_70_new.png" alt="">
+  <img data-src="../images/slides_70_new.png" alt="">
 </div>
