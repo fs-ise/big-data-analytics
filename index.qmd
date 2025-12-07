@@ -36,7 +36,7 @@ The module combines conceptual foundations and hands-on analytical practice usin
 
 **Lectures to be polished before "slicing"**
 
-- [lecture 0 - orga](lecture_0_orga.html)
+- [lecture 0 - orga](slides/lecture_0_orga.html)
 
 - [lecture 1 - introduction to analytics](slides/lecture_1_introduction_analytics.html) (see [pdf](slides/lecture_1_introduction_analytics.pdf))
 - [lecture 2 - descriptive analytics](slides/lecture_2_descriptive_analytics.html) (see [pdf](slides/lecture_2_descriptive_analytics.pdf))
