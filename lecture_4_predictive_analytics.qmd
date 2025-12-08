@@ -3,8 +3,8 @@ title: ""
 format: 
   revealjs:
     slide-number: true
-    css: [assets/frankfurt.css, assets/reveal.css, assets/header.css]
-    include-before-body: assets/header.html
+    css: [assets/frankfurt.css, assets/reveal.css, assets/header.css,assets/footer.css]
+    include-before-body: [assets/header.html,assets/footer.html]
     include-after-body: assets/header.js
 ---
 
@@ -3731,132 +3731,101 @@ where x̄<sub>i</sub>  is the mean of points in  S<sub>i</sub> \.
 ## Finding the Optimal Number of Clusters (I)
 
 
-__Between cluster variance: __
+<div class="Clusters_wrapper">
+![](images/slides_312_new.png)
+</div>
 
-__Within cluster variance: __
+---
 
-Finding the Optimal Number of Clusters \(I\)
 
-<span style="color:#000000"> __The aim of the cluster analysis is the __ </span>  <span style="color:#000000"> __segmentation of objects into clusters\, __ </span>  <span style="color:#000000"> __which are preferably homogeneous in __ </span>  <span style="color:#000000"> __it selves and heterogeneous to each other\.  __ </span>  <span style="color:#000000"> __The less variance exists within the clusters __ </span>  <span style="color:#000000"> __and the more variance exists between the __ </span>  <span style="color:#000000"> __clusters\, the better is the number of clusters\.__ </span>
+## Finding the  Optimal Number of Clusters  \(II\)
 
-<span style="color:#000000"> __Total variance:__ </span>
+<div style="font-weight:600;font-size:1.6em">
+<span style="color:#000000"> If you put V<sub>in</sub> </span>  <span style="color:#000000">  on the ordinate and the number of cluster k on the abscissa\, it often results in a curve with one or several kinks\. At the point where exists the \(first\) significant kink\, you can find the optimal number of clusters: </span>
 
-<span style="color:#000000"> __Accumulated variance within the k clusters:__ </span>
-
-<span style="color:#000000"> __This results in the variance between the clusters: __ </span>
-
-<span style="color:#000000"> __with	n = number of objects__ </span>
-
-<span style="color:#000000"> __	m = number of attributes__ </span>
-
-<span style="color:#000000"> __	__ </span>  <span style="color:#000000"> __n__ </span>  <span style="color:#000000"> __k__ </span>  <span style="color:#000000"> __ = number of objects in cluster k__ </span>
-
-<span style="color:#000000"> __	__ </span>  <span style="color:#000000"> __c__ </span>  <span style="color:#000000"> __k__ </span>  <span style="color:#000000"> __ = cluster k__ </span>
+<div style="text-align:center">
+![](images/slides_313_new.png)
+</div>
+</div>
 
 
 ---
 
 
-Finding the  Optimal Number of Clusters  \(II\)
+## Finding the  Optimal Number of Clusters  \(III\)
 
-<span style="color:#000000"> __If you put V__ </span>  <span style="color:#000000"> __in__ </span>  <span style="color:#000000"> __ on the ordinate and the number of cluster k on the abscissa\, it often results in a curve with one or several kinks\. At the point where exists the \(first\) significant kink\, you can find the optimal number of clusters:__ </span>
-
-<span style="color:#000000"> __Total variance __ </span>  <span style="color:#000000"> __V__ </span>  <span style="color:#000000"> __tot__ </span>
-
-<span style="color:#000000"> __Between__ </span>  <span style="color:#000000"> __ __ </span>  <span style="color:#000000"> __cluster variance __ </span>  <span style="color:#000000"> __V__ </span>  <span style="color:#000000"> __betw__ </span>
-
-<span style="color:#000000">Within cluster variance </span>  <span style="color:#000000"> __V__ </span>  <span style="color:#000000"> __in__ </span>
-
-<span style="color:#000000"> __Number of clusters__ </span>
-
-
----
-
-
-Finding the  Optimal Number of Clusters  \(III\)
-
+<div style="font-weight:600;font-size:1.6em">
 Instead of visually identifying the optimal cluster number\, we can calculate the distances from the points on the elbow curve to a straight line linking the first and the last point on the curve\. The cluster number with the largest distance is then chosen as the one with the strongest kink\.
 
-<span style="color:#000000"> __Number of clusters__ </span>
+<div style="text-align:center">
+![](images/slides_314_new.png)
+</div>
+</div>
 
 
 ---
 
+## Navigation
 
-4	Predictive Analytics
+<div style="font-size: 1.6em; display:flex; flex-direction:column; font-weight:700; line-height:1;">
+  <p style="margin:0;">
+    4&nbsp; Predictive Analytics
+  </p>
 
-4\.1	Subject of Predictive Analytics
+  <p style="margin:0; margin-left:80px;">
+    4.1&nbsp; Subject of Predictive Analytics
+  </p>
 
-4\.2	The Analytics Process
-
-4\.3	Data Preparation
-
-4\.4	Methods\, Algorithms and Applications
-
-<span style="color:#c00000">	</span> 4\.4\.1	Classification
-
-4\.4\.2	Regression
-
-4\.4\.3	Segmentation
-
-4\.4\.3\.1	K\-Means
-
-<span style="color:#c00000">4\.4\.2\.2	Hierarchical Cluster Analysis</span>
-
+  <p style="margin:0;margin-left:80px;">4.2&nbsp; The Analytics Process</p>
+  <p style="margin:0;margin-left:80px;">4.3&nbsp; Data Preparation</p>
+  <p style="margin:0;margin-left:80px;">4.4&nbsp; Methods, Algorithms and Applications</p>
+  <p style="margin:0;margin-left:120px;">4.4.1&nbsp; Classification</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Regression</p>
+  <p style="margin:0;margin-left:120px;">4.4.2&nbsp; Segmentation</p>
+  <p style="margin:0;margin-left:160px;">4.4.3.1&nbsp; K-Means</p>
+  <p style="margin:0;margin-left:160px;color:#ff0000;">4.4.3.2&nbsp; Hierarchical Cluster Analysis</p>
+</div>
 
 ---
 
 
-Hierarchical Cluster Methods
+## Hierarchical Cluster Methods
 
 
-
+<div style="font-weight:600;font-size:1.8em;line-height:1.5em">
 * <span style="color:#000000"> __There are two types of hierarchical cluster methods: __ </span>
-  * <span style="color:#000000"> __Agglomerative hierarchical clustering is a bottom\-up clustering method\. It starts with every single data object in a single cluster\. Then\, in each iteration\, it agglomerates \(merges\) the closest pair of clusters by satisfying some similarity criteria\, until all of the data is in one cluster\. __ </span>
-  * <span style="color:#000000"> __Divisive hierarchical clustering is a top\-down clustering method\. It works in a similar way to agglomerative clustering but in the opposite direction\. This method starts with a single cluster containing all data objects\, and then successively splits resulting clusters until only clusters of individual data objects remain\.__ </span>
+  * <span style="color:#000000"> - __Agglomerative hierarchical clustering is a bottom\-up clustering method\. It starts with every single data object in a single cluster\. Then\, in each iteration\, it agglomerates \(merges\) the closest pair of clusters by satisfying some similarity criteria\, until all of the data is in one cluster\. __ </span>
+  * <span style="color:#000000"> - __Divisive hierarchical clustering is a top\-down clustering method\. It works in a similar way to agglomerative clustering but in the opposite direction\. This method starts with a single cluster containing all data objects\, and then successively splits resulting clusters until only clusters of individual data objects remain\.__ </span>
+</div>
 
 ---
 
 
-Process of the Hierarchical Cluster Analysis
+## Process of the Hierarchical Cluster Analysis
+
+<div style="text-align:center">
+![](images/slides_317_new.png)
+</div>
+
 
 
 ---
 
 
-Measuring Similarity between Clusters \(I\)
+## Measuring Similarity between Clusters \(I\)
 
+<div style="text-align:center">
 ![](images/slides_328.png)
-
-<span style="color:#000000">Distance between two clusters is the distance between the closest points:</span>
-
-<span style="color:#000000">Complete Linkage:</span>
-
-![](images/slides_329.png)
-
-<span style="color:#000000">Distance between two clusters is the distance between the farthest pair of points:</span>
-
-![](images/slides_330.png)
-
-<span style="color:#000000">Distance between two clusters </span>  <span style="color:#000000">i</span>  <span style="color:#000000"> and j is the distance between their </span>  <span style="color:#000000">cendroids</span>  <span style="color:#000000">:</span>
-
+</div>
 
 ---
 
 
-Measuring Similarity between Clusters \(II\)
+## Measuring Similarity between Clusters \(II\)
 
-<span style="color:#000000">Average Linkage:</span>
-
-<span style="color:#000000">Distance between clusters is the average distance between the cluster points:</span>
-
-![](images/slides_331.png)
-
-<span style="color:#000000">Ward’s Method / Minimum Variance Method \(only Agglomerative\):</span>
-
-![](images/slides_332.png)
-
-<span style="color:#000000">Ward's minimum variance criterion minimizes the total within\-cluster variance\. At each step the pair of clusters is merged that leads to minimum increase in total within\-cluster variance after merging\. This can be calculated as the square of the distance between cluster means divided by the sum of the reciprocals of the number of observations in each cluster: </span>
+<div>
+![](images/slides_329.png)
+</div>
 
 <span style="color:#000000">For a comparison of the methods see:	Ferreira\, L\.; Hitchcock\, D\. B\. \(2009\): A Comparison of Hierarchical Methods for Clustering Functional Data\, http://people\.stat\.sc\.edu/Hitchcock/compare\_hier\_fda\.pdf</span>
 
@@ -3864,31 +3833,56 @@ Measuring Similarity between Clusters \(II\)
 ---
 
 
-Single Linkage Example \(I\)
+## Single Linkage Example \(I\)
 
+<div style="display:flex;gap:10em;justify-content:center">
+<div>
 ![](images/slides_333.png)
+</div>
 
-<span style="color:#000000">Source: Fred\, Ana: Unsupervised Learning\, </span>  <span style="color:#000000">Universidade</span>  <span style="color:#000000"> </span>  <span style="color:#000000">Técnica</span>  <span style="color:#000000"> de </span>  <span style="color:#000000">Lisboa</span>
+<p style="
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+">
+  Source: Fred, Ana: Unsupervised Learning, Universidade Técnica de Lisboa
+</p>
+
+
+</div>
 
 
 ---
 
 
-Single Linkage Example \(II\)
+## Single Linkage Example \(II\)
 
+<div style="display:flex;gap:10em;justify-content:center">
+<div>
 ![](images/slides_334.png)
+</div>
 
-<span style="color:#000000">Source: Fred\, Ana: Unsupervised Learning\, </span>  <span style="color:#000000">Universidade</span>  <span style="color:#000000"> </span>  <span style="color:#000000">Técnica</span>  <span style="color:#000000"> de </span>  <span style="color:#000000">Lisboa</span>
+<p style="
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+">Source: Fred\, Ana: Unsupervised Learning\, Universidade Técnica de Lisboa
+</p>
+</div>
 
 
 ---
 
+## Dendrogram
 
+<div style="font-weight:600;font-size:1.4em">
 A dendrogram is a tree diagram frequently used to illustrate the arrangement of the clusters produced by hierarchical clustering\. The y\-axis represents the value of this distance metric \(e\.g\. euclidean distance\) between the clusters\.
 
 In a dendrogram the widths of the horizontal lines give an impression about the dissimilarity of the merging object\. Thus\, a good cluster number might be at a point from where the width of the following horizontal lines is significantly smaller in length\. The red line in the graph below shows such a point:
 
-Counting the points that cut this line might be a good answer for the number of clusters the data can have\. It is the number 6 in this case\.
-
+<div class="volumeImageWrapper">
 ![](images/slides_335.png)
+</div>
+Counting the points that cut this line might be a good answer for the number of clusters the data can have\. It is the number 6 in this case\.
+</div>
 

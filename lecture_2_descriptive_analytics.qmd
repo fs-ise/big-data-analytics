@@ -3,8 +3,8 @@ title: ""
 format: 
   revealjs:
     slide-number: true
-    css: [assets/frankfurt.css, assets/reveal.css, assets/header.css]
-    include-before-body: assets/header.html
+     css: [assets/frankfurt.css, assets/reveal.css, assets/header.css,assets/footer.css]
+    include-before-body: [assets/header.html,assets/footer.html]
     include-after-body: assets/header.js
 
 ---

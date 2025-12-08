@@ -288,9 +288,14 @@ ul > li {
   height: 600px;
   width: 100%;
 }
+
 .volumeImageWrapper img,.Multivariate-wrapper img{
   height: 350px;
   width: 700px;
+}
+.Clusters_wrapper img{
+  height: 700px;
+  width: auto;
 }
 .BackpropagationWrapper img{
   height: 250px;
